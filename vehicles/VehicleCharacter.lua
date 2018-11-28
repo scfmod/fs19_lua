@@ -1,0 +1,22 @@
+VehicleCharacter = {}
+
+function VehicleCharacter:new() end
+function VehicleCharacter:getParentComponent() end
+function VehicleCharacter:isa() end
+function VehicleCharacter:delete() end
+function VehicleCharacter:setAllowCharacterUpdate() end
+function VehicleCharacter:superClass() end
+function VehicleCharacter:setCharacterDirty() end
+function VehicleCharacter:update() end
+function VehicleCharacter:loadCharacter() end
+function VehicleCharacter:setCharacterVisibility() end
+function VehicleCharacter:copy() end
+function VehicleCharacter:updateVisibility() end
+function VehicleCharacter:getAllowCharacterUpdate() end
+function VehicleCharacter:load() end
+function VehicleCharacter:setSpineDirty() end
+function VehicleCharacter:setIKChainTargets() end
+function VehicleCharacter:getIKChainTargets() end
+function VehicleCharacter:class() end
+function VehicleCharacter:setDirty() end
+function VehicleCharacter:getPlayerStyle() end
