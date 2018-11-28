@@ -1,8 +1,13 @@
 FarmStats = {}
 
-function FarmStats:changeFinanceStats(...)
-end;
-FarmStats:STAT_NAMES = {
+FarmStats.HERO_STAT_NAMES = {
+    1 = 'playTime',
+    2 = 'moneyEarned',
+    3 = 'traveledDistance',
+    4 = 'completedMissions',
+    5 = 'threshedHectares',
+}
+FarmStats.STAT_NAMES = {
     1 = 'fuelUsage',
     2 = 'seedUsage',
     3 = 'sprayUsage',
@@ -43,64 +48,32 @@ FarmStats:STAT_NAMES = {
     38 = 'treeTypesCut',
     39 = 'windTurbineCount',
 }
-function FarmStats:new(...)
-end;
-function FarmStats:isa(...)
-end;
-function FarmStats:merge(...)
-end;
-function FarmStats:addStatistic(...)
-end;
-function FarmStats:delete(...)
-end;
-function FarmStats:addHeroStat(...)
-end;
-function FarmStats:superClass(...)
-end;
-function FarmStats:updateTreeTypesCut(...)
-end;
-function FarmStats:loadFromXMLFile(...)
-end;
-function FarmStats:getCompletedMissionsSession(...)
-end;
-function FarmStats:update(...)
-end;
-function FarmStats:getCompletedFieldMissionsSession(...)
-end;
-function FarmStats:updateTransportJobsDone(...)
-end;
-function FarmStats:getSessionValue(...)
-end;
-function FarmStats:updateFieldJobsDone(...)
-end;
-function FarmStats:copy(...)
-end;
-function FarmStats:getTotalValue(...)
-end;
-function FarmStats:class(...)
-end;
-function FarmStats:getCompletedFieldMissions(...)
-end;
-function FarmStats:updateStats(...)
-end;
-function FarmStats:getStatisticData(...)
-end;
-function FarmStats:getCompletedMissions(...)
-end;
-function FarmStats:saveToXMLFile(...)
-end;
-function FarmStats:getCompletedTransportMissionsSession(...)
-end;
-function FarmStats:getCompletedTransportMissions(...)
-end;
-FarmStats:HERO_STAT_NAMES = {
-    1 = 'playTime',
-    2 = 'moneyEarned',
-    3 = 'traveledDistance',
-    4 = 'completedMissions',
-    5 = 'threshedHectares',
-}
-function FarmStats:archiveFinances(...)
-end;
-function FarmStats:addValueToHeroStat(...)
-end;
+
+function FarmStats:changeFinanceStats() end
+function FarmStats:new() end
+function FarmStats:isa() end
+function FarmStats:merge() end
+function FarmStats:addStatistic() end
+function FarmStats:delete() end
+function FarmStats:addHeroStat() end
+function FarmStats:superClass() end
+function FarmStats:updateTreeTypesCut() end
+function FarmStats:loadFromXMLFile() end
+function FarmStats:getCompletedMissionsSession() end
+function FarmStats:update() end
+function FarmStats:getCompletedFieldMissionsSession() end
+function FarmStats:updateTransportJobsDone() end
+function FarmStats:getSessionValue() end
+function FarmStats:updateFieldJobsDone() end
+function FarmStats:copy() end
+function FarmStats:getTotalValue() end
+function FarmStats:class() end
+function FarmStats:getCompletedFieldMissions() end
+function FarmStats:updateStats() end
+function FarmStats:getStatisticData() end
+function FarmStats:getCompletedMissions() end
+function FarmStats:saveToXMLFile() end
+function FarmStats:getCompletedTransportMissionsSession() end
+function FarmStats:getCompletedTransportMissions() end
+function FarmStats:archiveFinances() end
+function FarmStats:addValueToHeroStat() end

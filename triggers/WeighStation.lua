@@ -1,0 +1,10 @@
+function WeighStation:updateDisplayNumbers() end
+function WeighStation:onCreate() end
+function WeighStation:triggerCallback() end
+function WeighStation:new() end
+function WeighStation:isa() end
+function WeighStation:delete() end
+function WeighStation:superClass() end
+function WeighStation:updateWeight() end
+function WeighStation:class() end
+function WeighStation:copy() end

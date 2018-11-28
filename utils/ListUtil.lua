@@ -1,0 +1,23 @@
+ListUtil = {}
+
+function ListUtil:areSetsEqual() end
+function ListUtil:addElementToList() end
+function ListUtil:ifilter() end
+function ListUtil:getRandomElement() end
+function ListUtil:setToList() end
+function ListUtil:findListElementFirstIndex() end
+function ListUtil:copyTable() end
+function ListUtil:getSetSubtraction() end
+function ListUtil:getSetIntersection() end
+function ListUtil:setToHash() end
+function ListUtil:hasSetIntersection() end
+function ListUtil:size() end
+function ListUtil:isSubset() end
+function ListUtil:filter() end
+function ListUtil:getSetUnion() end
+function ListUtil:areListsEqual() end
+function ListUtil:isRealSubset() end
+function ListUtil:copyTableRecursively() end
+function ListUtil:hasListElement() end
+function ListUtil:removeElementFromList() end
+function ListUtil:listToSet() end

@@ -1,0 +1,25 @@
+UserManager = {}
+
+function UserManager:getIsConnectionMasterUser() end
+function UserManager:getUserByNickname() end
+function UserManager:new() end
+function UserManager:getIsUserIdMasterUser() end
+function UserManager:isa() end
+function UserManager:getMasterUsers() end
+function UserManager:getUsers() end
+function UserManager:superClass() end
+function UserManager:removeUser() end
+function UserManager:getNumberOfMasterUsers() end
+function UserManager:getUserByUserId() end
+function UserManager:copy() end
+function UserManager:getNumberOfUsers() end
+function UserManager:removeUserByConnection() end
+function UserManager:removeMasterUser() end
+function UserManager:class() end
+function UserManager:removeUserById() end
+function UserManager:getUserIdByConnection() end
+function UserManager:addMasterUserByConnection() end
+function UserManager:addUser() end
+function UserManager:addMasterUser() end
+function UserManager:getNextUserId() end
+function UserManager:getUserByConnection() end

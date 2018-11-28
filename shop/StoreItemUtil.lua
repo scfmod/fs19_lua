@@ -1,0 +1,26 @@
+StoreItemUtil = {}
+
+function StoreItemUtil:getDefaultPrice() end
+function StoreItemUtil:getConfigurationsFromXML() end
+function StoreItemUtil:getCosts() end
+function StoreItemUtil:getIsVehicle() end
+function StoreItemUtil:getSpecsFromXML() end
+function StoreItemUtil:getDailyUpkeep() end
+function StoreItemUtil:getIsHandTool() end
+function StoreItemUtil:getIsAnimal() end
+function StoreItemUtil:getIsConfigurable() end
+function StoreItemUtil:getBrandIndexFromXML() end
+function StoreItemUtil:getIsPlaceable() end
+function StoreItemUtil:addConfigurationItem() end
+function StoreItemUtil:getSubConfigurationItems() end
+function StoreItemUtil:getSubConfigurationIndex() end
+function StoreItemUtil:getVRamUsageFromXML() end
+function StoreItemUtil:getSizeValuesFromXML() end
+function StoreItemUtil:getSizeValues() end
+function StoreItemUtil:getFilteredConfigurationIndex() end
+function StoreItemUtil:getFunctionsFromXML() end
+function StoreItemUtil:getConfigurationSetsFromXML() end
+function StoreItemUtil:getDefaultConfigId() end
+function StoreItemUtil:getIsObject() end
+function StoreItemUtil:getIsLeasable() end
+function StoreItemUtil:getSubConfigurationsFromXML() end

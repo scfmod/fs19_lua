@@ -1,13 +1,7 @@
 FinanceStats = {}
 
-function FinanceStats:merge(...)
-end;
-FinanceStats:statNamesI18n = {}
-function FinanceStats:copy(...)
-end;
-function FinanceStats:isa(...)
-end;
-FinanceStats:statNameToIndex = {
+FinanceStats.statNamesI18n = {}
+FinanceStats.statNameToIndex = {
     soldBuildings = 6.000000
     harvestIncome = 23.000000
     newAnimalsCost = 3.000000
@@ -37,10 +31,8 @@ FinanceStats:statNameToIndex = {
     animalUpkeep = 11.000000
     fieldPurchase = 7.000000
 }
-FinanceStats:filledI18N = false
-function FinanceStats:superClass(...)
-end;
-FinanceStats:statNames = {
+FinanceStats.filledI18N = false
+FinanceStats.statNames = {
     1 = 'newVehiclesCost',
     2 = 'soldVehicles',
     3 = 'newAnimalsCost',
@@ -70,11 +62,11 @@ FinanceStats:statNames = {
     27 = 'other',
     28 = 'loanInterest',
 }
-function FinanceStats:loadFromXMLFile(...)
-end;
-function FinanceStats:saveToXMLFile(...)
-end;
-function FinanceStats:class(...)
-end;
-function FinanceStats:new(...)
-end;
+function FinanceStats:superClass() end
+function FinanceStats:merge() end
+function FinanceStats:copy() end
+function FinanceStats:isa() end
+function FinanceStats:loadFromXMLFile() end
+function FinanceStats:saveToXMLFile() end
+function FinanceStats:class() end
+function FinanceStats:new() end

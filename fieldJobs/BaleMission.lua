@@ -1,0 +1,33 @@
+BaleMission = {}
+
+BaleMission.FILL_SUCCESS_FACTOR = 0.900000
+BaleMission.REWARD_PER_HA_HAY = 3000.000000
+BaleMission.classId = 69.000000
+BaleMission.SILAGE_VARIANT_CHANCE = 0.500000
+BaleMission.REWARD_PER_HA_SILAGE = 3300.000000
+BaleMission.className = 'BaleMission'
+
+function BaleMission:validate() end
+function BaleMission:readStream() end
+function BaleMission:getStationName() end
+function BaleMission:isa() end
+function BaleMission:fillSold() end
+function BaleMission:canRunOnField() end
+function BaleMission:delete() end
+function BaleMission:getData() end
+function BaleMission:superClass() end
+function BaleMission:getCompletion() end
+function BaleMission:loadFromXMLFile() end
+function BaleMission:init() end
+function BaleMission:new() end
+function BaleMission:roundToWholeBales() end
+function BaleMission:copy() end
+function BaleMission:class() end
+function BaleMission:update() end
+function BaleMission:partitionCompletion() end
+function BaleMission:writeStream() end
+function BaleMission:saveToXMLFile() end
+function BaleMission:completeField() end
+function BaleMission:start() end
+function BaleMission:getVehicleVariant() end
+function BaleMission:updateRewardPerHa() end

@@ -1,0 +1,29 @@
+PhysicsObject = {}
+
+PhysicsObject.classId = 4.000000
+PhysicsObject.className = 'PhysicsObject'
+
+function PhysicsObject:new() end
+function PhysicsObject:isa() end
+function PhysicsObject:delete() end
+function PhysicsObject:getDefaultRigidBodyType() end
+function PhysicsObject:superClass() end
+function PhysicsObject:updateMove() end
+function PhysicsObject:updateTick() end
+function PhysicsObject:onPhysicObjectWakeUpCallback() end
+function PhysicsObject:update() end
+function PhysicsObject:loadOnCreate() end
+function PhysicsObject:onGhostRemove() end
+function PhysicsObject:onGhostAdd() end
+function PhysicsObject:copy() end
+function PhysicsObject:setWorldPositionQuaternion() end
+function PhysicsObject:class() end
+function PhysicsObject:writeUpdateStream() end
+function PhysicsObject:readUpdateStream() end
+function PhysicsObject:writeStream() end
+function PhysicsObject:getUpdatePriority() end
+function PhysicsObject:testScope() end
+function PhysicsObject:addChildsToNodeObject() end
+function PhysicsObject:setNodeId() end
+function PhysicsObject:readStream() end
+function PhysicsObject:getAllowsAutoDelete() end

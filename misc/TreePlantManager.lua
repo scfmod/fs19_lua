@@ -1,0 +1,34 @@
+TreePlantManager = {}
+
+TreePlantManager.MAX_NUM_OF_SPLITSHAPES = 7840.000000
+
+function TreePlantManager:updateTrees() end
+function TreePlantManager:getClientTree() end
+function TreePlantManager:plantTree() end
+function TreePlantManager:removeClientTree() end
+function TreePlantManager:initDataStructures() end
+function TreePlantManager:initialize() end
+function TreePlantManager:loadMapData() end
+function TreePlantManager:addClientTree() end
+function TreePlantManager:canPlantTree() end
+function TreePlantManager:superClass() end
+function TreePlantManager:loadDefaultTypes() end
+function TreePlantManager:loadFromXMLFile() end
+function TreePlantManager:getTreeTypeDescFromName() end
+function TreePlantManager:loadTreeTrunk() end
+function TreePlantManager:deleteTreesData() end
+function TreePlantManager:getTreeTypeDescFromIndex() end
+function TreePlantManager:loadTreeNode() end
+function TreePlantManager:cutTreeTrunkCallback() end
+function TreePlantManager:unloadMapData() end
+function TreePlantManager:loadTreeTypes() end
+function TreePlantManager:class() end
+function TreePlantManager:cleanupDeletedTrees() end
+function TreePlantManager:readFromServerStream() end
+function TreePlantManager:writeToClientStream() end
+function TreePlantManager:isa() end
+function TreePlantManager:saveToXMLFile() end
+function TreePlantManager:new() end
+function TreePlantManager:registerTreeType() end
+function TreePlantManager:copy() end
+function TreePlantManager:addTreeCutJoint() end

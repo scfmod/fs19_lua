@@ -1,0 +1,31 @@
+Storage = {}
+
+Storage.classId = 65.000000
+Storage.className = 'Storage'
+
+function Storage:readStream() end
+function Storage:isa() end
+function Storage:removeUnloadingStation() end
+function Storage:removeLoadingStation() end
+function Storage:delete() end
+function Storage:addLoadingStation() end
+function Storage:superClass() end
+function Storage:farmDestroyed() end
+function Storage:loadFromXMLFile() end
+function Storage:getCapacity() end
+function Storage:addUnloadingStation() end
+function Storage:getFillLevel() end
+function Storage:getSupportedFillTypes() end
+function Storage:getIsFillTypeSupported() end
+function Storage:copy() end
+function Storage:load() end
+function Storage:class() end
+function Storage:writeUpdateStream() end
+function Storage:readUpdateStream() end
+function Storage:writeStream() end
+function Storage:saveToXMLFile() end
+function Storage:empty() end
+function Storage:setFillLevel() end
+function Storage:hourChanged() end
+function Storage:getFreeCapacity() end
+function Storage:new() end

@@ -1,0 +1,133 @@
+Player = {}
+
+Player.PICKED_UP_OBJECTS = {}
+Player.classId = 1.000000
+Player.className = 'Player'
+Player.kinematicCollisionMask = 2148532228.000000
+Player.COLLISIONMASK_TRIGGER = 1048576.000000
+Player.INPUT_ACTIVE_TYPE = {
+    IS_DEBUG = 5.000000
+    STARTS_DISABLED = 1.000000
+    STARTS_ENABLED = 2.000000
+    IS_CARRYING = 4.000000
+    IS_MOVEMENT = 3.000000
+}
+Player.MAX_PICKABLE_OBJECT_DISTANCE = 3.000000
+Player.movementCollisionMask = 2148532255.000000
+Player.BUTTONSTATES = {
+    PRESSED = 2.000000
+    RELEASED = 3.000000
+    JUST_PRESSED = 1.000000
+}
+Player.INPUT_CONTEXT_NAME = 'PLAYER'
+Player.MAX_PICKABLE_OBJECT_MASS = 0.200000
+
+function Player:onEnter() end
+function Player:consoleCommandToggleSuperStrongMode() end
+function Player:getParentComponent() end
+function Player:playHandToolStopSample() end
+function Player:hasHandtoolEquipped() end
+function Player:onLeave() end
+function Player:onInputActivateHandtool() end
+function Player:updateFX() end
+function Player:onInputCycleHandTool() end
+function Player:deleteVisuals() end
+function Player:onInputCrouch() end
+function Player:drawUIInfo() end
+function Player:onPausGame() end
+function Player:groundRaycastCallback() end
+function Player:onInputEnter() end
+function Player:onInputDebugFlyUpDown() end
+function Player:checkObjectInRange() end
+function Player:rotateObject() end
+function Player:onInputLookLeftRight() end
+function Player:setFarm() end
+function Player:onInputThrowObject() end
+function Player:onInputToggleLight() end
+function Player:setVisibility() end
+function Player:updatePlayerStates() end
+function Player:onInputInteract() end
+function Player:onInputJump() end
+function Player:onInputDebugFlyToggle() end
+function Player:testScope() end
+function Player:loadHandTool() end
+function Player:updateInterpolation() end
+function Player:deleteHandToolStopSample() end
+function Player:draw() end
+function Player:setWoodWorkVisibility() end
+function Player:onInputRun() end
+function Player:consoleCommandToggleWoodCuttingMaker() end
+function Player:onPickedUpObjectJointBreak() end
+function Player:setCuttingAnim() end
+function Player:updateSound() end
+function Player:resetBrake() end
+function Player:loadVisuals() end
+function Player:onInputLookUpDown() end
+function Player:class() end
+function Player:getIsInputAllowed() end
+function Player:readUpdateStream() end
+function Player:load() end
+function Player:removeActionEvents() end
+function Player:moveToAbsoluteInternal() end
+function Player:updatePlayHandToolStopSample() end
+function Player:pickUpObject() end
+function Player:onLeaveVehicle() end
+function Player:updateAnimationParameters() end
+function Player:updateHandTools() end
+function Player:consoleCommandToggleFlightAndNoHUDMode() end
+function Player:new() end
+function Player:onFarmChange() end
+function Player:consoleCommandTogglePlayerDebug() end
+function Player:setWalkingLock() end
+function Player:onInputActivateObject() end
+function Player:delete() end
+function Player:updateKinematic() end
+function Player:getPositionData() end
+function Player:updateTick() end
+function Player:recordPositionInformation() end
+function Player:update() end
+function Player:updateWaterParms() end
+function Player:getDesiredSpeed() end
+function Player:consoleCommandReloadIKChains() end
+function Player:loadHandToolStopSample() end
+function Player:lockInput() end
+function Player:deleteStartleAnimalData() end
+function Player:resetInputsInformation() end
+function Player:getUpdatePriority() end
+function Player:throwObject() end
+function Player:equipHandtool() end
+function Player:movePlayer() end
+function Player:getCurrentSurfaceSound() end
+function Player:updateRotation() end
+function Player:onInputMoveForward() end
+function Player:moveTo() end
+function Player:cameraBob() end
+function Player:onInputRotateObjectHorizontally() end
+function Player:calculate2DDotProductAgainstVelocity() end
+function Player:pickUpObjectRaycastCallback() end
+function Player:readStream() end
+function Player:unequipHandtool() end
+function Player:onInputRotateObjectVertically() end
+function Player:deleteStartleAnimalSound() end
+function Player:setLightIsActive() end
+function Player:registerActionEvents() end
+function Player:isa() end
+function Player:superClass() end
+function Player:onInputMoveSide() end
+function Player:setRotation() end
+function Player:moveRootNodeToAbsolute() end
+function Player:moveToExitPoint() end
+function Player:mouseEvent() end
+function Player:onGhostAdd() end
+function Player:onGhostRemove() end
+function Player:updateActionEvents() end
+function Player:getEquippedHandtoolFilename() end
+function Player:writeUpdateStream() end
+function Player:setIKDirty() end
+function Player:writeStream() end
+function Player:updateNetworkMovementHistory() end
+function Player:moveToAbsolute() end
+function Player:copy() end
+function Player:updateInterpolationTick() end
+function Player:resetCameraInputsInformation() end
+function Player:debugDraw() end

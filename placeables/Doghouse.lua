@@ -1,0 +1,31 @@
+Doghouse = {}
+
+Doghouse.classId = 45.000000
+Doghouse.className = 'Doghouse'
+
+function Doghouse:finalizePlacement() end
+function Doghouse:canBuy() end
+function Doghouse:new() end
+function Doghouse:isa() end
+function Doghouse:delete() end
+function Doghouse:unregisterDoghouseToMission() end
+function Doghouse:superClass() end
+function Doghouse:registerDoghouseToMission() end
+function Doghouse:loadFromXMLFile() end
+function Doghouse:isDoghouseRegistered() end
+function Doghouse:update() end
+function Doghouse:setOwnerFarmId() end
+function Doghouse:playerInteractionTriggerCallback() end
+function Doghouse:drawActivate() end
+function Doghouse:copy() end
+function Doghouse:getIsActivatable() end
+function Doghouse:class() end
+function Doghouse:writeUpdateStream() end
+function Doghouse:readUpdateStream() end
+function Doghouse:writeStream() end
+function Doghouse:saveToXMLFile() end
+function Doghouse:onActivateObject() end
+function Doghouse:drawDogName() end
+function Doghouse:setFoodVisibility() end
+function Doghouse:readStream() end
+function Doghouse:getCanBePlacedAt() end

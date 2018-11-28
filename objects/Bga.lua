@@ -1,0 +1,34 @@
+Bga = {}
+
+Bga.classId = 32.000000
+Bga.className = 'Bga'
+
+function Bga:onCreate() end
+function Bga:removeUnloadingStation() end
+function Bga:new() end
+function Bga:addUnloadingStation() end
+function Bga:isa() end
+function Bga:getSupportedFillTypes() end
+function Bga:getFreeCapacity() end
+function Bga:delete() end
+function Bga:load() end
+function Bga:superClass() end
+function Bga:register() end
+function Bga:loadFromXMLFile() end
+function Bga:getCapacity() end
+function Bga:update() end
+function Bga:setOwnerFarmId() end
+function Bga:dayChanged() end
+function Bga:getIsFillTypeSupported() end
+function Bga:copy() end
+function Bga:getFillLevel() end
+function Bga:class() end
+function Bga:writeUpdateStream() end
+function Bga:readUpdateStream() end
+function Bga:writeStream() end
+function Bga:saveToXMLFile() end
+function Bga:setFillLevel() end
+function Bga:getFillTypeLiterPrice() end
+function Bga:updateTick() end
+function Bga:addDigestate() end
+function Bga:readStream() end
