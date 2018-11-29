@@ -1,0 +1,75 @@
+TabbedMenu = {}
+
+TabbedMenu.PROFILE = {
+  PAGE_TAB = 'uiTabbedMenuPageTab'
+  PAGE_TAB_ACTIVE = 'uiTabbedMenuPageTabActive'
+}
+TabbedMenu.CONTROLS = {
+  PAGING_TAB_LIST = 'pagingTabList'
+  MENU_BUTTONS = 'menuButton'
+  BUTTONS_PANEL = 'buttonsPanel'
+  PAGING_ELEMENT = 'pagingElement'
+  PAGING_TAB_TEMPLATE = 'pagingTabTemplate'
+  PAGING_BUTTON_LEFT = 'pagingButtonLeft'
+  PAGING_BUTTON_RIGHT = 'pagingButtonRight'
+  HEADER = 'header'
+}
+TabbedMenu.PAGE_TAB_TEMPLATE_BUTTON_NAME = 'tabButton'
+TabbedMenu.MONEY_UPDATE_INTERVAL = 300.000000
+TabbedMenu.DEFAULT_BUTTON_ACTIONS = {
+  MENU_ACTIVATE = true
+  MENU_CANCEL = true
+  MENU_EXTRA_1 = true
+  MENU_EXTRA_2 = true
+  MENU_BACK = true
+  MENU_ACCEPT = true
+}
+TabbedMenu.NO_BUTTON_INFO = {}
+
+function TabbedMenu:addPage() end
+function TabbedMenu:new() end
+function TabbedMenu:onClickBack() end
+function TabbedMenu:onClickOk() end
+function TabbedMenu:onClickMenuExtra1() end
+function TabbedMenu:delete() end
+function TabbedMenu:updatePageControlVisibility() end
+function TabbedMenu:onClickCancel() end
+function TabbedMenu:update() end
+function TabbedMenu:onButtonBack() end
+function TabbedMenu:setPageSelectorTitles() end
+function TabbedMenu:onClose() end
+function TabbedMenu:registerPage() end
+function TabbedMenu:copy() end
+function TabbedMenu:setupMenuButtonInfo() end
+function TabbedMenu:removePage() end
+function TabbedMenu:onClickActivate() end
+function TabbedMenu:updateGarageButtonInfo() end
+function TabbedMenu:onPagePrevious() end
+function TabbedMenu:updateButtonsPanel() end
+function TabbedMenu:makeSelfCallback() end
+function TabbedMenu:setPageEnabled() end
+function TabbedMenu:isa() end
+function TabbedMenu:unregisterPage() end
+function TabbedMenu:assignMenuButtonInfo() end
+function TabbedMenu:superClass() end
+function TabbedMenu:onGuiSetupFinished() end
+function TabbedMenu:onPageUpdate() end
+function TabbedMenu:onMenuActionClick() end
+function TabbedMenu:clearMenuButtonActions() end
+function TabbedMenu:updatePages() end
+function TabbedMenu:getPageButtonInfo() end
+function TabbedMenu:rebuildTabList() end
+function TabbedMenu:reset() end
+function TabbedMenu:onPageChange() end
+function TabbedMenu:updatePageTabDisplay() end
+function TabbedMenu:onPageNext() end
+function TabbedMenu:class() end
+function TabbedMenu:onPageClicked() end
+function TabbedMenu:goToPage() end
+function TabbedMenu:onClickPageSelection() end
+function TabbedMenu:exitMenu() end
+function TabbedMenu:onClickMenuExtra2() end
+function TabbedMenu:onOpen() end
+function TabbedMenu:setPageTabEnabled() end
+function TabbedMenu:onMenuOpened() end
+function TabbedMenu:addPageTab() end

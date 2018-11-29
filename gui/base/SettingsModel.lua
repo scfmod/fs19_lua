@@ -1,0 +1,215 @@
+SettingsModel = {}
+
+SettingsModel.SETTING = {
+  USE_COLORBLIND_MODE = 'useColorblindMode'
+  OBJECT_DRAW_DISTANCE = 'objectDrawDistance'
+  CONSOLE_RENDER_QUALITY = 'consoleRenderQuality'
+  MP_LANGUAGE = 'mpLanguage'
+  SHADER_QUALITY = 'shaderQuality'
+  SHOW_FIELD_INFO = 'showFieldInfo'
+  WINDOW_MODE = 'windowMode'
+  SHOW_HELP_ICONS = 'showHelpIcons'
+  VOLUME_MASTER = 'masterVolume'
+  RADIO_IS_ACTIVE = 'radioIsActive'
+  MAX_LIGHTS = 'maxLights'
+  RESET_CAMERA = 'resetCamera'
+  VOLUME_MESH_TESSELLATION = 'volumeMeshTessellation'
+  PERFORMANCE_CLASS = 'performanceClass'
+  MAX_MIRRORS = 'maxNumMirrors'
+  MSAA = 'msaa'
+  TEXTURE_FILTERING = 'textureFiltering'
+  STEERING_BACK_SPEED = 'steeringBackSpeed'
+  VEHICLE_ARM_SENSITIVITY = 'vehicleArmSensitivity'
+  CAMERA_SENSITIVITY = 'cameraSensitivity'
+  SHADOW_QUALITY = 'shadowQuality'
+  UI_SCALE = 'uiScale'
+  IS_TRAIN_TABBABLE = 'isTrainTabbable'
+  USE_WORLD_CAMERA = 'useWorldCamera'
+  FOV_Y = 'fovY'
+  LIGHTS_PROFILE = 'lightsProfile'
+  HEAD_TRACKING_ENABLED = 'isHeadTrackingEnabled'
+  RESOLUTION_SCALE = 'resolutionScale'
+  RESOLUTION = 'resolution'
+  REAL_BEACON_LIGHTS = 'realBeaconLights'
+  MONEY_UNIT = 'moneyUnit'
+  USE_FAHRENHEIT = 'useFahrenheit'
+  USE_ACRE = 'useAcre'
+  INPUT_HELP_MODE = 'inputHelpMode'
+  USE_MILES = 'useMiles'
+  GAMEPAD_ENABLED = 'isGamepadEnabled'
+  EASY_ARM_CONTROL = 'easyArmControl'
+  TERRAIN_LOD_DISTANCE = 'terrainLODDistance'
+  TEXTURE_RESOLUTION = 'textureResolution'
+  SHADOW_MAP_FILTERING = 'shadowMapFiltering'
+  LOD_DISTANCE = 'lodDistance'
+  FOLIAGE_DRAW_DISTANCE = 'foliageDrawDistance'
+  VOLUME_ENVIRONMENT = 'environmentVolume'
+  VOLUME_GUI = 'volumeGUI'
+  LANGUAGE = 'language'
+  RADIO_VEHICLE_ONLY = 'radioVehicleOnly'
+  V_SYNC = 'vSync'
+  SHOW_TRIGGER_MARKER = 'showTriggerMarker'
+  CONSOLE_RESOLUTION = 'consoleResolution'
+  INVERT_Y_LOOK = 'invertYLook'
+  SHOW_HELP_MENU = 'showHelpMenu'
+  VOLUME_RADIO = 'radioVolume'
+  MAX_TIRE_TRACKS = 'maxTireTracks'
+  VOLUME_MUSIC = 'musicVolume'
+  TERRAIN_QUALITY = 'terrainQuality'
+  BRIGHTNESS = 'brightness'
+  VOLUME_VEHICLE = 'vehicleVolume'
+}
+SettingsModel.SETTING_CLASS = {
+  SAVE_NONE = 0.000000
+  SAVE_GAMEPLAY_SETTINGS = 2.000000
+  SAVE_ENGINE_QUALITY_SETTINGS = 1.000000
+  SAVE_ALL = 3.000000
+}
+
+function SettingsModel:getAudioVolumeTexts() end
+function SettingsModel:setValue() end
+function SettingsModel:addMSAASetting() end
+function SettingsModel:addFoliageDrawDistanceSetting() end
+function SettingsModel:getFoliageDrawDistanceTexts() end
+function SettingsModel:copy() end
+function SettingsModel:getTerraingQualityTexts() end
+function SettingsModel:getModeFromResolutionState() end
+function SettingsModel:saveChanges() end
+function SettingsModel:getValue() end
+function SettingsModel:getShadowMapLightsTexts() end
+function SettingsModel:getMSAATexts() end
+function SettingsModel:addMPLanguageSetting() end
+function SettingsModel:addShadowMapFilteringSetting() end
+function SettingsModel:initDeviceSettings() end
+function SettingsModel:getDeviceHasAxisDeadzone() end
+function SettingsModel:getConsoleIsRenderQualityDisabled() end
+function SettingsModel:getDeadzoneTexts() end
+function SettingsModel:getConsoleResolutionStateFromMode() end
+function SettingsModel:resetDeviceChanges() end
+function SettingsModel:addObjectDrawDistanceSetting() end
+function SettingsModel:addTerrainQualitySetting() end
+function SettingsModel:getCameraSensitivityTexts() end
+function SettingsModel:addCameraSensitivitySetting() end
+function SettingsModel:getDeviceAxisSensitivityValue() end
+function SettingsModel:refresh() end
+function SettingsModel:addResolutionScaleSetting() end
+function SettingsModel:getTerrainLODDistanceTexts() end
+function SettingsModel:getHasShadowFocusBoxByIndex() end
+function SettingsModel:getFovYTexts() end
+function SettingsModel:getPerformanceClassTexts() end
+function SettingsModel:addUIScaleSetting() end
+function SettingsModel:addMaxTireTracksSetting() end
+function SettingsModel:getTerrainQualityIndex() end
+function SettingsModel:getLightsProfileTexts() end
+function SettingsModel:nextDevice() end
+function SettingsModel:getShadowQualityTexts() end
+function SettingsModel:getDistanceUnitTexts() end
+function SettingsModel:addShaderQualitySetting() end
+function SettingsModel:setDeviceSensitivityValue() end
+function SettingsModel:getShadowMapFilteringTexts() end
+function SettingsModel:addVehicleArmSensitivitySetting() end
+function SettingsModel:needsRestartToApplyChanges() end
+function SettingsModel:addRadioVolumeSetting() end
+function SettingsModel:addDirectSetting() end
+function SettingsModel:addVehicleVolumeSetting() end
+function SettingsModel:addPerformanceClassSetting() end
+function SettingsModel:addEnvironmentVolumeSetting() end
+function SettingsModel:addSteeringBackSpeedSetting() end
+function SettingsModel:getLanguageTexts() end
+function SettingsModel:addLanguageSetting() end
+function SettingsModel:addVolumeGUISetting() end
+function SettingsModel:getShadowQualityIndex() end
+function SettingsModel:addMusicVolumeSetting() end
+function SettingsModel:addVolumeMeshTessellationSetting() end
+function SettingsModel:getDeviceAxisDeadzoneValue() end
+function SettingsModel:getTextureFilteringTexts() end
+function SettingsModel:getVSyncIndex() end
+function SettingsModel:getVSyncByIndex() end
+function SettingsModel:getDeviceHasAxisSensitivity() end
+function SettingsModel:applyPerformanceClass() end
+function SettingsModel:addLightsProfileSetting() end
+function SettingsModel:makeDefaultWriterFunction() end
+function SettingsModel:getIsLanguageDisabled() end
+function SettingsModel:getAreaUnitTexts() end
+function SettingsModel:getObjectDrawDistanceTexts() end
+function SettingsModel:getBrightnessTexts() end
+function SettingsModel:setDeviceDeadzoneValue() end
+function SettingsModel:getSteeringBackSpeedTexts() end
+function SettingsModel:createControlDisplayValues() end
+function SettingsModel:getTextureResolutionByIndex() end
+function SettingsModel:getConsoleRenderQualityTexts() end
+function SettingsModel:setSettingsFileHandle() end
+function SettingsModel:addTerrainLODDistanceSetting() end
+function SettingsModel:hasDeviceChanges() end
+function SettingsModel:getCurrentDeviceName() end
+function SettingsModel:getShadowMapFilterByIndex() end
+function SettingsModel:refreshChangedValue() end
+function SettingsModel:addConsoleResolutionSetting() end
+function SettingsModel:reset() end
+function SettingsModel:getShaderQualityIndex() end
+function SettingsModel:class() end
+function SettingsModel:getTextureFilteringIndex() end
+function SettingsModel:addMasterVolumeSetting() end
+function SettingsModel:addTextureFilteringSetting() end
+function SettingsModel:getLODDistanceTexts() end
+function SettingsModel:getScalingFromResolutionScalingState() end
+function SettingsModel:getUiScaleTexts() end
+function SettingsModel:getVehicleArmSensitivityTexts() end
+function SettingsModel:addVSyncSetting() end
+function SettingsModel:getVolumeMeshTessellationCoeff() end
+function SettingsModel:getMoneyUnitTexts() end
+function SettingsModel:setVolumeMeshTessellationCoeff() end
+function SettingsModel:getNumOfReflectionMapsByIndex() end
+function SettingsModel:getMSAAFromIndex() end
+function SettingsModel:getMSAAIndex() end
+function SettingsModel:hasChanges() end
+function SettingsModel:getMaxMirrorsTexts() end
+function SettingsModel:getTextureResolutionIndex() end
+function SettingsModel:getTextureFilteringByIndex() end
+function SettingsModel:getMPLanguageTexts() end
+function SettingsModel:getShadowQualityByIndex() end
+function SettingsModel:getTerrainQualityByIndex() end
+function SettingsModel:addRealBeaconLightsSetting() end
+function SettingsModel:addShadowMaxLightsSetting() end
+function SettingsModel:getShadowMapFilterIndex() end
+function SettingsModel:getShaderQualityByIndex() end
+function SettingsModel:applyCustomSettings() end
+function SettingsModel:addFovYSetting() end
+function SettingsModel:addWindowModeSetting() end
+function SettingsModel:getInputHelpModeTexts() end
+function SettingsModel:getNumDevices() end
+function SettingsModel:saveDeviceChanges() end
+function SettingsModel:getConsoleIsResolutionVisible() end
+function SettingsModel:setConsoleResolution() end
+function SettingsModel:addManagedSettings() end
+function SettingsModel:getIsDeviceMouse() end
+function SettingsModel:addTextureResolutionSetting() end
+function SettingsModel:applyChanges() end
+function SettingsModel:getScalingStateFromResolutionScaling() end
+function SettingsModel:getMaxTireTracksTexts() end
+function SettingsModel:setMouseSensitivity() end
+function SettingsModel:setConsolePerformanceSetting() end
+function SettingsModel:addInputHelpModeSetting() end
+function SettingsModel:addConsoleRenderQualitySetting() end
+function SettingsModel:superClass() end
+function SettingsModel:getConsoleResolutionTexts() end
+function SettingsModel:getNumOfReflectionMapsIndex() end
+function SettingsModel:getResolutionTexts() end
+function SettingsModel:getRadioModeTexts() end
+function SettingsModel:getResolutionScaleTexts() end
+function SettingsModel:getSensitivityTexts() end
+function SettingsModel:getMouseSensitivityValue() end
+function SettingsModel:getTemperatureUnitTexts() end
+function SettingsModel:addShadowQualitySetting() end
+function SettingsModel:initialize() end
+function SettingsModel:getTextureResolutionTexts() end
+function SettingsModel:new() end
+function SettingsModel:getVolumeMeshTessalationTexts() end
+function SettingsModel:addLODDistanceSetting() end
+function SettingsModel:addMaxMirrorsSetting() end
+function SettingsModel:addSetting() end
+function SettingsModel:addBrightnessSetting() end
+function SettingsModel:getShaderQualityTexts() end
+function SettingsModel:isa() end
+function SettingsModel:makeDefaultReaderFunction() end
+function SettingsModel:getConsoleIsRenderQualityVisible() end

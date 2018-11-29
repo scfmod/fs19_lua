@@ -1,0 +1,25 @@
+TabbedMenuWithDetails = {}
+
+function TabbedMenuWithDetails:onDetailOpened() end
+function TabbedMenuWithDetails:onDetailClosed() end
+function TabbedMenuWithDetails:new() end
+function TabbedMenuWithDetails:isa() end
+function TabbedMenuWithDetails:onPageChange() end
+function TabbedMenuWithDetails:superClass() end
+function TabbedMenuWithDetails:getTopFrame() end
+function TabbedMenuWithDetails:onButtonBack() end
+function TabbedMenuWithDetails:getStack() end
+function TabbedMenuWithDetails:reset() end
+function TabbedMenuWithDetails:copy() end
+function TabbedMenuWithDetails:getBreadcrumbs() end
+function TabbedMenuWithDetails:class() end
+function TabbedMenuWithDetails:onPageClicked() end
+function TabbedMenuWithDetails:replaceDetail() end
+function TabbedMenuWithDetails:popToRoot() end
+function TabbedMenuWithDetails:exitMenu() end
+function TabbedMenuWithDetails:popDetail() end
+function TabbedMenuWithDetails:pushDetail() end
+function TabbedMenuWithDetails:getIsDetailMode() end
+function TabbedMenuWithDetails:setPageDisabled() end
+function TabbedMenuWithDetails:onOpen() end
+function TabbedMenuWithDetails:isAtRoot() end

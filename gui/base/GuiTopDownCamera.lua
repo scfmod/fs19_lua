@@ -1,0 +1,57 @@
+GuiTopDownCamera = {}
+
+GuiTopDownCamera.ROTATION_RANGE_X = 15.000000
+GuiTopDownCamera.ROTATION_SPEED = 0.000500
+GuiTopDownCamera.L10N_SYMBOL = {
+  ACTION_ROTATE_CAMERA = 'action_rotateCamera'
+  ACTION_MOVE = 'ui_movePlaceable'
+  ACTION_ZOOM = 'action_cameraZoom'
+  ACTION_RESET_CAMERA = 'setting_resetUICamera'
+  ACTION_ROTATE_OBJECT = 'action_rotate'
+}
+GuiTopDownCamera.TERRAIN_BORDER = 40.000000
+GuiTopDownCamera.DISTANCE_RANGE_Z = -60.000000
+GuiTopDownCamera.ROTATION_MIN_X = 15.000000
+GuiTopDownCamera.GROUND_DISTANCE_MIN_Y = 2.000000
+GuiTopDownCamera.MOVE_SPEED = 0.020000
+GuiTopDownCamera.INPUT_MOVE_FACTOR = 0.062500
+GuiTopDownCamera.DISTANCE_MIN_Z = -10.000000
+
+function GuiTopDownCamera:getIsActive() end
+function GuiTopDownCamera:new() end
+function GuiTopDownCamera:updateMovement() end
+function GuiTopDownCamera:showInputHelp() end
+function GuiTopDownCamera:delete() end
+function GuiTopDownCamera:update() end
+function GuiTopDownCamera:applyMovement() end
+function GuiTopDownCamera:copy() end
+function GuiTopDownCamera:setTerrainRootNode() end
+function GuiTopDownCamera:determineMapPosition() end
+function GuiTopDownCamera:onInputModeChanged() end
+function GuiTopDownCamera:setHUD() end
+function GuiTopDownCamera:setWaterLevelHeight() end
+function GuiTopDownCamera:onRotate() end
+function GuiTopDownCamera:onInputRun() end
+function GuiTopDownCamera:isa() end
+function GuiTopDownCamera:removeActionEvents() end
+function GuiTopDownCamera:setMapPosition() end
+function GuiTopDownCamera:registerActionEvents() end
+function GuiTopDownCamera:onMoveForward() end
+function GuiTopDownCamera:superClass() end
+function GuiTopDownCamera:onZoom() end
+function GuiTopDownCamera:deactivate() end
+function GuiTopDownCamera:onMoveSide() end
+function GuiTopDownCamera:getPickRay() end
+function GuiTopDownCamera:setControlledPlayer() end
+function GuiTopDownCamera:createCameraNodes() end
+function GuiTopDownCamera:resetInputState() end
+function GuiTopDownCamera:getMouseEdgeScrollingMovement() end
+function GuiTopDownCamera:mouseEvent() end
+function GuiTopDownCamera:class() end
+function GuiTopDownCamera:updatePosition() end
+function GuiTopDownCamera:setControlledVehicle() end
+function GuiTopDownCamera:reset() end
+function GuiTopDownCamera:setMovementActive() end
+function GuiTopDownCamera:activate() end
+function GuiTopDownCamera:resetToPlayer() end
+function GuiTopDownCamera:hasRotationInput() end
