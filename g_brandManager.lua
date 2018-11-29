@@ -1,3 +1,4 @@
+-- lookup: shop/BrandManager.lua
 g_brandManager = {}
 
 g_brandManager.loadedMapData = true

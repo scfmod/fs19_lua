@@ -1,3 +1,4 @@
+-- lookup: materials/MaterialManager.lua
 g_materialManager = {}
 
 g_materialManager.loadedMapData = true

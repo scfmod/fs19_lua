@@ -1,3 +1,4 @@
+-- lookup: misc/SprayTypeManager.lua
 g_sprayTypeManager = {}
 
 g_sprayTypeManager.sprayTypes = {}

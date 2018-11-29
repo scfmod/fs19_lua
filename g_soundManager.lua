@@ -1,3 +1,4 @@
+-- lookup: sounds/SoundManager.lua
 g_soundManager = {}
 
 g_soundManager.oldRandomizationIndex = 1

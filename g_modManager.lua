@@ -1,3 +1,4 @@
+-- lookup: misc/ModManager.lua
 g_modManager = {}
 
 g_modManager.mods = {}

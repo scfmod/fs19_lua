@@ -1,3 +1,4 @@
+-- lookup: misc/ToolTypeManager.lua
 g_toolTypeManager = {}
 
 g_toolTypeManager.indexToName = {}

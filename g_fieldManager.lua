@@ -1,3 +1,4 @@
+-- lookup: fieldJobs/FieldManager.lua
 g_fieldManager = {}
 
 g_fieldManager.loadedMapData = false

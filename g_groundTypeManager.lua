@@ -1,3 +1,4 @@
+-- lookup: misc/GroundTypeManager.lua
 g_groundTypeManager = {}
 
 g_groundTypeManager.loadedMapData = true

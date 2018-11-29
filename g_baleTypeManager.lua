@@ -1,3 +1,4 @@
+-- lookup: misc/BaleTypeManager.lua
 g_baleTypeManager = {}
 
 g_baleTypeManager.defaultSquareBale = {}

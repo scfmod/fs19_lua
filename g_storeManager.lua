@@ -1,3 +1,4 @@
+-- lookup: shop/StoreManager.lua
 g_storeManager = {}
 
 g_storeManager.modStoreItems = {}
