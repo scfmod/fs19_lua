@@ -1,3 +1,4 @@
+-- lookup: animals/AnimalManager.lua
 g_animalManager = {}
 
 g_animalManager.indexToAnimal = {}

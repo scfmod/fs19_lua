@@ -1,3 +1,4 @@
+-- lookup: animals/AnimalFoodManager.lua
 g_animalFoodManager = {}
 
 g_animalFoodManager.loadedMapData = true
