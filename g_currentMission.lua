@@ -148,7 +148,9 @@ g_currentMission.attachables = {} -- todo (?)
 g_currentMission.restrictedZones = {} -- todo (?)
 g_currentMission.pedestrianSystem = {} -- todo (?)
 g_currentMission.limitedObjects = {} -- todo (?)
+
 g_currentMission.shopController = {} -- todo (?)
+
 g_currentMission.trafficSystem = {} -- todo (?)
 g_currentMission.inputDisplayManager = {} -- todo (?)
 g_currentMission.mapsSplitShapeFileIds = {} -- todo (?)
