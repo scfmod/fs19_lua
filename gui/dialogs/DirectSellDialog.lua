@@ -1,0 +1,42 @@
+DirectSellDialog = {}
+
+DirectSellDialog.CONTROLS = {
+  NAME_SEPARATOR_ELEMENT = 'dialogSeparator'
+  CONDITION_BAR = 'conditionBar'
+  TEXT_ELEMENT = 'dialogText'
+  SELL_BUTTON = 'sellButton'
+  IMAGE_ELEMENT = 'dialogImage'
+  INFO_ELEMENT = 'dialogInfo'
+  NAME_ELEMENT = 'dialogName'
+  CONDITION_BAR_BG = 'conditionBarBg'
+  CONFIG_BUTTON = 'configButton'
+  HEADER_TEXT = 'headerText'
+  REPAIR_BUTTON = 'repairButton'
+  VEHICLE_INFO_BOX = 'vehicleInfoBox'
+  PRICE_ELEMENT = 'priceText'
+  OPERATING_HOURS_TEXT = 'operatingHoursText'
+  AGE_TEXT = 'ageText'
+}
+
+function DirectSellDialog:onVehicleSellFailed() end
+function DirectSellDialog:onVehicleRepairEvent() end
+function DirectSellDialog:new() end
+function DirectSellDialog:onClickBack() end
+function DirectSellDialog:isa() end
+function DirectSellDialog:setConfigurations() end
+function DirectSellDialog:superClass() end
+function DirectSellDialog:onClickCancel() end
+function DirectSellDialog:onVehicleSold() end
+function DirectSellDialog:update() end
+function DirectSellDialog:onClose() end
+function DirectSellDialog:copy() end
+function DirectSellDialog:onVehicleSellEvent() end
+function DirectSellDialog:setButtonText() end
+function DirectSellDialog:onInfoDialogCallback() end
+function DirectSellDialog:setVehicle() end
+function DirectSellDialog:onYesNoRepairDialog() end
+function DirectSellDialog:onVehicleChanged() end
+function DirectSellDialog:onClickActivate() end
+function DirectSellDialog:onOpen() end
+function DirectSellDialog:class() end
+function DirectSellDialog:onClickOk() end
