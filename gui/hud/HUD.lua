@@ -1,0 +1,123 @@
+HUD = {}
+
+HUD.GAME_INFO_PART = {
+  TIME = 2.000000
+  NONE = 0.000000
+  TUTORIAL = 16.000000
+  MONEY = 1.000000
+  TEMPERATURE = 4.000000
+  WEATHER = 8.000000
+}
+HUD.CONTEXT_PRIORITY = {
+  LOW = 1.000000
+  MEDIUM = 2.000000
+  HIGH = 3.000000
+}
+HUD.COLOR = {
+  TUTORIAL_STATUS_VALUE = {}
+  FIELD_JOB_ICON = {}
+  BLINKING_WARNING = {}
+  BLINKING_WARNING_1 = {}
+  VEHICLE_NAME_SHADOW = {}
+  VEHICLE_NAME = {}
+  FRAME_BACKGROUND = {}
+  TUTORIAL_STATUS_BACKGROUND = {}
+  FIELD_JOB_TIME_BACKGROUND = {}
+  BLINKING_WARNING_2 = {}
+  RADIO_STREAM = {}
+}
+HUD.TEXT_SIZE = {
+  VEHICLE_NAME = 36.000000
+  BLINKING_WARNING = 24.000000
+}
+HUD.ANIMATION = {
+  BLINKING_WARNING_TIME = 500.000000
+  VEHICLE_NAME_FADE = 1000.000000
+  VEHICLE_NAME_SHOW = 3000.000000
+}
+HUD.UV = {
+  AREA = {}
+}
+HUD.FADE_FOLLOW_DELAY = 100.000000
+HUD.SCHEMA_OVERLAY_DEFINITIONS_PATH = 'dataS/vehicleSchemaOverlays.xml'
+HUD.ACHIEVEMENT_DISPLAY_DURATION = 5000.000000
+HUD.MENU_BACKGROUND_PATH = 'shared/splashBlur.png'
+
+function HUD:createDisplayComponents() end
+function HUD:drawOverlayAtPosition() end
+function HUD:drawTopNotification() end
+function HUD:fadeScreen() end
+function HUD:hideTopNotification() end
+function HUD:setInGameIconOnPickup() end
+function HUD:updateVehicleName() end
+function HUD:copy() end
+function HUD:getIngameMap() end
+function HUD:showMoneyChange() end
+function HUD:showAttachContext() end
+function HUD:setIsControllingPlayer() end
+function HUD:loadIngameMap() end
+function HUD:addExtraPrintText() end
+function HUD:drawInGameMessageAndIcon() end
+function HUD:setEnvironment() end
+function HUD:setControlledVehicle() end
+function HUD:drawInputHelp() end
+function HUD:setMoneyUnit() end
+function HUD:setScale() end
+function HUD:isa() end
+function HUD:addCustomInputHelpEntry() end
+function HUD:setTutorialProgress() end
+function HUD:onMenuVisibilityChange() end
+function HUD:onMapVisibilityChange() end
+function HUD:mouseEvent() end
+function HUD:showTipContext() end
+function HUD:showBlinkingWarning() end
+function HUD:setConnectedUsers() end
+function HUD:subscribeMessages() end
+function HUD:showInGameMessage() end
+function HUD:showAchievementMessage() end
+function HUD:new() end
+function HUD:setPlayer() end
+function HUD:drawFading() end
+function HUD:delete() end
+function HUD:showFillDogBowlContext() end
+function HUD:addMoneyChange() end
+function HUD:updateMessageAndIcon() end
+function HUD:update() end
+function HUD:drawMissionFailed() end
+function HUD:drawCommunicationDisplay() end
+function HUD:drawVehicleName() end
+function HUD:isInGameMessageVisible() end
+function HUD:drawSideNotification() end
+function HUD:removeMapHotspot() end
+function HUD:addMapHotspot() end
+function HUD:registerInput() end
+function HUD:setChatMessagesReference() end
+function HUD:setChatWindowVisible() end
+function HUD:scrollChatMessages() end
+function HUD:addSideNotification() end
+function HUD:setMissionInfo() end
+function HUD:isInGameMessageActive() end
+function HUD:updateBlinkingWarning() end
+function HUD:setFieldInfoVisible() end
+function HUD:updateMap() end
+function HUD:superClass() end
+function HUD:getIsVisible() end
+function HUD:drawPresentationVersion() end
+function HUD:drawOverlayAtPositionWithDimensions() end
+function HUD:showVehicleName() end
+function HUD:drawControlledEntityHUD() end
+function HUD:drawBaseHUD() end
+function HUD:clearCustomInputHelpEntries() end
+function HUD:drawMissionCompleted() end
+function HUD:class() end
+function HUD:drawGamePaused() end
+function HUD:setMissionStats() end
+function HUD:getIsFading() end
+function HUD:setGameInfoPartVisibility() end
+function HUD:setIngameMapSize() end
+function HUD:setInputHelpVisible() end
+function HUD:onPauseGameChange() end
+function HUD:addTopNotification() end
+function HUD:setIsVisible() end
+function HUD:drawBlinkingWarning() end
+function HUD:showFuelContext() end

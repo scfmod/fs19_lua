@@ -1,0 +1,90 @@
+MapHotspot = {}
+
+MapHotspot.SELECTED_COLOR = {
+  1 = 0.212200
+  2 = 0.527100
+  3 = 0.030700
+  4 = 1.000000
+}
+MapHotspot.CATEGORY_TRIGGER = 3.000000
+MapHotspot.CATEGORY_VEHICLE_TRAILER = 8.000000
+MapHotspot.CATEGORY_FIELD_DEFINITION = 1.000000
+MapHotspot.CATEGORY_AI = 5.000000
+MapHotspot.CATEGORY_TOUR = 6.000000
+MapHotspot.CATEGORY_COLLECTABLE = 4.000000
+MapHotspot.CATEGORY_VEHICLE_TOOL = 7.000000
+MapHotspot.CATEGORY_VEHICLE_STEERABLE = 10.000000
+MapHotspot.CATEGORY_DEFAULT = 0.000000
+MapHotspot.CATEGORY_MISSION = 2.000000
+MapHotspot.DEFAULT_BG_COLOR = {
+  1 = 0.007500
+  2 = 0.007500
+  3 = 0.007500
+  4 = 1.000000
+}
+MapHotspot.CATEGORY_VEHICLE_COMBINE = 9.000000
+MapHotspot.IMAGEFILENAMES = {
+  1 = 'dataS2/menu/hud/mapHotspots_1024.png'
+  2 = 'dataS2/menu/hud/mapHotspots_512.png'
+  3 = 'dataS2/menu/hud/mapHotspots_256.png'
+  4 = 'dataS2/menu/hud/mapHotspots_128.png'
+  5 = 'dataS2/menu/hud/mapHotspots_64.png'
+}
+MapHotspot.COLOR = {
+  INACTIVE = {}
+}
+MapHotspot.UV = {
+  NAVIGATION_POINTER = {}
+  CIRCLE = {}
+  TRAIN_SELLING_POINT = {}
+  FARM_HOUSE = {}
+  EXCLAMATION_MARK = {}
+  HIGHLIGHT_MARKER = {}
+  CHICKEN_PEN = {}
+  GAS_STATION = {}
+  COW_BARN = {}
+  SHEEP_MEADOW = {}
+  SELLING_POINT = {}
+  HELPER = {}
+  PIG_STABLE = {}
+  HORSE_STABLE = {}
+  ANIMAL_VENDOR = {}
+  SHOP = {}
+}
+
+function MapHotspot:render() end
+function MapHotspot:setSize() end
+function MapHotspot:getOverlay() end
+function MapHotspot:getHasDetails() end
+function MapHotspot:setWorldPosition() end
+function MapHotspot:copy() end
+function MapHotspot:getOwnerFarmId() end
+function MapHotspot:setRenderLast() end
+function MapHotspot:setLinkedNode() end
+function MapHotspot:getIsActive() end
+function MapHotspot:setOwnerFarmId() end
+function MapHotspot:setRawTextOffset() end
+function MapHotspot:setSelected() end
+function MapHotspot:setPersistent() end
+function MapHotspot:getWidth() end
+function MapHotspot:isa() end
+function MapHotspot:setColor() end
+function MapHotspot:class() end
+function MapHotspot:setTextOptions() end
+function MapHotspot:getIsVisible() end
+function MapHotspot:superClass() end
+function MapHotspot:setText() end
+function MapHotspot:generateOverlays() end
+function MapHotspot:generateBgOverlays() end
+function MapHotspot:getHeight() end
+function MapHotspot:setBlinking() end
+function MapHotspot:setIconScale() end
+function MapHotspot:setBackgroundImage() end
+function MapHotspot:new() end
+function MapHotspot:setImage() end
+function MapHotspot:drawBoundings() end
+function MapHotspot:getBoundings() end
+function MapHotspot:setBorderedImage() end
+function MapHotspot:setPosition() end
+function MapHotspot:delete() end
+function MapHotspot:setHasDetails() end

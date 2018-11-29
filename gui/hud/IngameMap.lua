@@ -1,0 +1,105 @@
+IngameMap = {}
+
+IngameMap.POSITION = {
+  MAP = {}
+  INPUT_ICON = {}
+  INFO_TEXT = {}
+  PLAYER_NAME = {}
+  MAP_LABEL = {}
+}
+IngameMap.COLOR = {
+  LATENCY_BAD = {}
+  PLAYER_ARROW = {}
+  INPUT_ICON = {}
+  OTHER_ARROW = {}
+  LATENCY_MEDIUM = {}
+  LATENCY_GOOD = {}
+  MAP_LABEL = {}
+  COORDINATES_TEXT = {}
+}
+IngameMap.SIZE = {
+  MAP = {}
+  SELF = {}
+  INPUT_ICON = {}
+  OTHER_ARROW = {}
+  HOTSPOT = {}
+  PLAYER_ARROW = {}
+}
+IngameMap.TEXT_SIZE = {
+  GLYPH_TEXT = 16.000000
+  PLAYER_NAME = 12.000000
+}
+IngameMap.MIN_MAP_HEIGHT = 231.000000
+IngameMap.maxIconZoom = 1.400000
+IngameMap.STATE_MAP = 1.000000
+IngameMap.STATE_OFF = 2.000000
+IngameMap.alpha = 1.000000
+IngameMap.STATE_MINIMAP = 0.000000
+IngameMap.alphaInc = 0.005000
+IngameMap.MAP_HOTSPOT_ATLAS_PATH = 'dataS2/menu/hud/mapHotspots_256.png'
+IngameMap.MIN_MAP_WIDTH = 300.000000
+IngameMap.L10N_SYMBOL_MAP_LABEL = 'ui_map'
+IngameMap.L10N_SYMBOL_TOGGLE_MAP = 'input_TOGGLE_MAP_SIZE'
+IngameMap.L10N_SYMBOL_SELECT_MAP = 'input_INGAMEMAP_ACCEPT'
+
+function IngameMap:drawPlayerArrow() end
+function IngameMap:setZoomScale() end
+function IngameMap:setSelectedHotspot() end
+function IngameMap:determinePlayerPosition() end
+function IngameMap:drawPlayersCoordinates() end
+function IngameMap:updatePlayerPosition() end
+function IngameMap:copy() end
+function IngameMap:updateMapHeightZoomFactor() end
+function IngameMap:updateFilters() end
+function IngameMap:cycleVisibleHotspot() end
+function IngameMap:getHeight() end
+function IngameMap:getHotspotIndex() end
+function IngameMap:setFullscreen() end
+function IngameMap:setScale() end
+function IngameMap:isa() end
+function IngameMap:renderHotspots() end
+function IngameMap:drawMap() end
+function IngameMap:setMapObjectOverlayPosition() end
+function IngameMap:addMapHotspot() end
+function IngameMap:resetSettings() end
+function IngameMap:loadMap() end
+function IngameMap:new() end
+function IngameMap:delete() end
+function IngameMap:createFrame() end
+function IngameMap:determineVehiclePosition() end
+function IngameMap:update() end
+function IngameMap:createPlayerMapArrow() end
+function IngameMap:setFilter() end
+function IngameMap:onToggleMapSize() end
+function IngameMap:createToggleMapSizeGlyph() end
+function IngameMap:setAllowToggle() end
+function IngameMap:updateMapUVs() end
+function IngameMap:removeMapHotspot() end
+function IngameMap:getIsFullSize() end
+function IngameMap:updateInputGlyphs() end
+function IngameMap:storeScaledValues() end
+function IngameMap:createComponents() end
+function IngameMap:updatePlayerArrow() end
+function IngameMap:getBackgroundPosition() end
+function IngameMap:setSize() end
+function IngameMap:setIsVisible() end
+function IngameMap:setTopDownCamera() end
+function IngameMap:setPosition() end
+function IngameMap:createOtherMapArrowOverlay() end
+function IngameMap:superClass() end
+function IngameMap:class() end
+function IngameMap:zoom() end
+function IngameMap:drawLatencyToServer() end
+function IngameMap:registerInput() end
+function IngameMap:setMapObjectOverlayRotation() end
+function IngameMap:setWorldSize() end
+function IngameMap:drawMapLabel() end
+function IngameMap:getRequiredHeight() end
+function IngameMap:createBackground() end
+function IngameMap:drawPointsOfInterest() end
+function IngameMap:drawEnterableArrows() end
+function IngameMap:draw() end
+function IngameMap:toggleSize() end
+function IngameMap:drawOtherPlayerArrows() end
+function IngameMap:colorForFarm() end
+function IngameMap:drawHotspot() end

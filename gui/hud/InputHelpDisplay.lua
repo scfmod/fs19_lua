@@ -1,0 +1,92 @@
+InputHelpDisplay = {}
+
+InputHelpDisplay.ENTRY_COUNT_PC = 8.000000
+InputHelpDisplay.ENTRY_COUNT_PRIO_CONSOLE = 16.000000
+InputHelpDisplay.L10N_CONTROLS_LABEL = 'ui_controls'
+InputHelpDisplay.ENTRY_COUNT_CONSOLE = 8.000000
+InputHelpDisplay.WIDTH = 465.000000
+InputHelpDisplay.SIZE = {
+  HELP_ENTRY = {}
+  VERTICAL_SEPARATOR = {}
+  HEADER = {}
+  GAMEPAD_COMBO_BOX = {}
+  HORIZONTAL_SEPARATOR = {}
+  AXIS_ICON = {}
+  MOUSE_COMBO_BOX = {}
+  COMBO_GLYPH = {}
+  INPUT_GLYPH = {}
+}
+InputHelpDisplay.MIN_MAP_SPACING = 33.000000
+InputHelpDisplay.HEADER_HEIGHT = 72.000000
+InputHelpDisplay.POSITION = {
+  EXTRA_TEXT = {}
+  VEHICE_SCHEMA = {}
+  FRAME = {}
+  MOUSE_COMBO_SEPARATOR = {}
+  INPUT_GLYPH = {}
+  HELP_TEXT = {}
+  GAMEPAD_COMBO_SEPARATOR = {}
+  AXIS_ICON = {}
+  CONTROLS_LABEL = {}
+}
+InputHelpDisplay.COLOR = {
+  HELP_TEXT = {}
+  INPUT_GLYPH = {}
+  SEPARATOR = {}
+  COMBO_GLYPH = {}
+  COMBO_GLYPH_PRESSED = {}
+  CONTROLS_LABEL = {}
+}
+InputHelpDisplay.ENTRY_COUNT_PRIO_PC = 16.000000
+
+function InputHelpDisplay:storeScaledValues() end
+function InputHelpDisplay:new() end
+function InputHelpDisplay:updateSizeAndPositions() end
+function InputHelpDisplay:addCustomEntry() end
+function InputHelpDisplay:addHelpText() end
+function InputHelpDisplay:update() end
+function InputHelpDisplay:onInputDevicesChanged() end
+function InputHelpDisplay:createEntry() end
+function InputHelpDisplay:delete() end
+function InputHelpDisplay:onAnimateVisibilityFinished() end
+function InputHelpDisplay:copy() end
+function InputHelpDisplay:createControllerComboHeader() end
+function InputHelpDisplay:animateShow() end
+function InputHelpDisplay:updateInputContext() end
+function InputHelpDisplay:createComponents() end
+function InputHelpDisplay:createComboHeader() end
+function InputHelpDisplay:createComboInputGlyph() end
+function InputHelpDisplay:refreshHUDExtensions() end
+function InputHelpDisplay:animateHide() end
+function InputHelpDisplay:createHorizontalSeparator() end
+function InputHelpDisplay:createVerticalSeparator() end
+function InputHelpDisplay:createFrame() end
+function InputHelpDisplay:getMaxEntryCount() end
+function InputHelpDisplay:setAnimationOffset() end
+function InputHelpDisplay:createMouseComboHeader() end
+function InputHelpDisplay:createBackground() end
+function InputHelpDisplay:setDimension() end
+function InputHelpDisplay:drawHelpInfos() end
+function InputHelpDisplay:isa() end
+function InputHelpDisplay:getIsHelpElementAllowed() end
+function InputHelpDisplay:draw() end
+function InputHelpDisplay:superClass() end
+function InputHelpDisplay:setAnimationAvailableHeight() end
+function InputHelpDisplay:getBackgroundPosition() end
+function InputHelpDisplay:createEntries() end
+function InputHelpDisplay:updateComboInputGlyphs() end
+function InputHelpDisplay:getHidingTranslation() end
+function InputHelpDisplay:setScale() end
+function InputHelpDisplay:drawVehicleHUDExtensions() end
+function InputHelpDisplay:drawControlsLabel() end
+function InputHelpDisplay:getInputHelpElements() end
+function InputHelpDisplay:class() end
+function InputHelpDisplay:updateComboHeaders() end
+function InputHelpDisplay:updateEntries() end
+function InputHelpDisplay:clearCustomEntries() end
+function InputHelpDisplay:collectVehicleSpecializations() end
+function InputHelpDisplay:getTopLeftPosition() end
+function InputHelpDisplay:updateHUDExtensions() end
+function InputHelpDisplay:subscribeMessages() end
+function InputHelpDisplay:getAvailableHeight() end
+function InputHelpDisplay:setVehicle() end
