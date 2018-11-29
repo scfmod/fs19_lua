@@ -1,0 +1,20 @@
+HusbandryModuleWater = {}
+
+function HusbandryModuleWater:new() end
+function HusbandryModuleWater:initDataStructures() end
+function HusbandryModuleWater:delete() end
+function HusbandryModuleWater:superClass() end
+function HusbandryModuleWater:loadFromXMLFile() end
+function HusbandryModuleWater:addFillLevelFromTool() end
+function HusbandryModuleWater:getFilltypeInfos() end
+function HusbandryModuleWater:copy() end
+function HusbandryModuleWater:onIntervalUpdate() end
+function HusbandryModuleWater:class() end
+function HusbandryModuleWater:hasWater() end
+function HusbandryModuleWater:writeStream() end
+function HusbandryModuleWater:load() end
+function HusbandryModuleWater:onFillProgressChanged() end
+function HusbandryModuleWater:updateFillPlane() end
+function HusbandryModuleWater:getIsNodeUsed() end
+function HusbandryModuleWater:isa() end
+function HusbandryModuleWater:readStream() end

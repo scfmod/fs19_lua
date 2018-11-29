@@ -1,0 +1,20 @@
+HusbandryModuleStraw = {}
+
+function HusbandryModuleStraw:hasStraw() end
+function HusbandryModuleStraw:initDataStructures() end
+function HusbandryModuleStraw:delete() end
+function HusbandryModuleStraw:superClass() end
+function HusbandryModuleStraw:loadFromXMLFile() end
+function HusbandryModuleStraw:addFillLevelFromTool() end
+function HusbandryModuleStraw:getFilltypeInfos() end
+function HusbandryModuleStraw:copy() end
+function HusbandryModuleStraw:onIntervalUpdate() end
+function HusbandryModuleStraw:class() end
+function HusbandryModuleStraw:writeStream() end
+function HusbandryModuleStraw:load() end
+function HusbandryModuleStraw:onFillProgressChanged() end
+function HusbandryModuleStraw:updateFillPlane() end
+function HusbandryModuleStraw:isa() end
+function HusbandryModuleStraw:getIsNodeUsed() end
+function HusbandryModuleStraw:readStream() end
+function HusbandryModuleStraw:new() end

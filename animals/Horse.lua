@@ -1,0 +1,30 @@
+Horse = {}
+
+Horse.classId = 26.000000
+Horse.className = 'Horse'
+Horse.DAILY_TARGET_RIDING_TIME = 300000.000000
+Horse.DAILY_MINIMUM_RIDING_TIME = 60000.000000
+
+function Horse:getValueScale() end
+function Horse:new() end
+function Horse:isa() end
+function Horse:onFitnessChangedCallback() end
+function Horse:updateFitness() end
+function Horse:superClass() end
+function Horse:onLoadedRideable() end
+function Horse:loadFromXMLFile() end
+function Horse:deactivateRiding() end
+function Horse:getTodaysRidingTime() end
+function Horse:readStream() end
+function Horse:setHealthScale() end
+function Horse:copy() end
+function Horse:setFitnessScale() end
+function Horse:class() end
+function Horse:writeUpdateStream() end
+function Horse:readUpdateStream() end
+function Horse:writeStream() end
+function Horse:setName() end
+function Horse:saveToXMLFile() end
+function Horse:getFitnessScale() end
+function Horse:getName() end
+function Horse:getHealthScale() end

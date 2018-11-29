@@ -1,0 +1,47 @@
+WildlifeSpawner = {}
+
+WildlifeSpawner.DEBUGSHOWIDSTATES = {
+  MAX = 3.000000
+  NONE = 1.000000
+  SINGLE = 3.000000
+  ALL = 2.000000
+}
+
+function WildlifeSpawner:new() end
+function WildlifeSpawner:checkArea() end
+function WildlifeSpawner:countTrees() end
+function WildlifeSpawner:loadMapData() end
+function WildlifeSpawner:delete() end
+function WildlifeSpawner:consoleCommandToggleShowWildlife() end
+function WildlifeSpawner:consoleCommandAddWildlifeAnimalToDebug() end
+function WildlifeSpawner:treeCountTestCallback() end
+function WildlifeSpawner:updateSpawner() end
+function WildlifeSpawner:unloadMapData() end
+function WildlifeSpawner:countAnimalsTobeSpawned() end
+function WildlifeSpawner:removeAllAnimals() end
+function WildlifeSpawner:checkHours() end
+function WildlifeSpawner:trySpawnAtArea() end
+function WildlifeSpawner:consoleCommandToggleShowWildlifeAnimation() end
+function WildlifeSpawner:isa() end
+function WildlifeSpawner:animalExists() end
+function WildlifeSpawner:superClass() end
+function WildlifeSpawner:addAreaOfInterest() end
+function WildlifeSpawner:consoleCommandRemoveWildlifeAnimalToDebug() end
+function WildlifeSpawner:isInDebugList() end
+function WildlifeSpawner:checkAreas() end
+function WildlifeSpawner:consoleCommandToggleShowWildlifeId() end
+function WildlifeSpawner:getIsInWater() end
+function WildlifeSpawner:onGhostAdd() end
+function WildlifeSpawner:onGhostRemove() end
+function WildlifeSpawner:updateAreaOfInterest() end
+function WildlifeSpawner:class() end
+function WildlifeSpawner:spawnAnimals() end
+function WildlifeSpawner:update() end
+function WildlifeSpawner:getPlayerCenter() end
+function WildlifeSpawner:removeFarAwayAnimals() end
+function WildlifeSpawner:consoleCommandToggleShowWildlifeSteering() end
+function WildlifeSpawner:copy() end
+function WildlifeSpawner:onConnectionClosed() end
+function WildlifeSpawner:getIsOnField() end
+function WildlifeSpawner:parseHours() end
+function WildlifeSpawner:debugDraw() end

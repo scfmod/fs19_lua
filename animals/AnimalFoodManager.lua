@@ -1,0 +1,30 @@
+AnimalFoodManager = {}
+
+AnimalFoodManager.FOOD_CONSUME_TYPE_PARALLEL = 2.000000
+AnimalFoodManager.SEND_NUM_BITS = 4.000000
+AnimalFoodManager.FOOD_CONSUME_TYPE_SERIAL = 1.000000
+
+function AnimalFoodManager:new() end
+function AnimalFoodManager:isa() end
+function AnimalFoodManager:loadMapData() end
+function AnimalFoodManager:normalizeFoodGroupWeights() end
+function AnimalFoodManager:superClass() end
+function AnimalFoodManager:getFoodGroupByAnimalType() end
+function AnimalFoodManager:getTotalFillLevelInGroup() end
+function AnimalFoodManager:getFoodGroupByAnimalIndex() end
+function AnimalFoodManager:getTotalFillLevelInGroupByFillTypeIndex() end
+function AnimalFoodManager:getFoodGroupByFillType() end
+function AnimalFoodManager:changeFillLevels() end
+function AnimalFoodManager:consumeFoodGroup() end
+function AnimalFoodManager:copy() end
+function AnimalFoodManager:consumeFoodParallelly() end
+function AnimalFoodManager:class() end
+function AnimalFoodManager:consumeFoodSerially() end
+function AnimalFoodManager:consumeFood() end
+function AnimalFoodManager:getFoodConsumptionTypeByAnimalType() end
+function AnimalFoodManager:getFoodMixtureByFillType() end
+function AnimalFoodManager:getFoodMixturesByAnimalType() end
+function AnimalFoodManager:initDataStructures() end
+function AnimalFoodManager:loadFoodGroups() end
+function AnimalFoodManager:loadMixtures() end
+function AnimalFoodManager:normalizeMixtureWeights() end

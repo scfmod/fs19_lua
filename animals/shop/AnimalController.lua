@@ -1,0 +1,44 @@
+AnimalController = {}
+
+AnimalController.MODE_DEALER_TRAILER = 1.000000
+AnimalController.SYMBOL_L10N = {
+  DEALER = 'animals_dealer'
+  FARM = 'ui_farm'
+}
+AnimalController.MODE_FARM_TRAILER = 3.000000
+AnimalController.MODE_DEALER_FARM = 2.000000
+
+function AnimalController:new() end
+function AnimalController:initialize() end
+function AnimalController:moveToSource() end
+function AnimalController:moveToTarget() end
+function AnimalController:setTrailer() end
+function AnimalController:getPrices() end
+function AnimalController:copy() end
+function AnimalController:setTargetUpdateCallback() end
+function AnimalController:setHusbandry() end
+function AnimalController:getSourceItems() end
+function AnimalController:setTrailerFullCallback() end
+function AnimalController:setNoValidHusbandryCallback() end
+function AnimalController:applyChanges() end
+function AnimalController:initSourceItems() end
+function AnimalController:getIsDealer() end
+function AnimalController:getBalance() end
+function AnimalController:setNotEnoughMoneyCallback() end
+function AnimalController:setCanNotAddToTrailerCallback() end
+function AnimalController:setAnimalNotSupportedByTrailerCallback() end
+function AnimalController:reset() end
+function AnimalController:setAnimalInUseCallback() end
+function AnimalController:initTargetItems() end
+function AnimalController:setHusbandryIsFullCallback() end
+function AnimalController:class() end
+function AnimalController:setInvalidAnimalTypeCallback() end
+function AnimalController:getHasChanges() end
+function AnimalController:close() end
+function AnimalController:getTargetName() end
+function AnimalController:setLoadingTrigger() end
+function AnimalController:setSourceUpdateCallback() end
+function AnimalController:getSourceName() end
+function AnimalController:getTargetItems() end
+function AnimalController:superClass() end
+function AnimalController:isa() end
