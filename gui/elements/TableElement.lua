@@ -1,0 +1,72 @@
+TableElement = {}
+
+TableElement.DataRow = {
+  new = function() end
+}
+TableElement.TableRow = {
+  new = function() end
+}
+TableElement.DataCell = {}
+TableElement.ROW_REFOCUS_COOLDOWN = 5000.000000
+TableElement.NAV_MODE_CELLS = 'cells'
+TableElement.SortCell = {}
+TableElement.NAV_MODE_ROWS = 'rows'
+TableElement.NAVIGATION_DELAY = 200.000000
+
+function TableElement:verifyListItemConfiguration() end
+function TableElement:updateSelectedIndex() end
+function TableElement:loadFromXML() end
+function TableElement:getSelectedElement() end
+function TableElement:copyAttributes() end
+function TableElement:processCellElements() end
+function TableElement:inputEvent() end
+function TableElement:onMouseUp() end
+function TableElement:deleteListItems() end
+function TableElement:updateSortedView() end
+function TableElement:setCellOverrideGuiProfile() end
+function TableElement:getSelectedTableRow() end
+function TableElement:updateItemPositions() end
+function TableElement:setCellText() end
+function TableElement:clearData() end
+function TableElement:delayNavigationInput() end
+function TableElement:isa() end
+function TableElement:getSortFunction() end
+function TableElement:onGuiSetupFinished() end
+function TableElement:getItemFactor() end
+function TableElement:getItemCount() end
+function TableElement:onSliderValueChanged() end
+function TableElement:class() end
+function TableElement:addRow() end
+function TableElement:getItemIndexByRealRowColumn() end
+function TableElement:loadProfile() end
+function TableElement:shouldFocusChange() end
+function TableElement:new() end
+function TableElement:initialize() end
+function TableElement:getDataCell() end
+function TableElement:onFocusLeave() end
+function TableElement:update() end
+function TableElement:getFocusTarget() end
+function TableElement:setCustomSortFunction() end
+function TableElement:updateAlternatingBackground() end
+function TableElement:setSelectedIndex() end
+function TableElement:invalidateLayout() end
+function TableElement:applyAlternatingBackgroundsToRows() end
+function TableElement:setCellVisibility() end
+function TableElement:setProfileOverrideFilterFunction() end
+function TableElement:superClass() end
+function TableElement:scrollToItemInView() end
+function TableElement:getDataRowForElement() end
+function TableElement:getViewDataCell() end
+function TableElement:getSortableColumn() end
+function TableElement:scrollTo() end
+function TableElement:onClickHeader() end
+function TableElement:onFocusEnter() end
+function TableElement:updateRows() end
+function TableElement:updateView() end
+function TableElement:copy() end
+function TableElement:buildTableRows() end
+function TableElement:setSelectionByRealRowAndColumn() end
+function TableElement:updateRowSelection() end
+function TableElement:removeRow() end
+function TableElement:disableSorting() end
+function TableElement:scrollList() end

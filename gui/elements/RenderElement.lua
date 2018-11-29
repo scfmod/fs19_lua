@@ -1,0 +1,21 @@
+RenderElement = {}
+
+function RenderElement:getSceneRoot() end
+function RenderElement:new() end
+function RenderElement:isa() end
+function RenderElement:loadFromXML() end
+function RenderElement:setSceneFinished() end
+function RenderElement:draw() end
+function RenderElement:superClass() end
+function RenderElement:setRenderDirty() end
+function RenderElement:setScene() end
+function RenderElement:update() end
+function RenderElement:copy() end
+function RenderElement:destroyScene() end
+function RenderElement:class() end
+function RenderElement:createScene() end
+function RenderElement:canReceiveFocus() end
+function RenderElement:delete() end
+function RenderElement:copyAttributes() end
+function RenderElement:loadProfile() end
+function RenderElement:createOverlay() end

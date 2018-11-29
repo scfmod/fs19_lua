@@ -1,0 +1,24 @@
+BitmapElement = {}
+
+function BitmapElement:new() end
+function BitmapElement:setDisabled() end
+function BitmapElement:loadFromXML() end
+function BitmapElement:copyAttributes() end
+function BitmapElement:draw() end
+function BitmapElement:superClass() end
+function BitmapElement:setImageUVs() end
+function BitmapElement:applyBitmapAspectScale() end
+function BitmapElement:getFocusTarget() end
+function BitmapElement:copy() end
+function BitmapElement:canReceiveFocus() end
+function BitmapElement:applyScreenAlignment() end
+function BitmapElement:class() end
+function BitmapElement:setImageColor() end
+function BitmapElement:setIsWebOverlay() end
+function BitmapElement:getOffset() end
+function BitmapElement:isa() end
+function BitmapElement:setImageRotation() end
+function BitmapElement:setAlpha() end
+function BitmapElement:delete() end
+function BitmapElement:loadProfile() end
+function BitmapElement:setImageFilename() end
