@@ -1,0 +1,88 @@
+InGameMenuGameSettingsFrame = {}
+
+InGameMenuGameSettingsFrame.CONTROLS = {
+  CHECKBOX_HELPER_REFILL_SEED = 'checkHelperRefillSeed'
+  HELP_BOX_TEXT = 'gameSettingsHelpBoxText'
+  CHECKBOX_HELPER_REFILL_FUEL = 'checkHelperRefillFuel'
+  SETTINGS_CONTAINER = 'settingsContainer'
+  CHECKBOX_PLANT_WITHERING = 'checkPlantWithering'
+  BUTTON_PAUSE = 'buttonPauseGame'
+  CHECKBOX_FUEL_USAGE = 'checkFuelUsage'
+  CHECKBOX_PLANT_GROWTH_RATE = 'checkPlantGrowthRate'
+  CHECKBOX_DIRT = 'checkDirt'
+  CHECKBOX_LIME_REQUIRED = 'checkLimeRequired'
+  OPTION_AUTO_SAVE_INTERVAL = 'multiAutoSaveInterval'
+  TEXT_SAVEGAME_NAME = 'textSavegameName'
+  HELP_BOX = 'gameSettingsHelpBox'
+  CHECKBOX_WEEDS_ENABLED = 'checkWeedsEnabled'
+  CHECKBOX_TRAFFIC = 'checkTraffic'
+  CHECKBOX_STOP_AND_GO_BRAKING = 'checkStopAndGoBraking'
+  CHECKBOX_HELPER_REFILL_FERTILIZER = 'checkHelperRefillFertilizer'
+  CHECKBOX_FRUIT_DESTRUCTION = 'checkFruitDestruction'
+  CHECKBOX_AUTO_MOTOR_START = 'checkAutoMotorStart'
+  CHECKBOX_HELPER_REFILL_MANURE = 'checkHelperRefillManure'
+  CHECKBOX_PLOWING_REQUIRED = 'checkPlowingRequired'
+  OPTION_TIME_SCALE = 'multiTimeScale'
+  CHECKBOX_HELPER_REFILL_SLURRY = 'checkHelperRefillSlurry'
+  BOX_LAYOUT = 'boxLayout'
+}
+InGameMenuGameSettingsFrame.PROFILE = {
+  BUTTON_UNPAUSE = 'ingameMenuSettingsUnpauseButton'
+  BUTTON_PAUSE = 'ingameMenuSettingsPauseButton'
+}
+InGameMenuGameSettingsFrame.L10N_SYMBOL = {
+  USAGE_DEFAULT = 'setting_fuelUsageDefault'
+  GROWTH_RATE_TEMPLATE = 'setting_plantGrowthRateState'
+  OFF = 'ui_off'
+  PAUSE = 'input_PAUSE'
+  SUBSTITUTION_PREFIX = '$l10n_'
+  USAGE_LOW = 'setting_fuelUsageLow'
+  BUY = 'ui_buy'
+  UNPAUSE = 'ui_unpause'
+}
+
+function InGameMenuGameSettingsFrame:onClickFruitDestruction() end
+function InGameMenuGameSettingsFrame:new() end
+function InGameMenuGameSettingsFrame:onClickPlantWithering() end
+function InGameMenuGameSettingsFrame:onClickHelperRefillSeed() end
+function InGameMenuGameSettingsFrame:initialize() end
+function InGameMenuGameSettingsFrame:setManureTriggers() end
+function InGameMenuGameSettingsFrame:copyAttributes() end
+function InGameMenuGameSettingsFrame:assignDirtTexts() end
+function InGameMenuGameSettingsFrame:updateGameSettings() end
+function InGameMenuGameSettingsFrame:updatePauseButtonState() end
+function InGameMenuGameSettingsFrame:setMissionInfo() end
+function InGameMenuGameSettingsFrame:copy() end
+function InGameMenuGameSettingsFrame:getMainElementPosition() end
+function InGameMenuGameSettingsFrame:onClickTraffic() end
+function InGameMenuGameSettingsFrame:onClickTimeScale() end
+function InGameMenuGameSettingsFrame:onClickLimeRequired() end
+function InGameMenuGameSettingsFrame:updateButtons() end
+function InGameMenuGameSettingsFrame:onButtonOpenServerSettings() end
+function InGameMenuGameSettingsFrame:updateToolTipBoxVisibility() end
+function InGameMenuGameSettingsFrame:isa() end
+function InGameMenuGameSettingsFrame:onToolTipBoxTextChanged() end
+function InGameMenuGameSettingsFrame:onClickHelperRefillFuel() end
+function InGameMenuGameSettingsFrame:onClickHelperRefillFertilizer() end
+function InGameMenuGameSettingsFrame:onClickAutoSaveInterval() end
+function InGameMenuGameSettingsFrame:superClass() end
+function InGameMenuGameSettingsFrame:onClickPauseGame() end
+function InGameMenuGameSettingsFrame:onClickWeedsEnabled() end
+function InGameMenuGameSettingsFrame:onClickPlowingRequired() end
+function InGameMenuGameSettingsFrame:onClickPlantGrowthRate() end
+function InGameMenuGameSettingsFrame:onClickAutomaticMotorStart() end
+function InGameMenuGameSettingsFrame:onClickHelperRefillManure() end
+function InGameMenuGameSettingsFrame:onClickStopAndGoBraking() end
+function InGameMenuGameSettingsFrame:onClickHelperRefillSlurry() end
+function InGameMenuGameSettingsFrame:assignAutoSaveTexts() end
+function InGameMenuGameSettingsFrame:onFrameOpen() end
+function InGameMenuGameSettingsFrame:class() end
+function InGameMenuGameSettingsFrame:getMainElementSize() end
+function InGameMenuGameSettingsFrame:assignTimeScaleTexts() end
+function InGameMenuGameSettingsFrame:assignPlantGrowthTexts() end
+function InGameMenuGameSettingsFrame:assignStaticTexts() end
+function InGameMenuGameSettingsFrame:assignDynamicTexts() end
+function InGameMenuGameSettingsFrame:onEnterPressedSavegameName() end
+function InGameMenuGameSettingsFrame:setHasMasterRights() end
+function InGameMenuGameSettingsFrame:onClickFuelUsage() end
+function InGameMenuGameSettingsFrame:onClickDirt() end

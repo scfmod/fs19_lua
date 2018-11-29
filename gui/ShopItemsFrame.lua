@@ -1,0 +1,77 @@
+ShopItemsFrame = {}
+
+ShopItemsFrame.CONTROLS = {
+  ITEM_BASE_INFO_TITLE = 'itemInfoTitle'
+  BASE_CATEGORY_LABEL = 'baseCategoryLabel'
+  ITEM_FUNCTION_TEXT = 'shopListAttributeInfo'
+  ATTRIBUTE_ICONS = 'attrIcon'
+  SHOP_SLOTS_TEXT = 'shopSlotsText'
+  DETAIL_BOX = 'detailBox'
+  CURRENT_BALANCE_TEXT = 'currentBalanceText'
+  ITEMS_LIST_TEMPLATE = 'itemTemplate'
+  ATTRIBUTE_ROW_LAYOUTS = 'attrRow'
+  CURRENT_BALANCE_LABEL = 'currentBalanceLabel'
+  BUTTON_RIGHT = 'buttonRight'
+  CATEGORY_LABEL = 'categoryLabel'
+  ITEM_BASE_INFO_LAYOUT = 'baseInfoLayout'
+  NAVIGATION_HEADER = 'navHeader'
+  ITEMS_HEADER_ICON = 'itemsHeaderIcon'
+  BUTTON_LEFT = 'buttonLeft'
+  ITEMS_LIST = 'itemsList'
+  SHOP_SLOTS_ICON = 'shopSlotsIcon'
+  ITEM_BASE_INFO_DESCRIPTION = 'itemInfoDescription'
+  ATTRIBUTE_VALUES = 'attrValue'
+  ITEMS_HEADER_TEXT = 'itemsHeaderText'
+  ITEM_FUNCTION_ICON = 'shopListAttributeInfoIcon'
+  FILL_TYPE_ICON_TEMPLATE = 'fruitIconTemplate'
+  ATTRIBUTE_BOXES = 'attrBox'
+}
+ShopItemsFrame.PROFILE = {
+  BALANCE_NEGATIVE = 'shopMoneyNeg'
+  BALANCE_POSITIVE = 'shopMoney'
+  ICON_FRUIT_TYPE = 'shopListAttributeFruitIcon'
+  LIST_ITEM_SELECTED = 'shopItemsListItemSelected'
+  ICON_FILL_TYPES_PLUS = 'shopListAttributeIconPlus'
+  LIST_ITEM_NEUTRAL = 'shopItemsListItem'
+  ICON_FILL_TYPES = 'shopListAttributeIconFillTypes'
+  ICON_SEED_FILL_TYPES = 'shopListAttributeIconSeeds'
+}
+ShopItemsFrame.SLOTS_USAGE_CRITICAL_THRESHOLD = 0.900000
+ShopItemsFrame.ITEM_IMAGE_NAME = 'itemIcon'
+ShopItemsFrame.NUM_ATTRIBUTES_PER_ROW = 5.000000
+ShopItemsFrame.ITEM_BRAND_IMAGE_NAME = 'itemBrandIcon'
+ShopItemsFrame.ITEM_PRICE_LABEL_NAME = 'itemValueLabel'
+ShopItemsFrame.ITEM_TITLE_LABEL_NAME = 'itemNameLabel'
+ShopItemsFrame.ITEM_MODDLC_LABEL_NAME = 'itemModDlcLabel'
+
+function ShopItemsFrame:new() end
+function ShopItemsFrame:initialize() end
+function ShopItemsFrame:delete() end
+function ShopItemsFrame:setItemClickCallback() end
+function ShopItemsFrame:onClickItem() end
+function ShopItemsFrame:getStoreItemDisplayPrice() end
+function ShopItemsFrame:copy() end
+function ShopItemsFrame:getMainElementPosition() end
+function ShopItemsFrame:assignItemFillTypesData() end
+function ShopItemsFrame:onClickRight() end
+function ShopItemsFrame:setCurrentBalance() end
+function ShopItemsFrame:onScroll() end
+function ShopItemsFrame:isa() end
+function ShopItemsFrame:superClass() end
+function ShopItemsFrame:assignItemAttributeData() end
+function ShopItemsFrame:onItemSelected() end
+function ShopItemsFrame:onClickLeft() end
+function ShopItemsFrame:setHeader() end
+function ShopItemsFrame:copyAttributes() end
+function ShopItemsFrame:updateScrollButtons() end
+function ShopItemsFrame:setShowBalance() end
+function ShopItemsFrame:setSlotsUsage() end
+function ShopItemsFrame:onFrameOpen() end
+function ShopItemsFrame:onDoubleClickItem() end
+function ShopItemsFrame:getMainElementSize() end
+function ShopItemsFrame:setDisplayItems() end
+function ShopItemsFrame:assignItemTextData() end
+function ShopItemsFrame:setItemSelectCallback() end
+function ShopItemsFrame:setShowNavigation() end
+function ShopItemsFrame:setCategory() end
+function ShopItemsFrame:class() end

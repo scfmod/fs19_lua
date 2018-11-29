@@ -1,0 +1,72 @@
+MPLoadingScreen = {}
+
+MPLoadingScreen.CONTROLS = {
+  GAMEPLAY_HINT_TEXT = 'gameplayHintText'
+  BUTTON_OK_PC = 'buttonOkPC'
+  TIP_STATE_BOX = 'tipStateBox'
+  MAP_SELECTION_PREVIEW = 'mapSelectionPreview'
+  LOADING_STATUS_TEXT = 'loadingStatusText'
+  MPLOADING_ANIMATION = 'mpLoadingAnimation'
+  MAP_NAME_TEXT = 'mapNameText'
+  BUTTON_DELETE_PC = 'buttonDeletePC'
+}
+
+MPLoadingScreen.STATE_WAIT_FOR_ACCEPT = 2.000000
+MPLoadingScreen.STATE_CONNECTING = 1.000000
+MPLoadingScreen.STATE_PORT_TESTING = 7.000000
+MPLoadingScreen.STATE_LOADING = 4.000000
+MPLoadingScreen.STATE_READY = 6.000000
+MPLoadingScreen.STATE_NONE = 0.000000
+MPLoadingScreen.DEFAULT_MAP_PREVIEW_FILENAME = 'dataS2/menu/hud/savegameBlank.png'
+MPLoadingScreen.NUM_GAMEPLAY_HINTS = 3.000000
+MPLoadingScreen.STATE_WAIT_FOR_MISSION = 5.000000
+MPLoadingScreen.STATE_SYNCHRONIZING = 3.000000
+
+function MPLoadingScreen:onCreate() end
+function MPLoadingScreen:new() end
+function MPLoadingScreen:onClickOk() end
+function MPLoadingScreen:setMapTitleAndPreview() end
+function MPLoadingScreen:showPortTesting() end
+function MPLoadingScreen:onClickCancel() end
+function MPLoadingScreen:setButtonState() end
+function MPLoadingScreen:setStatusText() end
+function MPLoadingScreen:startLocal() end
+function MPLoadingScreen:modSortFunc() end
+function MPLoadingScreen:onMasterServerConnectionFailed() end
+function MPLoadingScreen:setMissionInfo() end
+function MPLoadingScreen:startClient() end
+function MPLoadingScreen:setDynamicDataPercentage() end
+function MPLoadingScreen:onFinishedReceivingDynamicData() end
+function MPLoadingScreen:cleanup() end
+function MPLoadingScreen:onWaitingForDynamicData() end
+function MPLoadingScreen:loadGameRelatedData() end
+function MPLoadingScreen:reloadAsNewSavegame() end
+function MPLoadingScreen:onClose() end
+function MPLoadingScreen:onNatPunchFailed() end
+function MPLoadingScreen:onNatPunchSuceeded() end
+function MPLoadingScreen:onServerInfoDetails() end
+function MPLoadingScreen:onSaveGameLoadingFinished() end
+function MPLoadingScreen:onServerInfoDetailsFailed() end
+function MPLoadingScreen:showFailedToConnectDialog() end
+function MPLoadingScreen:isa() end
+function MPLoadingScreen:initializeLoading() end
+function MPLoadingScreen:onReadyToStart() end
+function MPLoadingScreen:loadSavegameAndStart() end
+function MPLoadingScreen:superClass() end
+function MPLoadingScreen:onOkSavegameLoadFailed() end
+function MPLoadingScreen:setGameplayHint() end
+function MPLoadingScreen:onCreatingGame() end
+function MPLoadingScreen:onOpen() end
+function MPLoadingScreen:cancelLoading() end
+function MPLoadingScreen:loadWithConnection() end
+function MPLoadingScreen:onSavegameLoaded() end
+function MPLoadingScreen:dlcProblemOnQuitOk() end
+function MPLoadingScreen:onGuiSetupFinished() end
+function MPLoadingScreen:class() end
+function MPLoadingScreen:onYesNoSavegameCorrupted() end
+function MPLoadingScreen:copy() end
+function MPLoadingScreen:onWaitingForAccept() end
+function MPLoadingScreen:onMasterServerConnectionReady() end
+function MPLoadingScreen:unloadGameRelatedData() end
+function MPLoadingScreen:update() end
+function MPLoadingScreen:startServer() end

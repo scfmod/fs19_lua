@@ -1,0 +1,122 @@
+InGameMenuMultiplayerUsersFrame = {}
+
+InGameMenuMultiplayerUsersFrame.CONTROLS = {
+  BALANCE_TEXT = 'currentBalanceText'
+  TRADE_ANIMALS_PERMISSION = 'tradeAnimalsPermissionCheckbox'
+  CREATE_FIELDS_PERMISSION = 'createFieldsPermissionCheckbox'
+  BUY_PLACEABLE_PERMISSION = 'buyPlaceablePermissionCheckbox'
+  SELL_PLACEABLE_PERMISSION = 'sellPlaceablePermissionCheckbox'
+  PERMISSION_ROWS = 'permissionRow'
+  ACTION_BUTTON_KICK = 'kickButton'
+  RESET_VEHICLE_PERMISSION = 'resetVehiclePermissionCheckbox'
+  PERMISSIONS_BOX = 'permissionsBox'
+  BALANCE_LABEL = 'currentBalanceLabel'
+  BUY_VEHICLE_PERMISSION = 'buyVehiclePermissionCheckbox'
+  ACTION_BUTTON_BAN = 'banButton'
+  SELL_VEHICLE_PERMISSION = 'sellVehiclePermissionCheckbox'
+  USER_LIST = 'userList'
+  CONTAINER = 'container'
+  PLAYER_ROW_TEMPLATE = 'userListPlayerTemplate'
+  ACTION_BUTTON_TRANSFER = 'transferButton'
+  MANAGE_CONTRACTS_PERMISSION = 'manageMissionsPermissionCheckbox'
+  ACTION_BUTTON_CONTRACTOR = 'contractorButton'
+  HIRE_ASSISTANT_PERMISSION = 'hireAssistantPermissionCheckbox'
+  FARM_ROW_TEMPLATE = 'userListFarmTemplate'
+  ACTION_BUTTON_PROMOTE = 'promoteButton'
+  ACTIONS_BOX = 'actionsBox'
+  ACTION_BUTTON_REMOVE_FROM_FARM = 'removeButton'
+}
+InGameMenuMultiplayerUsersFrame.PROFILE = {
+  CURRENT_PLAYER_TEXT = 'ingameMenuMPUsersListRowTextCurrentPlayer'
+  BALANCE_POSITIVE = 'shopMoney'
+  BALANCE_NEGATIVE = 'shopMoneyNeg'
+}
+InGameMenuMultiplayerUsersFrame.L10N_SYMBOL = {
+  DIALOG_GRANT_CONTRACTOR_CONFIRM = 'ui_contractorGrantConfirm'
+  INFO_CANNOT_KICK_SERVER = 'ui_serverCannotBeKicked'
+  MONEY_BUTTON_TEMPLATE = 'button_mp_transferMoney'
+  DIALOG_REMOVE_CONFIRM = 'ui_removeFromFarmConfirm'
+  BUTTON_INVITE_FRIENDS = 'ui_inviteScreen'
+  BUTTON_ADMIN = 'button_adminLogin'
+  DIALOG_BAN_TITLE = 'ui_banTitle'
+  BUTTON_UNBAN = 'button_unban'
+  BUTTON_UNCONTRACT = 'button_mp_ungrant'
+  DIALOG_DENY_CONTRACTOR_CONFIRM = 'ui_contractorUngrantConfirm'
+  DIALOG_BAN_CONFIRM = 'ui_banConfirm'
+  BUTTON_CONTRACT = 'button_mp_grant'
+  DIALOG_CONTRACTOR_STATE_TITLE = 'ui_contractorStateChangeTitle'
+  DIALOG_PROMOTE_TITLE = 'ui_promoteToFarmManagerTitle'
+  PROMPT_ADMIN_PASSWORD = 'ui_enterAdminPassword'
+  DIALOG_PROMOTE_CONFIRM = 'ui_promoteToFarmManagerConfirm'
+  DIALOG_KICK_TITLE = 'ui_kickTitle'
+  BUTTON_SHOW_PROFILE = 'button_showProfile'
+  DIALOG_REMOVE_TITLE = 'ui_removeFromFarmTitle'
+  LABEL_ADMIN = 'ui_admin'
+  DIALOG_KICK_CONFIRM = 'ui_kickConfirm'
+  LABEL_FARM_MANAGER = 'ui_farmManager'
+  INFO_CANNOT_BAN_SERVER = 'ui_serverCannotBeBanned'
+}
+InGameMenuMultiplayerUsersFrame.ELEMENT_NAME = {
+  ROW_FARM_COLOR = 'farmColor'
+  ROW_PLAYER_NAME = 'playerName'
+  ROW_FARM_NAME = 'farmName'
+}
+InGameMenuMultiplayerUsersFrame.TRANSFER_AMOUNT = {
+  LARGE = 250000.000000
+  MEDIUM = 50000.000000
+  SMALL = 5000.000000
+}
+function InGameMenuMultiplayerUsersFrame:setupUserListFocusContext() end
+function InGameMenuMultiplayerUsersFrame:onAdminLoginSuccess() end
+function InGameMenuMultiplayerUsersFrame:onUserAdded() end
+function InGameMenuMultiplayerUsersFrame:new() end
+function InGameMenuMultiplayerUsersFrame:initialize() end
+function InGameMenuMultiplayerUsersFrame:delete() end
+function InGameMenuMultiplayerUsersFrame:update() end
+function InGameMenuMultiplayerUsersFrame:onAdminPassword() end
+function InGameMenuMultiplayerUsersFrame:onContractingStateChanged() end
+function InGameMenuMultiplayerUsersFrame:setBanStorage() end
+function InGameMenuMultiplayerUsersFrame:onUserRemoved() end
+function InGameMenuMultiplayerUsersFrame:onYesNoBan() end
+function InGameMenuMultiplayerUsersFrame:getMainElementPosition() end
+function InGameMenuMultiplayerUsersFrame:onMasterUserAdded() end
+function InGameMenuMultiplayerUsersFrame:onClickTransferButton() end
+function InGameMenuMultiplayerUsersFrame:updateElements() end
+function InGameMenuMultiplayerUsersFrame:onPlayerFarmChanged() end
+function InGameMenuMultiplayerUsersFrame:onFarmsChanged() end
+function InGameMenuMultiplayerUsersFrame:rebuildUserList() end
+function InGameMenuMultiplayerUsersFrame:onButtonKick() end
+function InGameMenuMultiplayerUsersFrame:setCurrentBalance() end
+function InGameMenuMultiplayerUsersFrame:onPermissionChanged() end
+function InGameMenuMultiplayerUsersFrame:onClickContractor() end
+function InGameMenuMultiplayerUsersFrame:onYesNoPromoteToFarmManager() end
+function InGameMenuMultiplayerUsersFrame:onClickPromote() end
+function InGameMenuMultiplayerUsersFrame:onYesNoRemoveFromFarm() end
+function InGameMenuMultiplayerUsersFrame:onButtonInviteFriends() end
+function InGameMenuMultiplayerUsersFrame:isa() end
+function InGameMenuMultiplayerUsersFrame:onClickRemoveFromFarm() end
+function InGameMenuMultiplayerUsersFrame:transferMoney() end
+function InGameMenuMultiplayerUsersFrame:onYesNoToggleContractorState() end
+function InGameMenuMultiplayerUsersFrame:onFrameOpen() end
+function InGameMenuMultiplayerUsersFrame:onButtonBan() end
+function InGameMenuMultiplayerUsersFrame:onUserSelected() end
+function InGameMenuMultiplayerUsersFrame:onButtonAdminLogin() end
+function InGameMenuMultiplayerUsersFrame:buildUserDisplayInfo() end
+function InGameMenuMultiplayerUsersFrame:onButtonShowProfile() end
+function InGameMenuMultiplayerUsersFrame:onFrameClose() end
+function InGameMenuMultiplayerUsersFrame:getSortedFarmList() end
+function InGameMenuMultiplayerUsersFrame:getSortedUsers() end
+function InGameMenuMultiplayerUsersFrame:onClickPermission() end
+function InGameMenuMultiplayerUsersFrame:onYesNoKick() end
+function InGameMenuMultiplayerUsersFrame:copyAttributes() end
+function InGameMenuMultiplayerUsersFrame:updateDisplay() end
+function InGameMenuMultiplayerUsersFrame:updateMenuButtons() end
+function InGameMenuMultiplayerUsersFrame:getMainElementSize() end
+function InGameMenuMultiplayerUsersFrame:class() end
+function InGameMenuMultiplayerUsersFrame:setPlayerFarm() end
+function InGameMenuMultiplayerUsersFrame:updateBalance() end
+function InGameMenuMultiplayerUsersFrame:onButtonUnBan() end
+function InGameMenuMultiplayerUsersFrame:setUsers() end
+function InGameMenuMultiplayerUsersFrame:setCurrentUserId() end
+function InGameMenuMultiplayerUsersFrame:copy() end
+function InGameMenuMultiplayerUsersFrame:superClass() end

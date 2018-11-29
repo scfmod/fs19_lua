@@ -1,0 +1,68 @@
+CharacterCreationScreen = {}
+
+CharacterCreationScreen.CONTROLS = {
+  BUTTON_ROT_LEFT = 'buttonLeft'
+  VEST_OPTION = 'jacketOption'
+  EDIT_BUTTON = 'editButton'
+  COLOR_BUTTON_LAYOUT = 'colorButtonLayout'
+  CHARACTER_SETTINGS_LAYOUT = 'characterSettingsLayout'
+  CHANGE_NAME_BUTTON = 'changeNameButton'
+  CHARACTER_SCENE = 'sceneRender'
+  HAT_OPTION = 'hatOption'
+  BUTTON_ROT_RIGHT = 'buttonRight'
+  BODY_OPTION = 'bodyOption'
+  CONTINUE_BUTTON = 'continueButton'
+  GLASSES_OPTION = 'accessoryOption'
+  HAIR_OPTION = 'hairOption'
+  CHARACTER_NAME_INPUT = 'characterNameInput'
+  COLOR_BUTTON_TEMPLATE = 'colorButtonTemplate'
+}
+CharacterCreationScreen.ROTATION_STEP_SIZE = 0.010000
+CharacterCreationScreen.COLOR_ELEMENT_NAME = 'colorImage'
+
+function CharacterCreationScreen:focusLinkColorButtons() end
+function CharacterCreationScreen:createIdleAnimation() end
+function CharacterCreationScreen:new() end
+function CharacterCreationScreen:onClickOk() end
+function CharacterCreationScreen:onEscPressedCharacterName() end
+function CharacterCreationScreen:resetSelection() end
+function CharacterCreationScreen:setIsMultiplayer() end
+function CharacterCreationScreen:onFocusColor() end
+function CharacterCreationScreen:onChangeHairStyle() end
+function CharacterCreationScreen:update() end
+function CharacterCreationScreen:updatePossiblePlayerOptions() end
+function CharacterCreationScreen:loadPlayer() end
+function CharacterCreationScreen:onClose() end
+function CharacterCreationScreen:setHatHairNodeVisibility() end
+function CharacterCreationScreen:onLeaveColor() end
+function CharacterCreationScreen:onClickActivate() end
+function CharacterCreationScreen:loadAccessoryFinished() end
+function CharacterCreationScreen:setMenuTexts() end
+function CharacterCreationScreen:onClickColorButton() end
+function CharacterCreationScreen:updateOkButton() end
+function CharacterCreationScreen:isa() end
+function CharacterCreationScreen:verifyCharacterName() end
+function CharacterCreationScreen:onChangeAccessory() end
+function CharacterCreationScreen:loadHatFinished() end
+function CharacterCreationScreen:superClass() end
+function CharacterCreationScreen:loadPlayers() end
+function CharacterCreationScreen:onNameInputLeave() end
+function CharacterCreationScreen:loadCharacterFinished() end
+function CharacterCreationScreen:onChangeHat() end
+function CharacterCreationScreen:deleteAnimation() end
+function CharacterCreationScreen:onChangeJacket() end
+function CharacterCreationScreen:updateCharacterOptions() end
+function CharacterCreationScreen:onNameInputFocus() end
+function CharacterCreationScreen:updateCharacter() end
+function CharacterCreationScreen:updateCharacterWithSettings() end
+function CharacterCreationScreen:class() end
+function CharacterCreationScreen:onRenderLoad() end
+function CharacterCreationScreen:setCharacterIndex() end
+function CharacterCreationScreen:onChangeBody() end
+function CharacterCreationScreen:loadClothing() end
+function CharacterCreationScreen:onEnterPressedCharacterName() end
+function CharacterCreationScreen:onCreate() end
+function CharacterCreationScreen:onOpen() end
+function CharacterCreationScreen:copy() end
+function CharacterCreationScreen:showChangeNameButton() end
+function CharacterCreationScreen:createColors() end

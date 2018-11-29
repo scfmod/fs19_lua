@@ -1,0 +1,65 @@
+SettingsDeviceFrame = {}
+
+SettingsDeviceFrame.L10N_SYMBOL = {
+  GAMEPAD_AXIS = 'setting_gamepadAxis'
+  GAMEPAD_SENSITIVITY = 'setting_gamepadSensitivity'
+  DEVICE_MOUSE = 'ui_mouse'
+  GAMEPAD_DEADZONE = 'setting_gamepadDeadzone'
+  DEVICE_CONFIGURATION = 'ui_deviceConfiguration'
+  SWITCH_DEVICE = 'ui_switchDevice'
+  SAVING_FINISHED = 'ui_savingFinished'
+  BUTTON_APPLY = 'button_apply'
+}
+SettingsDeviceFrame.CONTROLS = {
+  ELEMENT_SENSITIVITY_10 = 'sensitivityElement10'
+  ELEMENT_SENSITIVITY_3 = 'sensitivityElement3'
+  ELEMENT_DEADZONE_3 = 'deadzoneElement3'
+  ELEMENT_SENSITIVITY_1 = 'sensitivityElement1'
+  ELEMENT_SENSITIVITY_6 = 'sensitivityElement6'
+  MAIN_CONTAINER = 'settingsContainer'
+  ELEMENT_DEADZONE_6 = 'deadzoneElement6'
+  ELEMENT_SENSITIVITY_12 = 'sensitivityElement12'
+  ELEMENT_DEADZONE_11 = 'deadzoneElement11'
+  ELEMENT_SENSITIVITY_8 = 'sensitivityElement8'
+  ELEMENT_DEADZONE_8 = 'deadzoneElement8'
+  ELEMENT_DEADZONE_12 = 'deadzoneElement12'
+  ELEMENT_DEADZONE_9 = 'deadzoneElement9'
+  ELEMENT_TITLE = 'titleElement'
+  ELEMENT_DEADZONE_2 = 'deadzoneElement2'
+  ELEMENT_SENSITIVITY_MOUSE = 'sensitivityMouseElement'
+  ELEMENT_SENSITIVITY_13 = 'sensitivityElement13'
+  ELEMENT_SENSITIVITY_4 = 'sensitivityElement4'
+  ELEMENT_DEADZONE_4 = 'deadzoneElement4'
+  ELEMENT_SENSITIVITY_9 = 'sensitivityElement9'
+  ELEMENT_DEADZONE_5 = 'deadzoneElement5'
+  ELEMENT_SENSITIVITY_2 = 'sensitivityElement2'
+  ELEMENT_DEADZONE_13 = 'deadzoneElement13'
+  ELEMENT_DEADZONE_10 = 'deadzoneElement10'
+  ELEMENT_DEADZONE_7 = 'deadzoneElement7'
+  MAIN_BOX = 'boxLayout'
+  ELEMENT_SENSITIVITY_11 = 'sensitivityElement11'
+  ELEMENT_SENSITIVITY_5 = 'sensitivityElement5'
+  ELEMENT_DEADZONE_1 = 'deadzoneElement1'
+  ELEMENT_SENSITIVITY_7 = 'sensitivityElement7'
+}
+function SettingsDeviceFrame:new() end
+function SettingsDeviceFrame:isa() end
+function SettingsDeviceFrame:initialize() end
+function SettingsDeviceFrame:copyAttributes() end
+function SettingsDeviceFrame:superClass() end
+function SettingsDeviceFrame:onClickDeadzone() end
+function SettingsDeviceFrame:updateView() end
+function SettingsDeviceFrame:update() end
+function SettingsDeviceFrame:onCreateDeadzone() end
+function SettingsDeviceFrame:updateController() end
+function SettingsDeviceFrame:copy() end
+function SettingsDeviceFrame:getMainElementPosition() end
+function SettingsDeviceFrame:class() end
+function SettingsDeviceFrame:onSwitchDevice() end
+function SettingsDeviceFrame:getMainElementSize() end
+function SettingsDeviceFrame:onClickMouseSensitivity() end
+function SettingsDeviceFrame:onClickSensitivity() end
+function SettingsDeviceFrame:onApplySettings() end
+function SettingsDeviceFrame:onCreateSensitivity() end
+function SettingsDeviceFrame:onFrameOpen() end
+function SettingsDeviceFrame:getMenuButtonInfo() end

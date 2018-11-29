@@ -1,0 +1,95 @@
+JoinGameScreen = {}
+
+JoinGameScreen.CONTROLS = {
+  CAPACITY_ELEMENT = 'capacityElement'
+  SORT_BUTON = 'sortButton'
+  DETAIL_BUTTON = 'detailButtonElement'
+  SERVER_NAME_ELEMENT = 'serverNameElement'
+  CHANGE_BUTTON = 'changeButton'
+  SLIDER_ELEMENT = 'sliderElement'
+  START_BUTTON = 'startButtonElement'
+  MOD_DLC_ELEMENT = 'modDlcElement'
+  MAIN_BOX = 'mainBox'
+  SERVER_LIST = 'serverList'
+  NUM_SERVERS_TEXT = 'numServersText'
+  PASSWORD_ELEMENT = 'passwordElement'
+  BUTTON_BOX = 'buttonBox'
+}
+JoinGameScreen.DATA_BINDING_PLAYERS = 'dbPlayers'
+JoinGameScreen.DATA_BINDING_FRIENDS = 'dbFriends'
+JoinGameScreen.DATA_BINDING_GAME_NAME = 'dbGameName'
+JoinGameScreen.DATA_BINDING_LANGUAGE = 'dbLanguage'
+JoinGameScreen.DATA_BINDING_LAN = 'dbLan'
+JoinGameScreen.DATA_BINDING_PASSWORD = 'dbPassword'
+JoinGameScreen.DATA_BINDING_INTERNET = 'dbInternet'
+JoinGameScreen.DATA_BINDING_MODS_MISSING = 'dbModsMissing'
+JoinGameScreen.DATA_BINDING_SLOTS_AVAILABLE = 'dbSlotsAvailable'
+JoinGameScreen.DATA_BINDING_SLOTS_FULL = 'dbSlotsFull'
+JoinGameScreen.DATA_BINDING_MODS_OK = 'dbModsOk'
+JoinGameScreen.DATA_BINDING_MAP_NAME = 'dbMapName'
+JoinGameScreen.PROFILE_FILTER_OUT_SUFFIX = 'FilterOut'
+
+function JoinGameScreen:onLeaveGameName() end
+function JoinGameScreen:onServerInfoStart() end
+function JoinGameScreen:onServerInfoDetailsFailed() end
+function JoinGameScreen:onPasswordEntered() end
+function JoinGameScreen:onServerInfoEnd() end
+function JoinGameScreen:onDataBindIconSlotsAvailable() end
+function JoinGameScreen:onCreateMaxNumPlayers() end
+function JoinGameScreen:onCreateMap() end
+function JoinGameScreen:onOpen() end
+function JoinGameScreen:copy() end
+function JoinGameScreen:onDoubleClick() end
+function JoinGameScreen:onClickActivate() end
+function JoinGameScreen:buildServerDataRow() end
+function JoinGameScreen:rebuildServerList() end
+function JoinGameScreen:onServerInfoDetails() end
+function JoinGameScreen:onClickLanguage() end
+function JoinGameScreen:onDataBindGameName() end
+function JoinGameScreen:onInputModeChanged() end
+function JoinGameScreen:isa() end
+function JoinGameScreen:onServerInfo() end
+function JoinGameScreen:isSelectedServerValid() end
+function JoinGameScreen:onServerNameChanged() end
+function JoinGameScreen:onDataBindIconServerLan() end
+function JoinGameScreen:onClickMap() end
+function JoinGameScreen:setStartButtonState() end
+function JoinGameScreen:startGame() end
+function JoinGameScreen:onClickModsDlcs() end
+function JoinGameScreen:onMasterServerConnectionReady() end
+function JoinGameScreen:getSelectedServer() end
+function JoinGameScreen:onLeaveHeader() end
+function JoinGameScreen:onDataBindLanguage() end
+function JoinGameScreen:new() end
+function JoinGameScreen:onClickBack() end
+function JoinGameScreen:showSortButton() end
+function JoinGameScreen:loadSettings() end
+function JoinGameScreen:onClickCancel() end
+function JoinGameScreen:onDataBindIconModsMissing() end
+function JoinGameScreen:update() end
+function JoinGameScreen:getServers() end
+function JoinGameScreen:onClickMaxNumPlayers() end
+function JoinGameScreen:setTableFiltersAndSorting() end
+function JoinGameScreen:filterServer() end
+function JoinGameScreen:onMasterServerConnectionFailed() end
+function JoinGameScreen:saveFilterSettings() end
+function JoinGameScreen:class() end
+function JoinGameScreen:onDataBindIconServerPassword() end
+function JoinGameScreen:onDataBindPlayers() end
+function JoinGameScreen:onDataBindIconSlotsFull() end
+function JoinGameScreen:superClass() end
+function JoinGameScreen:onListSelectionChanged() end
+function JoinGameScreen:onDataBindIconFriends() end
+function JoinGameScreen:onCreateLanguage() end
+function JoinGameScreen:onDataBindMapName() end
+function JoinGameScreen:onClose() end
+function JoinGameScreen:onClickOk() end
+function JoinGameScreen:onClickHeader() end
+function JoinGameScreen:onClickCapacity() end
+function JoinGameScreen:onFocusGameName() end
+function JoinGameScreen:onDataBindIconServerInternet() end
+function JoinGameScreen:onServerListRefresh() end
+function JoinGameScreen:onClickPassword() end
+function JoinGameScreen:onDataBindIconModsOk() end
+function JoinGameScreen:triggerRebuildOnFilterChange() end
+function JoinGameScreen:onFocusHeader() end

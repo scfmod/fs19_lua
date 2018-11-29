@@ -1,0 +1,79 @@
+MainScreen = {}
+
+MainScreen.CONTROLS = {
+  BUTTON_NOTIFICATION_RIGHT = 'notificationButtonRight'
+  NOTIFICATION_TITLE = 'notificationTitle'
+  NOTIFICATION_BOX = 'notificationElement'
+  GAMER_TAG_ELEMENT = 'gamerTagElement'
+  NOTIFICATION_MESSAGE = 'notificationMessage'
+  BACKGROUND_IMAGE = 'backgroundImage'
+  BACKGROUND_TRACTOR = 'backgroundTractor'
+  LOGO = 'logo'
+  BACKGROUND_GLASSEDGE = 'glassEdgeOverlay'
+  BACKGROUND_BLURRY = 'backgroundBlurImage'
+  BUTTON_NOTIFICATION_OPEN = 'notificationButtonOpen'
+  NOTIFICATION_DATE = 'notificationDate'
+  BUTTON_NOTIFICATION_LEFT = 'notificationButtonLeft'
+  NOTIFICATION_INDEX_STATE = 'indexState'
+  BUTTON_BOX = 'buttonBox'
+  NOTIFICATION_IMAGE = 'notificationImage'
+}
+MainScreen.IMAGES = {
+  1 = {
+    filename = 'dataS2/menu/menuTractors/menuTractor_01.png'
+    sizeFactor = 1.000000
+  }
+}
+MainScreen.NOTIFICATION_ANIM_DELAY = 2000.000000
+MainScreen.NOTIFICATION_CHECK_DELAY = 500.000000
+MainScreen.NOTIFICATION_ANIMATION_DURATION = 500.000000
+
+function MainScreen:onClickPreviousNotification() end
+function MainScreen:new() end
+function MainScreen:onCreateCreditsButton() end
+function MainScreen:onClickMenuExtra1() end
+function MainScreen:onSettingsClick() end
+function MainScreen:onMultiplayerClickPerform() end
+function MainScreen:setupNotifications() end
+function MainScreen:onCreateAchievementsButton() end
+function MainScreen:onCreateChangeUserButton() end
+function MainScreen:onClose() end
+function MainScreen:copy() end
+function MainScreen:onCreateStoreButton() end
+function MainScreen:onCreateGameVersion() end
+function MainScreen:resetNotifications() end
+function MainScreen:onMultiplayerClick() end
+function MainScreen:onCareerClick() end
+function MainScreen:assignNotificationData() end
+function MainScreen:onCreateQuitButton() end
+function MainScreen:onYesNoUseGamepadMode() end
+function MainScreen:onCreate() end
+function MainScreen:onClickOpenNotification() end
+function MainScreen:update() end
+function MainScreen:updateFading() end
+function MainScreen:onCreateTutorialsButton() end
+function MainScreen:onTutorialsClick() end
+function MainScreen:isa() end
+function MainScreen:setNotificationButtonsDisabled() end
+function MainScreen:onCreateCareerButton() end
+function MainScreen:onChangeUserClick() end
+function MainScreen:onDlcCorruptClick() end
+function MainScreen:superClass() end
+function MainScreen:onClickNextNotification() end
+function MainScreen:cycleNotification() end
+function MainScreen:onYesNoUseHeadTracking() end
+function MainScreen:updateNotifications() end
+function MainScreen:onStoreFailedOk() end
+function MainScreen:onCreateDownloadModsButton() end
+function MainScreen:onHighlight() end
+function MainScreen:onCreditsClick() end
+function MainScreen:onStoreClick() end
+function MainScreen:class() end
+function MainScreen:onAchievementsClick() end
+function MainScreen:onDownloadModsClickPerform() end
+function MainScreen:onOpen() end
+function MainScreen:onQuitClick() end
+function MainScreen:onCreateSettingsButton() end
+function MainScreen:onRestartModDialog() end
+function MainScreen:onCreateMultiplayerButton() end
+function MainScreen:onDownloadModsClick() end

@@ -1,0 +1,76 @@
+InGameMenuContractsFrame = {}
+
+InGameMenuContractsFrame.CONTROLS = {
+  OWNER_OF_TEXT = 'ownerOfText'
+  REWARD_TEXT = 'rewardText'
+  TITLE_TEXT = 'titleText'
+  FARMER_IMAGE = 'farmerImage'
+  CONTRACTS_CONTAINER = 'contractsContainer'
+  TALLY_BOX = 'tallyBox'
+  USE_OWN_EQUIPMENT = 'useOwnEquipementText'
+  PROGRESS_TITLE_TEXT = 'progressTitleText'
+  CONTRACTS_LIST_ITEM_TEMPLATE = 'contractsListItemTemplate'
+  FARMER_NAME = 'farmerName'
+  PROGRESS_BAR_BG = 'progressBarBg'
+  PROGRESS_TEXT = 'progressText'
+  CONTRACTS_LIST = 'contractsList'
+  NO_CONTRACTS_BOX = 'noContractsBox'
+  CONTRACTS_LIST_BOX = 'contractsListBox'
+  PROGRESS_BAR = 'progressBar'
+  VEHICLE_TEMPLATE = 'vehicleTemplate'
+  ACTION_TEXT = 'actionText'
+  AREA_TEXT = 'areaText'
+  EXTRA_PROGRESS_TEXT = 'extraProgressText'
+  VEHICLES_BOX = 'vehiclesBox'
+  FARMER_BOX = 'farmerBox'
+  NPC_FIELD_BOX = 'npcFieldBox'
+  CONTRACT_TEXT = 'contractDescriptionText'
+  FIELD_BIG_TEXT = 'fieldBigText'
+  DETAILS_BOX = 'detailsBox'
+  CONTRACT_BOX = 'contractBox'
+}
+InGameMenuContractsFrame.BUTTON_STATE = {
+  ACTIVE = 1.000000
+  FINISHED = 2.000000
+  POSSIBLE = 0.000000
+}
+
+InGameMenuContractsFrame.LIST_ITEM_REWARD_NAME = 'reward'
+InGameMenuContractsFrame.LIST_ITEM_INDICATOR_FINISHED_NAME = 'indicatorFinished'
+InGameMenuContractsFrame.LIST_ITEM_INDICATOR_ACTIVE_NAME = 'indicatorActive'
+InGameMenuContractsFrame.LIST_ITEM_INDICATOR_FAILED_NAME = 'indicatorFailed'
+InGameMenuContractsFrame.LIST_ITEM_FIELD_NAME = 'field'
+InGameMenuContractsFrame.LIST_ITEM_CONTRACT_NAME = 'contract'
+
+function InGameMenuContractsFrame:new() end
+function InGameMenuContractsFrame:initialize() end
+function InGameMenuContractsFrame:copyAttributes() end
+function InGameMenuContractsFrame:getSelectedContract() end
+function InGameMenuContractsFrame:updateTransportContractInfo() end
+function InGameMenuContractsFrame:updateProgressBar() end
+function InGameMenuContractsFrame:getMainElementPosition() end
+function InGameMenuContractsFrame:assignContractToListItem() end
+function InGameMenuContractsFrame:updateDetailContents() end
+function InGameMenuContractsFrame:onContractsChanged() end
+function InGameMenuContractsFrame:setButtonsForState() end
+function InGameMenuContractsFrame:onCancelDialog() end
+function InGameMenuContractsFrame:isa() end
+function InGameMenuContractsFrame:sortList() end
+function InGameMenuContractsFrame:onListSelectionChanged() end
+function InGameMenuContractsFrame:onGuiSetupFinished() end
+function InGameMenuContractsFrame:updateList() end
+function InGameMenuContractsFrame:startContract() end
+function InGameMenuContractsFrame:onFrameOpen() end
+function InGameMenuContractsFrame:onFrameClose() end
+function InGameMenuContractsFrame:updateFarmersBox() end
+function InGameMenuContractsFrame:onButtonDismiss() end
+function InGameMenuContractsFrame:onButtonLease() end
+function InGameMenuContractsFrame:onButtonAccept() end
+function InGameMenuContractsFrame:delete() end
+function InGameMenuContractsFrame:class() end
+function InGameMenuContractsFrame:superClass() end
+function InGameMenuContractsFrame:getMainElementSize() end
+function InGameMenuContractsFrame:onButtonCancel() end
+function InGameMenuContractsFrame:copy() end
+function InGameMenuContractsFrame:updateButtonsForPermissions() end
+function InGameMenuContractsFrame:updateFieldContractInfo() end

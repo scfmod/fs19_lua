@@ -1,0 +1,56 @@
+CreateGameScreen = {}
+
+CreateGameScreen.CONTROLS = {
+  CAPACITY_ELEMENT = 'capacityElement'
+  MULTIPLAYER_ELEMENT = 'multiplayerLanguageElement'
+  SERVER_NAME_ELEMENT = 'serverNameElement'
+  PORT_ELEMENT = 'portElement'
+  USE_UPNP_ELEMENT = 'useUpnpElement'
+  CHANGE_BUTTON = 'changeButton'
+  BUTTON_BOX = 'buttonBox'
+  AUTO_ACCEPT_ELEMENT = 'autoAcceptElement'
+  ALLOW_ONLY_FRIENDS_ELEMENT = 'allowOnlyFriendsElement'
+  AUTO_SAVE_ELEMENT = 'autoSaveElement'
+  PASSWORD_ELEMENT = 'passwordElement'
+  BANDWIDTH_ELEMENT = 'bandwidthElement'
+  SETTINGS_BOX = 'settingsBox'
+}
+
+function CreateGameScreen:removePortMapping() end
+function CreateGameScreen:onEnter() end
+function CreateGameScreen:new() end
+function CreateGameScreen:onClickBack() end
+function CreateGameScreen:onClickOk() end
+function CreateGameScreen:onClickBandwidth() end
+function CreateGameScreen:onCreateBandwidth() end
+function CreateGameScreen:update() end
+function CreateGameScreen:onMasterServerConnectionFailed() end
+function CreateGameScreen:onOpen() end
+function CreateGameScreen:setMissionInfo() end
+function CreateGameScreen:copy() end
+function CreateGameScreen:onClickActivate() end
+function CreateGameScreen:getDefaultServerName() end
+function CreateGameScreen:onCreateMultiplayerLanguage() end
+function CreateGameScreen:onEnterPressed() end
+function CreateGameScreen:isa() end
+function CreateGameScreen:onCreateNumPlayer() end
+function CreateGameScreen:onClickNumPlayer() end
+function CreateGameScreen:superClass() end
+function CreateGameScreen:getPort() end
+function CreateGameScreen:showChangeButton() end
+function CreateGameScreen:onFocus() end
+function CreateGameScreen:onIsUnicodeAllowed() end
+function CreateGameScreen:preparePortAndStartGame() end
+function CreateGameScreen:fillCapacity() end
+function CreateGameScreen:onClickMultiplayerLanguage() end
+function CreateGameScreen:class() end
+function CreateGameScreen:verifyServerName() end
+function CreateGameScreen:startGameAfterPortCheck() end
+function CreateGameScreen:onClickAutoAccept() end
+function CreateGameScreen:onClickAutoSave() end
+function CreateGameScreen:onEscPressed() end
+function CreateGameScreen:onClickAllowOnlyFriends() end
+function CreateGameScreen:unusedPacketReceived() end
+function CreateGameScreen:onClickUseUpnp() end
+function CreateGameScreen:onCreate() end
+function CreateGameScreen:onLeave() end

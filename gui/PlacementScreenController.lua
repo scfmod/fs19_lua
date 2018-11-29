@@ -1,0 +1,99 @@
+PlacementScreenController = {}
+
+PlacementScreenController.MESSAGE = {
+  SELL_WARNING_INFO = 1.000000
+  SELL_ITEM = 2.000000
+  TOO_MANY_TREES = 5.000000
+  NOT_ENOUGH_MONEY = 3.000000
+  NOT_ENOUGH_SLOTS = 4.000000
+}
+PlacementScreenController.L10N_SYMBOL = {
+  ACTION_ROTATE_CAMERA = 'action_rotateCamera'
+  ACTION_MOVE = 'ui_movePlaceable'
+  WARNING_NOT_OWNED = 'warning_youDontOwnThisItem'
+  WARNING_NOT_ENOUGH_SLOTS = 'shop_messageNotEnoughSlotsToBuy'
+  WARNING_TOO_MANY_TREES = 'warning_tooManyTrees'
+  BUTTON_BACK = 'button_back'
+  BUTTON_SELL = 'button_sell'
+  WARNING_NOT_ENOUGH_MONEY = 'shop_messageNotEnoughMoneyToBuy'
+  ACTION_PLACEMENT_HEIGHT = 'action_changePlacementHeight'
+  BUTTON_BUY = 'button_buy'
+  ACTION_RESET_CAMERA = 'setting_resetUICamera'
+  ACTION_ROTATE_OBJECT = 'action_rotate'
+  ACTION_ZOOM = 'action_cameraZoom'
+}
+
+PlacementScreenController.SNAP_MOVE_TIME = 1000.000000
+PlacementScreenController.SNAP_ANGLE = 0.130900
+PlacementScreenController.PLACEMENT_COLLISION_MASK = 4576.000000
+PlacementScreenController.INPUT_CONTEXT_NAME = 'PLACEMENT'
+PlacementScreenController.DISPLACEMENT_COST_PER_M3 = 10.000000
+PlacementScreenController.MOVE_FACTOR = 0.062500
+PlacementScreenController.SNAP_SIZE = 10.000000
+PlacementScreenController.PLACEMENT_REASON_OBJECT_COLLISION = 6.000000
+PlacementScreenController.PLACEMENT_REASON_CANNOT_BE_BOUGHT = 3.000000
+PlacementScreenController.PLACEMENT_REASON_RESTRICTED_AREA = 7.000000
+PlacementScreenController.PLACEMENT_REASON_SPAWN_PLACE = 8.000000
+PlacementScreenController.PLACEMENT_REASON_NOT_OWNED_FARMLAND = 2.000000
+PlacementScreenController.PLACEMENT_REASON_DEFORM_FAILED = 11.000000
+PlacementScreenController.PLACEMENT_REASON_CANNOT_BE_PLACED_AT_POSITION = 4.000000
+PlacementScreenController.PLACEMENT_REASON_PLAYER_COLLISION = 5.000000
+PlacementScreenController.PLACEMENT_REASON_UNKNOWN = 12.000000
+PlacementScreenController.PLACEMENT_REASON_STORE_PLACE = 9.000000
+PlacementScreenController.PLACEMENT_REASON_BLOCKED = 10.000000
+PlacementScreenController.PLACEMENT_REASON_SUCCESS = 1.000000
+
+function PlacementScreenController:canPlace() end
+function PlacementScreenController:setCurrentMission() end
+function PlacementScreenController:onSellCallback() end
+function PlacementScreenController:copy() end
+function PlacementScreenController:onChangePlaceableHeight() end
+function PlacementScreenController:setMessageDispatchCallback() end
+function PlacementScreenController:setHUD() end
+function PlacementScreenController:canBuy() end
+function PlacementScreenController:onPlaceableBuyFailed() end
+function PlacementScreenController:isa() end
+function PlacementScreenController:onTerrainValidationFinished() end
+function PlacementScreenController:sellWarningInfoOk() end
+function PlacementScreenController:updatePreviewHeight() end
+function PlacementScreenController:addPlaceableRampArea() end
+function PlacementScreenController:onSellObjectRaycast() end
+function PlacementScreenController:updatePreviewRotation() end
+function PlacementScreenController:reset() end
+function PlacementScreenController:mouseEvent() end
+function PlacementScreenController:updateSlots() end
+function PlacementScreenController:setPlacementItem() end
+function PlacementScreenController:onMenuBack() end
+function PlacementScreenController:new() end
+function PlacementScreenController:setupDeformationObject() end
+function PlacementScreenController:addPlaceableLevelingArea() end
+function PlacementScreenController:setIsGamePaused() end
+function PlacementScreenController:resetInputState() end
+function PlacementScreenController:findSellObjectAt() end
+function PlacementScreenController:setClient() end
+function PlacementScreenController:onPlaceableSold() end
+function PlacementScreenController:raycastPlacement() end
+function PlacementScreenController:initializeCamera() end
+function PlacementScreenController:acceptSelection() end
+function PlacementScreenController:onPlaceableBought() end
+function PlacementScreenController:setExitCallback() end
+function PlacementScreenController:onRotatePlaceable() end
+function PlacementScreenController:calculatePlacementHeight() end
+function PlacementScreenController:onPlacementRaycastHit() end
+function PlacementScreenController:sellPlaceable() end
+function PlacementScreenController:superClass() end
+function PlacementScreenController:onInputRun() end
+function PlacementScreenController:buyPlaceable() end
+function PlacementScreenController:clearPlaceable() end
+function PlacementScreenController:removeActionEvents() end
+function PlacementScreenController:registerActionEvents() end
+function PlacementScreenController:activate() end
+function PlacementScreenController:updateActionEvents() end
+function PlacementScreenController:isPlacementValid() end
+function PlacementScreenController:cancelTerrainDeformation() end
+function PlacementScreenController:class() end
+function PlacementScreenController:deactivate() end
+function PlacementScreenController:update() end
+function PlacementScreenController:onPlaceableSellFailed() end
+function PlacementScreenController:startPlacementTerrainValidation() end
+function PlacementScreenController:onInputSnap() end

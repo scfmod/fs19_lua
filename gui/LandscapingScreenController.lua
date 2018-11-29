@@ -1,0 +1,113 @@
+LandscapingScreenController = {}
+
+LandscapingScreenController.INDICATOR_COLOR = {
+  VALID = {
+    1 = 0.000000
+    2 = 1.000000
+    3 = 0.000000
+    4 = 1.000000
+  }
+  INVALID = {
+    1 = 1.000000
+    2 = 0.000000
+    3 = 0.000000
+    4 = 1.000000
+  }
+}
+LandscapingScreenController.MODE = {
+  PAINTING = 'PAINTING'
+  SCULPTING = 'SCULPTING'
+}
+LandscapingScreenController.L10N_SYMBOL = {
+  BUTTON_BACK = 'button_back'
+  ACTION_PAINT = 'action_terrainPaint'
+  ACTION_CHANGE_RADIUS = 'action_terrainChangeRadius'
+  ACTION_SUBTRACT = 'action_terrainLower'
+  ACTION_ADD = 'action_terrainRaise'
+  ACTION_FLATTEN = 'action_terrainFlatten'
+  ACTION_CHANGE_SHAPE = 'action_terrainChangeShape'
+  ACTION_CHANGE_STRENGTH = 'action_terrainChangeStrength'
+  ACTION_CHANGE_MODE = 'action_terrainChangeMode'
+  ACTION_SMOOTH = 'action_terrainSmooth'
+  ACTION_CYCLE_TEXTURE = 'action_terrainCycleGroundType'
+}
+LandscapingScreenController.SETTINGS = {
+  BRUSH_SHAPE = 2.000000
+  BRUSH_SIZE = 3.000000
+  TERRAIN_MATERIAL = 5.000000
+  MODE = 1.000000
+  BRUSH_STRENGTH = 4.000000
+}
+LandscapingScreenController.SPHERE_INDICATOR_PATH = '$data/store/ui/sphere.i3d'
+LandscapingScreenController.RADIUS_STEPS_MIN = 1.000000
+LandscapingScreenController.STRENGTH_STEPS_MIN = 1.000000
+LandscapingScreenController.SCULPT_STRENGTH_STEP = 0.100000
+LandscapingScreenController.INDICATOR_SHADER_COLOR_PARAMETER = 'colorScale'
+LandscapingScreenController.MIN_SCULPT_INTERVAL = 100.000000
+LandscapingScreenController.GLOW_MATERIAL_HOLDER_PATH = '$data/shared/materialHolders/glowEffectMaterialHolder.i3d'
+LandscapingScreenController.MOUSE_REPOSITION_THRESHOLD = 5.000000
+LandscapingScreenController.STRENGTH_STEPS_MAX = 30.000000
+LandscapingScreenController.CUBE_INDICATOR_PATH = '$data/store/ui/cube.i3d'
+LandscapingScreenController.RADIUS_STEP = 1.000000
+LandscapingScreenController.RADIUS_STEPS_MAX = 10.000000
+LandscapingScreenController.INPUT_CONTEXT_NAME = 'LANDSCAPING'
+
+function LandscapingScreenController:onSphereLoaded() end
+function LandscapingScreenController:onChangeRadius() end
+function LandscapingScreenController:onSculptingFinished() end
+function LandscapingScreenController:onInputHelpModeSettingChanged() end
+function LandscapingScreenController:copy() end
+function LandscapingScreenController:setTerrainRootNode() end
+function LandscapingScreenController:setSettingsDataSource() end
+function LandscapingScreenController:onSubtract() end
+function LandscapingScreenController:setHUD() end
+function LandscapingScreenController:onInputModeChanged() end
+function LandscapingScreenController:updateInput() end
+function LandscapingScreenController:getOutsideSmoothingDistance() end
+function LandscapingScreenController:deactivate() end
+function LandscapingScreenController:onCycleTexture() end
+function LandscapingScreenController:reset() end
+function LandscapingScreenController:onSmooth() end
+function LandscapingScreenController:mouseEvent() end
+function LandscapingScreenController:class() end
+function LandscapingScreenController:onFlatten() end
+function LandscapingScreenController:setCurrentUserId() end
+function LandscapingScreenController:onMenuBack() end
+function LandscapingScreenController:new() end
+function LandscapingScreenController:sendSculptingEvent() end
+function LandscapingScreenController:loadMapData() end
+function LandscapingScreenController:delete() end
+function LandscapingScreenController:setIsGamePaused() end
+function LandscapingScreenController:NO_CALLBACK() end
+function LandscapingScreenController:update() end
+function LandscapingScreenController:setClient() end
+function LandscapingScreenController:setUpIndicator() end
+function LandscapingScreenController:deleteIndicator() end
+function LandscapingScreenController:createIndicator() end
+function LandscapingScreenController:onSwitchMode() end
+function LandscapingScreenController:onAdd() end
+function LandscapingScreenController:onMasterUserAdded() end
+function LandscapingScreenController:updateIndicatorColor() end
+function LandscapingScreenController:getIndicatorComponent() end
+function LandscapingScreenController:onCubeLoaded() end
+function LandscapingScreenController:updateInputHelp() end
+function LandscapingScreenController:setExitCallback() end
+function LandscapingScreenController:removeActionEvents() end
+function LandscapingScreenController:onGlowMaterialLoaded() end
+function LandscapingScreenController:registerActionEvents() end
+function LandscapingScreenController:onSwitchShape() end
+function LandscapingScreenController:superClass() end
+function LandscapingScreenController:onChangeStrength() end
+function LandscapingScreenController:raycastPosition() end
+function LandscapingScreenController:updateIndicatorShape() end
+function LandscapingScreenController:activate() end
+function LandscapingScreenController:updateActionEvents() end
+function LandscapingScreenController:onPositionRaycastHit() end
+function LandscapingScreenController:updateCamera() end
+function LandscapingScreenController:setShowErrorMessageCallback() end
+function LandscapingScreenController:hasPlayerPermission() end
+function LandscapingScreenController:setPlayerFarm() end
+function LandscapingScreenController:adjustHitPosition() end
+function LandscapingScreenController:isa() end
+function LandscapingScreenController:getStepsChangeFromInput() end
+function LandscapingScreenController:unloadMapData() end

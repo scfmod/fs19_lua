@@ -1,0 +1,140 @@
+InGameMenuAnimalsFrame = {}
+
+InGameMenuAnimalsFrame.L10N_SYMBOL = {
+  FOOD_DESCRIPTION_SERIAL = 'animals_foodMixDescriptionSerial'
+  HORSE_DAILY_RIDING = 'ui_horseDailyRiding'
+  FOOD_DESCRIPTION_PARALLEL = 'animals_foodMixDescriptionParallel'
+  WATER = 'statistic_water'
+  DESC_CHICKEN = 'animals_descriptionChicken'
+  STRAW = 'statistic_strawStorage'
+  SET_MARKER = 'action_tag'
+  BUTTON_RENAME = 'button_rename'
+  DESC_HORSE = 'animals_descriptionHorse'
+  PROMPT_RENAME = 'ui_enterHorseName'
+  CLEANLINESS = 'statistic_cleanliness'
+  DESC_LIVESTOCK = 'animals_descriptionGeneric'
+  FOOD_MIX_EFFECTIVENESS = 'animals_foodMixEffectiveness'
+  BUTTON_HOTSPOT = 'button_showOnMap'
+  LIVESTOCK_PRODUCTIVITY = 'statistic_productivity'
+  FOOD_MIX_QUANITITY = 'animals_foodMixQuantity'
+  IME_PROMPT_RENAME = 'ui_horseName'
+  REMOVE_MARKER = 'action_untag'
+  BUTTON_CONFIRM = 'button_confirm'
+  HORSE_FITNESS = 'ui_horseFitness'
+}
+InGameMenuAnimalsFrame.ANIMAL_PRODUCT_FILL_TYPES = {
+  EGG = 'EGG'
+  MILK = 'MILK'
+  WOOL = 'WOOL'
+}
+InGameMenuAnimalsFrame.ELEMENT_NAME = {
+  ANIMAL_TYPE_ICON = 'animalTypeIcon'
+  ANIMAL_STATUS_VALUE_TEXT = 'animalStatusValue'
+  HUSBANDRY_NAME_TEXT = 'husbandryName'
+  ANIMAL_COUNT_TEXT = 'animalCount'
+  ANIMAL_NAME_TEXT = 'animalName'
+  ANIMAL_STATUS_LABEL_TEXT = 'animalStatusLabel'
+}
+InGameMenuAnimalsFrame.PROFILE = {
+  STATUS_BAR_SMALL = {
+    LOW = 'ingameMenuAnimalsSmallStatusBarLow'
+    MEDIUM = 'ingameMenuAnimalsSmallStatusBarMedium'
+    HIGH = 'ingameMenuAnimalsSmallStatusBar'
+  }
+  HEADER_LIST_ITEM = 'ingameMenuAnimalsListHeader'
+  STATUS_BAR_LARGE = {
+    LOW = 'ingameMenuAnimalsLargeStatusBarLow'
+    MEDIUM = 'ingameMenuAnimalsLargeStatusBarMedium'
+    HIGH = 'ingameMenuAnimalsLargeStatusBar'
+  }
+}
+InGameMenuAnimalsFrame.CONTROLS = {
+  ANIMALS_CONTAINER = 'animalsContainer'
+  HEALTH_VALUE_TEXT = 'healthValueText'
+  PRODUCTIVITY_BAR = 'productivityStatusBar'
+  REQUIREMENT_LABEL_TEXTS = 'requirementLabel'
+  LIVESTOCK_ATTRIBUTES = 'animalProductAttribute'
+  CLEANLINESS_BAR = 'cleanlinessStatusBar'
+  HEALTH_BAR = 'healthStatusBar'
+  DETAIL_DESCRIPTION_BOX = 'detailDescriptionBox'
+  CONDITION_LABEL_TEXTS = 'conditionLabel'
+  CONDITION_BARS = 'conditionStatusBar'
+  ANIMAL_LIST_HEADER_TEMPLATE = 'animalListHeaderTemplate'
+  ANIMAL_TYPE_COUNT_TEXT = 'animalDetailTypeCountText'
+  ANIMAL_DETAIL_HORSE = 'animalDetailHorseBox'
+  PRODUCTIVIY_VALUE_TEXT = 'productivityValueText'
+  ANIMAL_BOX_TEMPLATE = 'animalTemplate'
+  REQUIREMENT_BARS = 'requirementStatusBar'
+  DETAILS_BOX = 'detailsBox'
+  ANIMAL_LIST = 'animalList'
+  REQUIREMENT_VALUE_TEXTS = 'requirementValue'
+  REPRODUCTION_RATE_TEXT = 'animalReproductionRateText'
+  ANIMAL_TYPE_VALUE_TEXT = 'animalDetailTypeValueText'
+  LIVESTOCK_ATTRIBUTES_LAYOUT = 'livestockAttributesLayout'
+  DESCRIPTION_TEXT = 'detailDescriptionText'
+  FITNESS_BAR = 'fitnessStatusBar'
+  ANIMAL_LIST_BOX = 'animalsListBox'
+  ANIMAL_LIST_ROW_TEMPLATE = 'animalListItemTemplate'
+  DETAIL_INPUT_BOX = 'detailInputBox'
+  FITNESS_VALUE_TEXT = 'fitnessValueText'
+  LIVESTOCK_ATTRIBUTE_VALUES = 'animalProductText'
+  CLEANLINESS_VALUE_TEXT = 'cleanlinessValueText'
+  NO_HUSBANDRIES_TEXT = 'noHusbandriesBox'
+  CONDITIONS_HEADER = 'conditionsHeader'
+  ANIMAL_VALUE_TEXT = 'animalProductValue'
+  ANIMAL_TYPE_NAME_TEXT = 'animalDetailTypeNameText'
+  ANIMAL_TYPE_IMAGE = 'animalDetailTypeImage'
+  ANIMAL_DETAIL_LIVESTOCK = 'animalDetailLivestockBox'
+  TIME_UNTIL_REPRODUCTION_TEXT = 'animalTimeTillNextAnimalText'
+  LIVESTOCK_ATTRIBUTE_LABELS = 'animalProductLabel'
+  REQUIREMENT_ROWS = 'requirementRow'
+  REQUIREMENTS_LAYOUT = 'requirementsLayout'
+  FOOD_HEADER = 'foodHeader'
+  CONDITION_VALUE_TEXTS = 'conditionValue'
+  CONDITION_ROWS = 'conditionRow'
+  DETAIL_OUTPUT_BOX = 'detailOutputBox'
+}
+
+InGameMenuAnimalsFrame.FILL_TYPE_SEPARATOR = ' / '
+InGameMenuAnimalsFrame.STATUS_BAR_HIGH = 0.660000
+InGameMenuAnimalsFrame.HORSE_TYPE = 'HORSE'
+InGameMenuAnimalsFrame.CHICKEN_TYPE = 'CHICKEN'
+InGameMenuAnimalsFrame.UPDATE_INTERVAL = 5000.000000
+InGameMenuAnimalsFrame.MAX_ANIMAL_NAME_LENGTH = 16.000000
+InGameMenuAnimalsFrame.STATUS_BAR_MEDIUM = 0.330000
+
+function InGameMenuAnimalsFrame:assignAnimalData() end
+function InGameMenuAnimalsFrame:displayRequirement() end
+function InGameMenuAnimalsFrame:new() end
+function InGameMenuAnimalsFrame:initialize() end
+function InGameMenuAnimalsFrame:copyAttributes() end
+function InGameMenuAnimalsFrame:onAnimalDataSourceChanged() end
+function InGameMenuAnimalsFrame:copy() end
+function InGameMenuAnimalsFrame:getMainElementPosition() end
+function InGameMenuAnimalsFrame:updateHusbandryFoodDisplay() end
+function InGameMenuAnimalsFrame:superClass() end
+function InGameMenuAnimalsFrame:updateHusbandryConditionsDisplay() end
+function InGameMenuAnimalsFrame:isa() end
+function InGameMenuAnimalsFrame:update() end
+function InGameMenuAnimalsFrame:displayLivestock() end
+function InGameMenuAnimalsFrame:updateLivestockHusbandryProductionDisplay() end
+function InGameMenuAnimalsFrame:onButtonRename() end
+function InGameMenuAnimalsFrame:onGuiSetupFinished() end
+function InGameMenuAnimalsFrame:getFoodDescription() end
+function InGameMenuAnimalsFrame:onListSelectionChanged() end
+function InGameMenuAnimalsFrame:displayCondition() end
+function InGameMenuAnimalsFrame:onButtonHotspot() end
+function InGameMenuAnimalsFrame:getSortedFarmHusbandries() end
+function InGameMenuAnimalsFrame:renameCurrentHorse() end
+function InGameMenuAnimalsFrame:setStatusBarValue() end
+function InGameMenuAnimalsFrame:displayHorse() end
+function InGameMenuAnimalsFrame:class() end
+function InGameMenuAnimalsFrame:updateMenuButtons() end
+function InGameMenuAnimalsFrame:getMainElementSize() end
+function InGameMenuAnimalsFrame:setPlayerFarm() end
+function InGameMenuAnimalsFrame:delete() end
+function InGameMenuAnimalsFrame:onFrameOpen() end
+function InGameMenuAnimalsFrame:updateAnimalData() end
+function InGameMenuAnimalsFrame:setHusbandries() end
+function InGameMenuAnimalsFrame:onAnimalDataChanged() end
+function InGameMenuAnimalsFrame:sumFillLevelInfos() end

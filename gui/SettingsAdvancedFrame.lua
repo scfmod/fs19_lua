@@ -1,0 +1,76 @@
+SettingsAdvancedFrame = {}
+
+SettingsAdvancedFrame.CONTROLS = {
+  ELEMENT_MAX_TIRE_TRACKS = 'maxTireTracksElement'
+  ELEMENT_MAX_LIGHTS = 'maxLightsElement'
+  ELEMENT_TERRAIN_QUALITY = 'terrainQualityElement'
+  ELEMENT_MSAA = 'msaaElement'
+  ELEMENT_VOLUME_MESH_TESSELLATION = 'volumeMeshTessellationElement'
+  ELEMENT_REAL_BEACON_LIGHTS = 'realBeaconLightsElement'
+  MAIN_CONTAINER = 'settingsContainer'
+  ELEMENT_TERRAIN_LOD_DISTANCE = 'terrainLODDistanceElement'
+  ELEMENT_MAX_MIRRORS = 'maxMirrorsElement'
+  ELEMENT_TEXTURE_FILTERING = 'textureFilteringElement'
+  ELEMENT_PERFORMANCE_CLASS = 'performanceClassElement'
+  ELEMENT_SHADOW_MAP_FILTERING = 'shadowMapFilteringElement'
+  ELEMENT_LOD_DISTANCE = 'lodDistanceElement'
+  ELEMENT_LIGHTS_PROFILE = 'lightsProfileElement'
+  ELEMENT_SHADOW_QUALITY = 'shadowQualityElement'
+  ELEMENT_OBJECT_DRAW_DISTANCE = 'objectDrawDistanceElement'
+  ELEMENT_SHADER_QUALITY = 'shaderQualityElement'
+  ELEMENT_TEXTURE_RESOLUTION = 'textureResolutionElement'
+  ELEMENT_FOLIAGE_DRAW_DISTANCE = 'foliageDrawDistanceElement'
+}
+SettingsAdvancedFrame.L10N_SYMBOL = {
+  BUTTON_APPLY = 'button_apply'
+}
+
+function SettingsAdvancedFrame:onCreateTerrainQuality() end
+function SettingsAdvancedFrame:onCreateVolumeMeshTessellation() end
+function SettingsAdvancedFrame:onClickPerformanceClass() end
+function SettingsAdvancedFrame:initialize() end
+function SettingsAdvancedFrame:copyAttributes() end
+function SettingsAdvancedFrame:onClickMSAA() end
+function SettingsAdvancedFrame:onCreateLODDistance() end
+function SettingsAdvancedFrame:onCreateMSAA() end
+function SettingsAdvancedFrame:onClickTextureFiltering() end
+function SettingsAdvancedFrame:copy() end
+function SettingsAdvancedFrame:getMainElementPosition() end
+function SettingsAdvancedFrame:onCreateMaxMirrors() end
+function SettingsAdvancedFrame:updateValues() end
+function SettingsAdvancedFrame:onClickFoliageDrawDistance() end
+function SettingsAdvancedFrame:onClickRealBeaconLights() end
+function SettingsAdvancedFrame:onApplySettings() end
+function SettingsAdvancedFrame:onClickTerrainLODDistance() end
+function SettingsAdvancedFrame:onClickVolumeMeshTessellation() end
+function SettingsAdvancedFrame:onClickLightsProfile() end
+function SettingsAdvancedFrame:onClickShaderQuality() end
+function SettingsAdvancedFrame:onClickMaxTireTracks() end
+function SettingsAdvancedFrame:updatePerformanceClass() end
+function SettingsAdvancedFrame:onCreateTerrainLODDistance() end
+function SettingsAdvancedFrame:isa() end
+function SettingsAdvancedFrame:onCreatePerformanceClass() end
+function SettingsAdvancedFrame:onClickTerrainQuality() end
+function SettingsAdvancedFrame:onCreateShadowMapFiltering() end
+function SettingsAdvancedFrame:onCreateLightsProfile() end
+function SettingsAdvancedFrame:superClass() end
+function SettingsAdvancedFrame:onClickMaxMirrors() end
+function SettingsAdvancedFrame:onClickShadowQuality() end
+function SettingsAdvancedFrame:onClickLODDistance() end
+function SettingsAdvancedFrame:onClickObjectDrawDistance() end
+function SettingsAdvancedFrame:onClickShadowMaxLights() end
+function SettingsAdvancedFrame:onCreateObjectDrawDistance() end
+function SettingsAdvancedFrame:getMenuButtonInfo() end
+function SettingsAdvancedFrame:new() end
+function SettingsAdvancedFrame:onClickTextureResolution() end
+function SettingsAdvancedFrame:onFrameOpen() end
+function SettingsAdvancedFrame:class() end
+function SettingsAdvancedFrame:getMainElementSize() end
+function SettingsAdvancedFrame:onCreateShadowQuality() end
+function SettingsAdvancedFrame:onCreateShaderQuality() end
+function SettingsAdvancedFrame:onCreateTextureFiltering() end
+function SettingsAdvancedFrame:onCreateTextureResolution() end
+function SettingsAdvancedFrame:onCreateShadowMaxLights() end
+function SettingsAdvancedFrame:onClickShadowMapFiltering() end
+function SettingsAdvancedFrame:onCreateFoliageDrawDistance() end
+function SettingsAdvancedFrame:onCreateMaxTireTracks() end
