@@ -1,34 +1,34 @@
 InGameMenuMultiplayerFarmsFrame = {}
 
 InGameMenuMultiplayerFarmsFrame.PROFILE = {
-  FARM_ITEM_SELECTED = 'ingameMenuMPFarmsListItemSelected'
+  FARM_ITEM_SELECTED = 'ingameMenuMPFarmsListItemSelected',
   FARM_ITEM = 'ingameMenuMPFarmsListItem'
 }
 InGameMenuMultiplayerFarmsFrame.L10N_SYMBOL = {
-  WRONG_PASSWORD = 'ui_wrongPassword'
-  BUTTON_EDIT_FARM = 'button_mp_editFarm'
-  BUTTON_LEAVE_FARM = 'button_mp_leaveFarm'
-  BUTTON_CREATE_FARM = 'button_mp_createFarm'
-  PLAYER_COUNT = 'ui_players'
-  LEAVE_FARM_CONFIRM = 'ui_farmLeaveConfirmation'
-  BUTTON_DELETE_FARM = 'button_mp_deleteFarm'
-  BUTTON_JOIN_FARM = 'button_mp_joinFarm'
+  WRONG_PASSWORD = 'ui_wrongPassword',
+  BUTTON_EDIT_FARM = 'button_mp_editFarm',
+  BUTTON_LEAVE_FARM = 'button_mp_leaveFarm',
+  BUTTON_CREATE_FARM = 'button_mp_createFarm',
+  PLAYER_COUNT = 'ui_players',
+  LEAVE_FARM_CONFIRM = 'ui_farmLeaveConfirmation',
+  BUTTON_DELETE_FARM = 'button_mp_deleteFarm',
+  BUTTON_JOIN_FARM = 'button_mp_joinFarm',
   DELETE_FARM_CONFIRM = 'ui_farmDeleteConfirmation'
 }
 InGameMenuMultiplayerFarmsFrame.CONTROLS = {
-  NO_FARMS_BOX = 'noFarmsBox'
-  BUTTON_RIGHT = 'buttonRight'
-  BUTTON_LEFT = 'buttonLeft'
-  FARM_LIST = 'farmList'
-  FARM_ITEM_TEMPLATE = 'listTemplate'
+  NO_FARMS_BOX = 'noFarmsBox',
+  BUTTON_RIGHT = 'buttonRight',
+  BUTTON_LEFT = 'buttonLeft',
+  FARM_LIST = 'farmList',
+  FARM_ITEM_TEMPLATE = 'listTemplate',
   NEW_FARM_ITEM = 'newFarmItem'
 }
 InGameMenuMultiplayerFarmsFrame.ELEMENT_NAME = {
-  PLAYER_NAME_LAYOUT = 'playerNameLayout'
-  FARM_ICON = 'farmIcon'
-  PLAYER_NAME_TEMPLATE = 'playerNameTemplate'
-  FARM_NAME = 'farmName'
-  FARM_BALANCE = 'farmBalance'
+  PLAYER_NAME_LAYOUT = 'playerNameLayout',
+  FARM_ICON = 'farmIcon',
+  PLAYER_NAME_TEMPLATE = 'playerNameTemplate',
+  FARM_NAME = 'farmName',
+  FARM_BALANCE = 'farmBalance',
   PLAYER_COUNT = 'farmPlayerCount'
 }
 

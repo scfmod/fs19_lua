@@ -4,7 +4,7 @@ VehicleSchemaDisplay.POSITION = {
   SELF_DOCKED = {}
 }
 VehicleSchemaDisplay.SIZE = {
-  ICON = {}
+  ICON = {},
   SELF = {}
 }
 VehicleSchemaDisplay.MAX_SCHEMA_WIDTH = 180.000000

@@ -14,7 +14,7 @@ GamePausedDisplay.SIZE = {
 }
 GamePausedDisplay.SYNC_SPLASH_PATH = 'shared/splash.png'
 GamePausedDisplay.COLOR = {
-  TEXT = {}
+  TEXT = {},
   BACKGROUND = {}
 }
 

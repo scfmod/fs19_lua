@@ -2,9 +2,9 @@ AutoSaveManager = {}
 
 AutoSaveManager.DEFAULT_INTERVAL = 15.000000
 AutoSaveManager.INTERVAL_OPTIONS = {
-    1 = 0.000000
-    2 = 5.000000
-    3 = 10.000000
+    1 = 0.000000,
+    2 = 5.000000,
+    3 = 10.000000,
     4 = 15.000000
 }
 

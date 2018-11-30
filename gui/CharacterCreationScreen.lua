@@ -1,20 +1,20 @@
 CharacterCreationScreen = {}
 
 CharacterCreationScreen.CONTROLS = {
-  BUTTON_ROT_LEFT = 'buttonLeft'
-  VEST_OPTION = 'jacketOption'
-  EDIT_BUTTON = 'editButton'
-  COLOR_BUTTON_LAYOUT = 'colorButtonLayout'
-  CHARACTER_SETTINGS_LAYOUT = 'characterSettingsLayout'
-  CHANGE_NAME_BUTTON = 'changeNameButton'
-  CHARACTER_SCENE = 'sceneRender'
-  HAT_OPTION = 'hatOption'
-  BUTTON_ROT_RIGHT = 'buttonRight'
-  BODY_OPTION = 'bodyOption'
-  CONTINUE_BUTTON = 'continueButton'
-  GLASSES_OPTION = 'accessoryOption'
-  HAIR_OPTION = 'hairOption'
-  CHARACTER_NAME_INPUT = 'characterNameInput'
+  BUTTON_ROT_LEFT = 'buttonLeft',
+  VEST_OPTION = 'jacketOption',
+  EDIT_BUTTON = 'editButton',
+  COLOR_BUTTON_LAYOUT = 'colorButtonLayout',
+  CHARACTER_SETTINGS_LAYOUT = 'characterSettingsLayout',
+  CHANGE_NAME_BUTTON = 'changeNameButton',
+  CHARACTER_SCENE = 'sceneRender',
+  HAT_OPTION = 'hatOption',
+  BUTTON_ROT_RIGHT = 'buttonRight',
+  BODY_OPTION = 'bodyOption',
+  CONTINUE_BUTTON = 'continueButton',
+  GLASSES_OPTION = 'accessoryOption',
+  HAIR_OPTION = 'hairOption',
+  CHARACTER_NAME_INPUT = 'characterNameInput',
   COLOR_BUTTON_TEMPLATE = 'colorButtonTemplate'
 }
 CharacterCreationScreen.ROTATION_STEP_SIZE = 0.010000

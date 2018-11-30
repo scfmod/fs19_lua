@@ -1,20 +1,20 @@
 TweenSequence = {}
 
 TweenSequence.NO_SEQUENCE = {
-  elapsedTime = 0.000000
-  insertCallback = function() end
-  callbacksCalled = {}
-  getFinished = function() end
-  insertInterval = function() end
-  addInterval = function() end
-  isFinished = true
-  isLooping = false
-  insertTween = function() end
-  callbackStates = {}
-  addCallback = function() end
-  totalDuration = 0.000000
-  callbackInstants = {}
-  addTween = function() end
+  elapsedTime = 0.000000,
+  insertCallback = function() end,
+  callbacksCalled = {},
+  getFinished = function() end,
+  insertInterval = function() end,
+  addInterval = function() end,
+  isFinished = true,
+  isLooping = false,
+  insertTween = function() end,
+  callbackStates = {},
+  addCallback = function() end,
+  totalDuration = 0.000000,
+  callbackInstants = {},
+  addTween = function() end,
   tweenUpdateRanges = {}
 }
 

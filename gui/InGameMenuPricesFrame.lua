@@ -1,42 +1,42 @@
 InGameMenuPricesFrame = {}
 
 InGameMenuPricesFrame.DATA_BINDING = {
-  SILO_CAPACITY_LABEL = 'siloCapacityLabel'
-  SILO_CAPACITY_TEMPLATE = 'capacity%s'
-  PRICE_TEMPLATE = 'price%s'
+  SILO_CAPACITY_LABEL = 'siloCapacityLabel',
+  SILO_CAPACITY_TEMPLATE = 'capacity%s',
+  PRICE_TEMPLATE = 'price%s',
   SELLING_POINT = 'sellingPoint'
 }
 InGameMenuPricesFrame.MAX_NUM_PRICE_ROWS = 13.000000
 InGameMenuPricesFrame.INPUT_CONTEXT_NAME = 'MENU_PRICES'
 InGameMenuPricesFrame.MAX_NUM_FILLTYPES = 7.000000
 InGameMenuPricesFrame.CONTROLS = {
-  PRICES_TABLE = 'pricesTable'
-  PRICES_LIST_HORIZONTAL_SLIDER = 'pricesListSliderHorizontal'
-  PRICE_HEADERS = 'priceHeader'
-  MAIN_BOX = 'mainBox'
-  PRICES_LIST_VERTICAL_SLIDER = 'pricesListSlider'
+  PRICES_TABLE = 'pricesTable',
+  PRICES_LIST_HORIZONTAL_SLIDER = 'pricesListSliderHorizontal',
+  PRICE_HEADERS = 'priceHeader',
+  MAIN_BOX = 'mainBox',
+  PRICES_LIST_VERTICAL_SLIDER = 'pricesListSlider',
   TABLE_HEADER_BOX = 'tableHeaderBox'
 }
 InGameMenuPricesFrame.PROFILE = {
-  SILO_CAPACITY_VALUE = 'ingameMenuPriceRowSiloCapacityValue'
-  SILO_NAME_LAST_ROW = 'ingameMenuPriceRowSiloNameCellLastRow'
-  SELLING_POINT_CELL_NEUTRAL = 'ingameMenuPriceRowSellingPointCell'
-  PRICE_CELL_NEUTRAL = 'ingameMenuPriceRowPriceCell'
-  SELLING_POINT_CELL_NONE = 'ingameMenuPriceRowSellingPointCellNone'
-  SILO_LITERS_LAST_ROW = 'ingameMenuPriceRowSiloLitersLastRow'
-  SILO_LITERS = 'ingameMenuPriceRowSiloLiters'
-  PRICE_CELL_GREAT_DEMAND = 'ingameMenuPriceRowPriceCellGreatDemand'
-  LITERS_LAST_ROW = 'ingameMenuPriceRowLitersLastRow'
-  PRICE_CELL_TREND_DOWN = 'ingameMenuPriceRowPriceCellTrendDown'
-  LITERS = 'ingameMenuPriceRowLiters'
-  SILO_CAPACITY_LABEL = 'ingameMenuPriceRowSiloCapacity'
-  SILO_NAME = 'ingameMenuPriceRowSiloNameCell'
-  SELLING_POINT_CELL_TAGGED = 'ingameMenuPriceRowSellingPointCellTagged'
+  SILO_CAPACITY_VALUE = 'ingameMenuPriceRowSiloCapacityValue',
+  SILO_NAME_LAST_ROW = 'ingameMenuPriceRowSiloNameCellLastRow',
+  SELLING_POINT_CELL_NEUTRAL = 'ingameMenuPriceRowSellingPointCell',
+  PRICE_CELL_NEUTRAL = 'ingameMenuPriceRowPriceCell',
+  SELLING_POINT_CELL_NONE = 'ingameMenuPriceRowSellingPointCellNone',
+  SILO_LITERS_LAST_ROW = 'ingameMenuPriceRowSiloLitersLastRow',
+  SILO_LITERS = 'ingameMenuPriceRowSiloLiters',
+  PRICE_CELL_GREAT_DEMAND = 'ingameMenuPriceRowPriceCellGreatDemand',
+  LITERS_LAST_ROW = 'ingameMenuPriceRowLitersLastRow',
+  PRICE_CELL_TREND_DOWN = 'ingameMenuPriceRowPriceCellTrendDown',
+  LITERS = 'ingameMenuPriceRowLiters',
+  SILO_CAPACITY_LABEL = 'ingameMenuPriceRowSiloCapacity',
+  SILO_NAME = 'ingameMenuPriceRowSiloNameCell',
+  SELLING_POINT_CELL_TAGGED = 'ingameMenuPriceRowSellingPointCellTagged',
   PRICE_CELL_TREND_UP = 'ingameMenuPriceRowPriceCellTrendUp'
 }
 InGameMenuPricesFrame.L10N_SYMBOL = {
-  SILO_CAPACITY = 'ui_silos_totalCapacity'
-  REMOVE_MARKER = 'action_untag'
+  SILO_CAPACITY = 'ui_silos_totalCapacity',
+  REMOVE_MARKER = 'action_untag',
   SET_MARKER = 'action_tag'
 }
 

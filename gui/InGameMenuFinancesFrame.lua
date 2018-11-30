@@ -1,29 +1,29 @@
 InGameMenuFinancesFrame = {}
 
 InGameMenuFinancesFrame.DATA_BINDING = {
-  TYPE = 'costType'
+  TYPE = 'costType',
   DAY_TEMPLATE = 'day%s'
 }
 InGameMenuFinancesFrame.PROFILE = {
-  VALUE_CELL_NEUTRAL = 'ingameMenuFinancesRowCell'
+  VALUE_CELL_NEUTRAL = 'ingameMenuFinancesRowCell',
   VALUE_CELL_NEGATIVE = 'ingameMenuFinancesRowCellNegative'
 }
 InGameMenuFinancesFrame.CONTROLS = {
-  LOAN_TEXT = 'loanText'
-  TOTAL_TEXTS = 'totalText'
-  TABLE = 'financesTable'
-  HEADER_BOX = 'tableHeaderBox'
-  PAST_DAY_HEADERS = 'pastDayHeader'
-  TABLE_SLIDER = 'tableSlider'
-  BALANCE_TEXT = 'balanceText'
-  BALANCE_FOOTER = 'balanceFooter'
+  LOAN_TEXT = 'loanText',
+  TOTAL_TEXTS = 'totalText',
+  TABLE = 'financesTable',
+  HEADER_BOX = 'tableHeaderBox',
+  PAST_DAY_HEADERS = 'pastDayHeader',
+  TABLE_SLIDER = 'tableSlider',
+  BALANCE_TEXT = 'balanceText',
+  BALANCE_FOOTER = 'balanceFooter',
   MAIN_BOX = 'mainBox'
 }
 InGameMenuFinancesFrame.L10N_SYMBOL = {
-  TODAY = 'ui_today'
-  BUTTON_REPAY = 'button_repay5000'
-  BUTTON_BORROW = 'button_borrow5000'
-  CURRENCY = '$CURRENCY_SYMBOL'
+  TODAY = 'ui_today',
+  BUTTON_REPAY = 'button_repay5000',
+  BUTTON_BORROW = 'button_borrow5000',
+  CURRENCY = '$CURRENCY_SYMBOL',
   WEEK_DAY_TEMPLATE = 'ui_financesDay'
 }
 

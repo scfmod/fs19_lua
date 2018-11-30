@@ -1,27 +1,27 @@
 TabbedMenu = {}
 
 TabbedMenu.PROFILE = {
-  PAGE_TAB = 'uiTabbedMenuPageTab'
+  PAGE_TAB = 'uiTabbedMenuPageTab',
   PAGE_TAB_ACTIVE = 'uiTabbedMenuPageTabActive'
 }
 TabbedMenu.CONTROLS = {
-  PAGING_TAB_LIST = 'pagingTabList'
-  MENU_BUTTONS = 'menuButton'
-  BUTTONS_PANEL = 'buttonsPanel'
-  PAGING_ELEMENT = 'pagingElement'
-  PAGING_TAB_TEMPLATE = 'pagingTabTemplate'
-  PAGING_BUTTON_LEFT = 'pagingButtonLeft'
-  PAGING_BUTTON_RIGHT = 'pagingButtonRight'
+  PAGING_TAB_LIST = 'pagingTabList',
+  MENU_BUTTONS = 'menuButton',
+  BUTTONS_PANEL = 'buttonsPanel',
+  PAGING_ELEMENT = 'pagingElement',
+  PAGING_TAB_TEMPLATE = 'pagingTabTemplate',
+  PAGING_BUTTON_LEFT = 'pagingButtonLeft',
+  PAGING_BUTTON_RIGHT = 'pagingButtonRight',
   HEADER = 'header'
 }
 TabbedMenu.PAGE_TAB_TEMPLATE_BUTTON_NAME = 'tabButton'
 TabbedMenu.MONEY_UPDATE_INTERVAL = 300.000000
 TabbedMenu.DEFAULT_BUTTON_ACTIONS = {
-  MENU_ACTIVATE = true
-  MENU_CANCEL = true
-  MENU_EXTRA_1 = true
-  MENU_EXTRA_2 = true
-  MENU_BACK = true
+  MENU_ACTIVATE = true,
+  MENU_CANCEL = true,
+  MENU_EXTRA_1 = true,
+  MENU_EXTRA_2 = true,
+  MENU_BACK = true,
   MENU_ACCEPT = true
 }
 TabbedMenu.NO_BUTTON_INFO = {}

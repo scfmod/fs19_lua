@@ -1,18 +1,18 @@
 SettingsGeneralFrame = {}
 
 SettingsGeneralFrame.CONTROLS = {
-  MAIN_CONTAINER = 'settingsContainer'
-  VOLUME_ENVIRONMENT = 'volumeEnvironmentElement'
-  VOLUME_GUI = 'volumeGUIElement'
-  HEAD_TRACKING = 'isHeadTrackingEnabledElement'
-  GAMEPAD_MODE = 'isGamepadEnabledElement'
-  MP_LANGUAGE = 'mpLanguageElement'
-  INPUT_HELP_MODE = 'inputHelpModeElement'
-  VOLUME_RADIO = 'volumeRadioElement'
-  LANGUAGE = 'languageElement'
-  VOLUME_MUSIC = 'musicVolumeElement'
-  VOLUME_MASTER = 'masterVolumeElement'
-  INVERT_Y_LOOK = 'invertYLookElement'
+  MAIN_CONTAINER = 'settingsContainer',
+  VOLUME_ENVIRONMENT = 'volumeEnvironmentElement',
+  VOLUME_GUI = 'volumeGUIElement',
+  HEAD_TRACKING = 'isHeadTrackingEnabledElement',
+  GAMEPAD_MODE = 'isGamepadEnabledElement',
+  MP_LANGUAGE = 'mpLanguageElement',
+  INPUT_HELP_MODE = 'inputHelpModeElement',
+  VOLUME_RADIO = 'volumeRadioElement',
+  LANGUAGE = 'languageElement',
+  VOLUME_MUSIC = 'musicVolumeElement',
+  VOLUME_MASTER = 'masterVolumeElement',
+  INVERT_Y_LOOK = 'invertYLookElement',
   VOLUME_VEHICLE = 'volumeVehicleElement'
 }
 SettingsGeneralFrame.L10N_SYMBOL = {

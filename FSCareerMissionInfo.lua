@@ -1,15 +1,15 @@
 FSCareerMissionInfo = {}
 
 FSCareerMissionInfo.BUY_PRICE_MULTIPLIER = {
-    1 = 0.500000
-    2 = 0.750000
+    1 = 0.500000,
+    2 = 0.750000,
     3 = 1.000000
 }
 FSCareerMissionInfo.MaxSavegameSize = 26214400.000000
 FSCareerMissionInfo.SavegameRevision = 2.000000
 FSCareerMissionInfo.SELL_PRICE_MULTIPLIER = {
-    1 = 2.000000
-    2 = 1.500000
+    1 = 2.000000,
+    2 = 1.500000,
     3 = 1.000000
 }
 

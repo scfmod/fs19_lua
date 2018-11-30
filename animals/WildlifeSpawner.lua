@@ -1,9 +1,9 @@
 WildlifeSpawner = {}
 
 WildlifeSpawner.DEBUGSHOWIDSTATES = {
-  MAX = 3.000000
-  NONE = 1.000000
-  SINGLE = 3.000000
+  MAX = 3.000000,
+  NONE = 1.000000,
+  SINGLE = 3.000000,
   ALL = 2.000000
 }
 

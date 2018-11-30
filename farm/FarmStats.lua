@@ -5,7 +5,7 @@ FarmStats.HERO_STAT_NAMES = {
     2 = 'moneyEarned',
     3 = 'traveledDistance',
     4 = 'completedMissions',
-    5 = 'threshedHectares',
+    5 = 'threshedHectares'
 }
 FarmStats.STAT_NAMES = {
     1 = 'fuelUsage',
@@ -46,7 +46,7 @@ FarmStats.STAT_NAMES = {
     36 = 'cutTreeCount',
     37 = 'woodTonsSold',
     38 = 'treeTypesCut',
-    39 = 'windTurbineCount',
+    39 = 'windTurbineCount'
 }
 
 function FarmStats:changeFinanceStats() end

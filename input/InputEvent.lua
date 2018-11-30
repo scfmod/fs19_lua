@@ -1,19 +1,19 @@
 InputEvent = {}
 
 InputEvent.NO_EVENT = {
-    actionName = ''
-    displayPriority = 5.000000
-    orderValue = 0.000000
-    callback = function() end
-    targetObject = {}
-    callbackState = 0.000000
-    ignoreComboMask = false
-    triggerUp = false
-    id = '|table: 0x0b33e298|0'
-    triggerDown = false
-    isActive = false
-    hasFrameTriggered = false
-    displayIsVisible = true
+    actionName = '',
+    displayPriority = 5.000000,
+    orderValue = 0.000000,
+    callback = function() end,
+    targetObject = {},
+    callbackState = 0.000000,
+    ignoreComboMask = false,
+    triggerUp = false,
+    id = '|table: 0x0b33e298|0',
+    triggerDown = false,
+    isActive = false,
+    hasFrameTriggered = false,
+    displayIsVisible = true,
     triggerAlways = false
 }
 function InputEvent:getIgnoreComboMask() end

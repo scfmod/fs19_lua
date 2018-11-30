@@ -9,37 +9,37 @@ HUDPopupMessage.L10N_SYMBOL = {
 HUDPopupMessage.MIN_DURATION = 1000.000000
 HUDPopupMessage.MAX_DURATION = 300000.000000
 HUDPopupMessage.TEXT_SIZE = {
-  SKIP_TEXT = 18.000000
-  TITLE = 20.000000
+  SKIP_TEXT = 18.000000,
+  TITLE = 20.000000,
   TEXT = 16.000000
 }
 HUDPopupMessage.UV = {
   BACKGROUND = {}
 }
 HUDPopupMessage.SIZE = {
-  SELF = {}
-  BORDER_PADDING = {}
-  SKIP_BUTTON = {}
-  INPUT_ROW = {}
-  SEPARATOR = {}
+  SELF = {},
+  BORDER_PADDING = {},
+  SKIP_BUTTON = {},
+  INPUT_ROW = {},
+  SEPARATOR = {},
   INPUT_GLYPH = {}
 }
 HUDPopupMessage.POSITION = {
-  SELF = {}
-  SEPARATOR = {}
-  SKIP_BUTTON = {}
-  MESSAGE_TEXT = {}
-  INPUT_GLYPH = {}
-  INPUT_TEXT = {}
+  SELF = {},
+  SEPARATOR = {},
+  SKIP_BUTTON = {},
+  MESSAGE_TEXT = {},
+  INPUT_GLYPH = {},
+  INPUT_TEXT = {},
   INPUT_ROWS = {}
 }
 HUDPopupMessage.COLOR = {
-  SEPARATOR = {}
-  SKIP_TEXT = {}
-  INPUT_GLYPH = {}
-  INPUT_ROW = {}
-  BACKGROUND = {}
-  TITLE = {}
+  SEPARATOR = {},
+  SKIP_TEXT = {},
+  INPUT_GLYPH = {},
+  INPUT_ROW = {},
+  BACKGROUND = {},
+  TITLE = {},
   TEXT = {}
 }
 HUDPopupMessage.INPUT_CONTEXT_NAME = 'POPUP_MESSAGE'

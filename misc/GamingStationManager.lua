@@ -7,34 +7,34 @@ GamingStationManager.LOAD_OK = 0.000000
 GamingStationManager.BIT_TO_BUTTON = {
     2 = {
         button = 6.000000
-    }
+    },
     5 = {
         button = 3.000000
-    }
+    },
     4 = {
         button = 4.000000
-    }
+    },
     17 = {
         button = 10.000000
-    }
+    },
     8 = {
         button = 0.000000
-    }
+    },
     16 = {
         button = 9.000000
-    }
+    },
     3 = {
         button = 5.000000
-    }
+    },
     7 = {
         button = 1.000000
-    }
+    },
     1 = {
         button = 7.000000
-    }
+    },
     15 = {
         button = 8.000000
-    }
+    },
     6 = {
         button = 2.000000
     }

@@ -1,26 +1,26 @@
 ModSelectionScreen = {}
 
 ModSelectionScreen.L10N = {
-  DESELECT_ALL = 'button_deselectAll'
-  DESELECT = 'button_deselect'
-  SELECT = 'button_select'
-  BUTTON_CONTINUE = 'button_continue'
-  SELECT_ALL = 'button_selectAll'
-  ONLY_ZIP = 'ui_onlyForZipFiles'
+  DESELECT_ALL = 'button_deselectAll',
+  DESELECT = 'button_deselect',
+  SELECT = 'button_select',
+  BUTTON_CONTINUE = 'button_continue',
+  SELECT_ALL = 'button_selectAll',
+  ONLY_ZIP = 'ui_onlyForZipFiles',
   BUTTON_START = 'button_start'
 }
 ModSelectionScreen.CONTROLS = {
-  MOD_LIST_ITEM_TEMPLATE = 'listItemTemplate'
-  START_BUTTON = 'buttonStart'
-  SELECT_ALL_BUTTON = 'buttonSelectAll'
-  NO_MODS_DLCS_ELEMENT = 'noModsDLCsElement'
-  SELECT_BUTTON = 'buttonSelect'
+  MOD_LIST_ITEM_TEMPLATE = 'listItemTemplate',
+  START_BUTTON = 'buttonStart',
+  SELECT_ALL_BUTTON = 'buttonSelectAll',
+  NO_MODS_DLCS_ELEMENT = 'noModsDLCsElement',
+  SELECT_BUTTON = 'buttonSelect',
   MOD_LIST = 'modList'
 }
 ModSelectionScreen.LIST_TEMPLATE_ELEMENT_NAME = {
-  VERSION = 'version'
-  HASH = 'hash'
-  ICON = 'icon'
+  VERSION = 'version',
+  HASH = 'hash',
+  ICON = 'icon',
   TITLE = 'title'
 }
 

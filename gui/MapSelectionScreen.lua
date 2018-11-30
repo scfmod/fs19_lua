@@ -1,13 +1,13 @@
 MapSelectionScreen = {}
 
 MapSelectionScreen.CONTROLS = {
-  SELECTION_STATE_BOX = 'selectionStateBox'
-  SELECTOR_RIGHT_GP = 'selectorRightGamepad'
-  MAP_LIST_ITEM_TEMPLATE = 'listItemTemplate'
-  MAP_LIST = 'mapList'
-  MAP_SELECTOR = 'mapSelector'
-  MAP_SELECTION_TEXT = 'mapSelectionText'
-  SELECTOR_LEFT_GP = 'selectorLeftGamepad'
+  SELECTION_STATE_BOX = 'selectionStateBox',
+  SELECTOR_RIGHT_GP = 'selectorRightGamepad',
+  MAP_LIST_ITEM_TEMPLATE = 'listItemTemplate',
+  MAP_LIST = 'mapList',
+  MAP_SELECTOR = 'mapSelector',
+  MAP_SELECTION_TEXT = 'mapSelectionText',
+  SELECTOR_LEFT_GP = 'selectorLeftGamepad',
   MAP_SELECTION_TITLE = 'mapSelectionTitle'
 }
 function MapSelectionScreen:new() end

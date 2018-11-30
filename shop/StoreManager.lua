@@ -1,10 +1,10 @@
 StoreManager = {}
 
 StoreManager.CATEGORY_TYPE = {
-    VEHICLE = 'VEHICLE'
-    TOOL = 'TOOL'
-    NONE = ''
-    PLACEABLE = 'PLACEABLE'
+    VEHICLE = 'VEHICLE',
+    TOOL = 'TOOL',
+    NONE = '',
+    PLACEABLE = 'PLACEABLE',
     OBJECT = 'OBJECT'
 }
 

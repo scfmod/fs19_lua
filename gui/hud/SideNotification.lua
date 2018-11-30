@@ -8,7 +8,7 @@ SideNotification.COLOR = {
   DEFAULT_BACKGROUND = {}
 }
 SideNotification.SIZE = {
-  NOTIFICATION_MARGIN = {}
+  NOTIFICATION_MARGIN = {},
   SELF = {}
 }
 SideNotification.POSITION = {

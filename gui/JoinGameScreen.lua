@@ -1,18 +1,18 @@
 JoinGameScreen = {}
 
 JoinGameScreen.CONTROLS = {
-  CAPACITY_ELEMENT = 'capacityElement'
-  SORT_BUTON = 'sortButton'
-  DETAIL_BUTTON = 'detailButtonElement'
-  SERVER_NAME_ELEMENT = 'serverNameElement'
-  CHANGE_BUTTON = 'changeButton'
-  SLIDER_ELEMENT = 'sliderElement'
-  START_BUTTON = 'startButtonElement'
-  MOD_DLC_ELEMENT = 'modDlcElement'
-  MAIN_BOX = 'mainBox'
-  SERVER_LIST = 'serverList'
-  NUM_SERVERS_TEXT = 'numServersText'
-  PASSWORD_ELEMENT = 'passwordElement'
+  CAPACITY_ELEMENT = 'capacityElement',
+  SORT_BUTON = 'sortButton',
+  DETAIL_BUTTON = 'detailButtonElement',
+  SERVER_NAME_ELEMENT = 'serverNameElement',
+  CHANGE_BUTTON = 'changeButton',
+  SLIDER_ELEMENT = 'sliderElement',
+  START_BUTTON = 'startButtonElement',
+  MOD_DLC_ELEMENT = 'modDlcElement',
+  MAIN_BOX = 'mainBox',
+  SERVER_LIST = 'serverList',
+  NUM_SERVERS_TEXT = 'numServersText',
+  PASSWORD_ELEMENT = 'passwordElement',
   BUTTON_BOX = 'buttonBox'
 }
 JoinGameScreen.DATA_BINDING_PLAYERS = 'dbPlayers'

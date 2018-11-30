@@ -1,37 +1,37 @@
 TopNotification = {}
 
 TopNotification.SIZE = {
-  ICON = {}
+  ICON = {},
   SELF = {}
 }
 TopNotification.TEXT_SIZE = {
-  MAX_TEXT_WIDTH = 700.000000
-  INFO = 16.000000
-  TITLE = 36.000000
+  MAX_TEXT_WIDTH = 700.000000,
+  INFO = 16.000000,
+  TITLE = 36.000000,
   TEXT = 22.000000
 }
 TopNotification.POSITION = {
-  INFO_OFFSET = {}
-  SELF = {}
-  ICON = {}
-  TITLE_OFFSET = {}
+  INFO_OFFSET = {},
+  SELF = {},
+  ICON = {},
+  TITLE_OFFSET = {},
   TEXT_OFFSET = {}
 }
 TopNotification.UV = {
-  ICON_RADIO_STREAM = {}
+  ICON_RADIO_STREAM = {},
   BACKGROUND = {}
 }
 TopNotification.COLOR = {
-  ICON = {}
-  TEXT_INFO = {}
-  TEXT_TITLE = {}
-  BACKGROUND = {}
+  ICON = {},
+  TEXT_INFO = {},
+  TEXT_TITLE = {},
+  BACKGROUND = {},
   TEXT_DESC = {}
 }
 TopNotification.NO_NOTIFICATION = {
-  duration = 0.000000
-  title = ''
-  info = ''
+  duration = 0.000000,
+  title = '',
+  info = '',
   text = ''
 }
 TopNotification.DEFAULT_DURATION = 5000.000000

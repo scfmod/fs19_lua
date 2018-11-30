@@ -1,9 +1,9 @@
 InGameMenuTutorialFrame = {}
 
 InGameMenuTutorialFrame.CONTROLS = {
-  TUTORIAL_LIST = 'tutorialList'
-  TUTORIAL_WRAPPER = 'mainFrameWrapper'
-  TUTORIAL_LIST_TEMPLATE = 'tutorialTemplate'
+  TUTORIAL_LIST = 'tutorialList',
+  TUTORIAL_WRAPPER = 'mainFrameWrapper',
+  TUTORIAL_LIST_TEMPLATE = 'tutorialTemplate',
   TUTORIAL_SLIDER = 'tutorialSlider'
 }
 

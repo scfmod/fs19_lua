@@ -1,89 +1,89 @@
 ShopMenu = {}
 
 ShopMenu.L10N_SYMBOL = {
-  REPAIR_DIALOG = 'ui_repairDialog'
-  BUTTON_DETAILS = 'button_detail'
-  BUTTON_RETURN = 'button_return'
-  HEADER_GARAGE_OWNED = 'ui_garageOwned'
-  HEADER_ANIMALS = 'category_animals'
-  BUTTON_GARAGE = 'button_garage'
-  OWNED_ITEMS = 'shop_ownedItems'
-  HEADER_PLACEABLES = 'category_placeables'
-  HEADER_OBJECTS = 'ui_objects'
-  LEASED_ITEMS = 'shop_leasedItems'
-  BUTTON_SHOP = 'ui_shop'
-  BUTTON_SELL = 'button_sell'
-  BUTTON_REPAIR = 'button_repair'
-  HEADER_SALES = 'category_sales'
-  HEADER_GARAGE_LEASED = 'ui_garageLeased'
-  NOT_ENOUGH_MONEY_BUY = 'shop_messageNotEnoughMoneyToBuy'
-  HEADER_BRANDS = 'ui_brands'
-  HEADER_TOOLS = 'ui_tools'
-  BUTTON_BACK = 'button_back'
-  BUTTON_CUSTOMIZE = 'button_configurate'
-  BUTTON_BUY = 'button_buy'
-  HEADER_VEHICLES = 'ui_vehicles'
+  REPAIR_DIALOG = 'ui_repairDialog',
+  BUTTON_DETAILS = 'button_detail',
+  BUTTON_RETURN = 'button_return',
+  HEADER_GARAGE_OWNED = 'ui_garageOwned',
+  HEADER_ANIMALS = 'category_animals',
+  BUTTON_GARAGE = 'button_garage',
+  OWNED_ITEMS = 'shop_ownedItems',
+  HEADER_PLACEABLES = 'category_placeables',
+  HEADER_OBJECTS = 'ui_objects',
+  LEASED_ITEMS = 'shop_leasedItems',
+  BUTTON_SHOP = 'ui_shop',
+  BUTTON_SELL = 'button_sell',
+  BUTTON_REPAIR = 'button_repair',
+  HEADER_SALES = 'category_sales',
+  HEADER_GARAGE_LEASED = 'ui_garageLeased',
+  NOT_ENOUGH_MONEY_BUY = 'shop_messageNotEnoughMoneyToBuy',
+  HEADER_BRANDS = 'ui_brands',
+  HEADER_TOOLS = 'ui_tools',
+  BUTTON_BACK = 'button_back',
+  BUTTON_CUSTOMIZE = 'button_configurate',
+  BUTTON_BUY = 'button_buy',
+  HEADER_VEHICLES = 'ui_vehicles',
   MESSAGE_NO_PERMISSION = 'shop_messageNoPermissionGeneral'
 }
 ShopMenu.TAB_UV = {
   GARAGE = {
-    1 = 128.000000
-    2 = 144.000000
-    3 = 65.000000
+    1 = 128.000000,
+    2 = 144.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   TOOLS = {
-    1 = 715.000000
-    2 = 144.000000
-    3 = 65.000000
+    1 = 715.000000,
+    2 = 144.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   LANDSCAPING = {
-    1 = 0.000000
-    2 = 144.000000
-    3 = 65.000000
+    1 = 0.000000,
+    2 = 144.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   ANIMALS = {
-    1 = 195.000000
-    2 = 144.000000
-    3 = 65.000000
+    1 = 195.000000,
+    2 = 144.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   BRANDS = {
-    1 = 780.000000
-    2 = 144.000000
-    3 = 65.000000
+    1 = 780.000000,
+    2 = 144.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   OBJECTS = {
-    1 = 650.000000
-    2 = 144.000000
-    3 = 65.000000
+    1 = 650.000000,
+    2 = 144.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   PLACEABLES = {
-    1 = 585.000000
-    2 = 144.000000
-    3 = 65.000000
+    1 = 585.000000,
+    2 = 144.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   VEHICLES = {
-    1 = 130.000000
-    2 = 144.000000
-    3 = 65.000000
+    1 = 130.000000,
+    2 = 144.000000,
+    3 = 65.000000,
     4 = 65.000000
   }
 }
 ShopMenu.CONTROLS = {
-  PAGE_SHOP_BRANDS = 'pageShopBrands'
-  PAGE_SHOP_GARAGE_LEASED = 'pageShopGarageLeased'
-  PAGE_SHOP_OBJECTS = 'pageShopObjects'
-  PAGE_SHOP_PLACEABLES = 'pageShopPlaceables'
-  PAGE_SHOP_TOOLS = 'pageShopTools'
-  PAGE_SHOP_ITEM_DETAILS = 'pageShopItemDetails'
-  PAGE_SHOP_LANDSCAPING = 'pageShopLandscaping'
-  PAGE_SHOP_VEHICLES = 'pageShopVehicles'
+  PAGE_SHOP_BRANDS = 'pageShopBrands',
+  PAGE_SHOP_GARAGE_LEASED = 'pageShopGarageLeased',
+  PAGE_SHOP_OBJECTS = 'pageShopObjects',
+  PAGE_SHOP_PLACEABLES = 'pageShopPlaceables',
+  PAGE_SHOP_TOOLS = 'pageShopTools',
+  PAGE_SHOP_ITEM_DETAILS = 'pageShopItemDetails',
+  PAGE_SHOP_LANDSCAPING = 'pageShopLandscaping',
+  PAGE_SHOP_VEHICLES = 'pageShopVehicles',
   PAGE_SHOP_GARAGE_OWNED = 'pageShopGarageOwned'
 }
 ShopMenu.BRAND_IMAGE_HEIGHT_WIDTH_RATIO = 0.500000

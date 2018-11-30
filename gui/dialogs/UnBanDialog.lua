@@ -1,18 +1,18 @@
 UnBanDialog = {}
 
 UnBanDialog.CONTROLS = {
-  BUTTON_UNBAN_ALL = 'unBanAllButton'
-  BAN_LIST = 'banList'
-  DIALOG_FRAME = 'dialogElement'
-  BAN_LIST_ITEM_TEMPLATE = 'itemTemplate'
-  BUTTON_LAYOUT = 'buttonLayout'
-  BUTTON_BACK = 'backButton'
-  BUTTON_UNBAN = 'unBanButton'
-  DIALOG_TITLE = 'dialogTitleElement'
+  BUTTON_UNBAN_ALL = 'unBanAllButton',
+  BAN_LIST = 'banList',
+  DIALOG_FRAME = 'dialogElement',
+  BAN_LIST_ITEM_TEMPLATE = 'itemTemplate',
+  BUTTON_LAYOUT = 'buttonLayout',
+  BUTTON_BACK = 'backButton',
+  BUTTON_UNBAN = 'unBanButton',
+  DIALOG_TITLE = 'dialogTitleElement',
   LOADING_TEXT = 'loadingText'
 }
 UnBanDialog.ELEMENT_NAME = {
-  BAN_DATE = 'banDate'
+  BAN_DATE = 'banDate',
   USER_NAME = 'userName'
 }
 

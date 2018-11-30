@@ -1,20 +1,20 @@
 DirectSellDialog = {}
 
 DirectSellDialog.CONTROLS = {
-  NAME_SEPARATOR_ELEMENT = 'dialogSeparator'
-  CONDITION_BAR = 'conditionBar'
-  TEXT_ELEMENT = 'dialogText'
-  SELL_BUTTON = 'sellButton'
-  IMAGE_ELEMENT = 'dialogImage'
-  INFO_ELEMENT = 'dialogInfo'
-  NAME_ELEMENT = 'dialogName'
-  CONDITION_BAR_BG = 'conditionBarBg'
-  CONFIG_BUTTON = 'configButton'
-  HEADER_TEXT = 'headerText'
-  REPAIR_BUTTON = 'repairButton'
-  VEHICLE_INFO_BOX = 'vehicleInfoBox'
-  PRICE_ELEMENT = 'priceText'
-  OPERATING_HOURS_TEXT = 'operatingHoursText'
+  NAME_SEPARATOR_ELEMENT = 'dialogSeparator',
+  CONDITION_BAR = 'conditionBar',
+  TEXT_ELEMENT = 'dialogText',
+  SELL_BUTTON = 'sellButton',
+  IMAGE_ELEMENT = 'dialogImage',
+  INFO_ELEMENT = 'dialogInfo',
+  NAME_ELEMENT = 'dialogName',
+  CONDITION_BAR_BG = 'conditionBarBg',
+  CONFIG_BUTTON = 'configButton',
+  HEADER_TEXT = 'headerText',
+  REPAIR_BUTTON = 'repairButton',
+  VEHICLE_INFO_BOX = 'vehicleInfoBox',
+  PRICE_ELEMENT = 'priceText',
+  OPERATING_HOURS_TEXT = 'operatingHoursText',
   AGE_TEXT = 'ageText'
 }
 

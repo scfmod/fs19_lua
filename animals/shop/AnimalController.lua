@@ -2,7 +2,7 @@ AnimalController = {}
 
 AnimalController.MODE_DEALER_TRAILER = 1.000000
 AnimalController.SYMBOL_L10N = {
-  DEALER = 'animals_dealer'
+  DEALER = 'animals_dealer',
   FARM = 'ui_farm'
 }
 AnimalController.MODE_FARM_TRAILER = 3.000000

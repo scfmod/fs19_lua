@@ -5,14 +5,14 @@ EconomyManager.CONFIG_CHANGE_PRICE = 1000.000000
 EconomyManager.MAX_GREAT_DEMANDS = 3.000000
 EconomyManager.DIRECT_SELL_MULTIPLIER = 1.200000
 EconomyManager.PRICE_MULTIPLIER = {
-    1 = 3.000000
-    2 = 1.800000
+    1 = 3.000000,
+    2 = 1.800000,
     3 = 1.000000
 }
 EconomyManager.LIFETIME_OPERATINGTIME_RATIO = 0.083330
 EconomyManager.COST_MULTIPLIER = {
-    1 = 0.400000
-    2 = 0.700000
+    1 = 0.400000,
+    2 = 0.700000,
     3 = 1.000000
 }
 EconomyManager.sendNumBits = 2.000000

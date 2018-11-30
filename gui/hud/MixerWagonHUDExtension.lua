@@ -4,8 +4,8 @@ MixerWagonHUDExtension.UV = {
   RANGE_MARKER_ARROW = {}
 }
 MixerWagonHUDExtension.COLOR = {
-  STATUS_BAR_BAD = {}
-  STATUS_BAR_BG = {}
+  STATUS_BAR_BAD = {},
+  STATUS_BAR_BG = {},
   STATUS_BAR_GOOD = {}
 }
 

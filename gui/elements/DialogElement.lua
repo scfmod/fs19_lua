@@ -1,11 +1,11 @@
 DialogElement = {}
 
 DialogElement.CONTROLS = {
-  ICON_QUESTION_ELEMENT = 'iconQuestionElement'
-  ICON_LOADING_ELEMENT = 'iconLoadingElement'
-  CIRCLE_ELEMENT = 'dialogCircle'
-  ICON_INFO_ELEMENT = 'iconInfoElement'
-  ICON_KEY_ELEMENT = 'iconKeyElement'
+  ICON_QUESTION_ELEMENT = 'iconQuestionElement',
+  ICON_LOADING_ELEMENT = 'iconLoadingElement',
+  CIRCLE_ELEMENT = 'dialogCircle',
+  ICON_INFO_ELEMENT = 'iconInfoElement',
+  ICON_KEY_ELEMENT = 'iconKeyElement',
   ICON_WARNING_ELEMENT = 'iconWarningElement'
 }
 DialogElement.DIALOG_CIRCLE_PROFILE = 'dialogCircle'

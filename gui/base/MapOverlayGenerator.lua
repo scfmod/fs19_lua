@@ -1,104 +1,104 @@
 MapOverlayGenerator = {}
 
 MapOverlayGenerator.GROWTH_STATE_INDEX = {
+  CULTIVATED = 1.000000,
+  GROWING = 2.000000,
+  HARVEST = 3.000000,
+  HARVESTED = 4.000000,
+  PLOWED = 5.000000,
+  TOPPING = 6.000000,
   WITHERED = 7.000000
-  PLOWED = 5.000000
-  TOPPING = 6.000000
-  HARVEST = 3.000000
-  GROWING = 2.000000
-  CULTIVATED = 1.000000
-  HARVESTED = 4.000000
 }
 MapOverlayGenerator.OVERLAY_TYPE = {
+  CROPS = 1.000000,
+  GROWTH = 2.000000,
+  SOIL = 3.000000,
   FARMLANDS = 4.000000
-  GROWTH = 2.000000
-  SOIL = 3.000000
-  CROPS = 1.000000
 }
 MapOverlayGenerator.FRUIT_COLORS_GROWING = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.FRUIT_COLORS_FERTILIZED = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.COLOR = {
-  FIELD_SELECTED = {}
-  FIELD_BORDER = {}
+  FIELD_SELECTED = {},
+  FIELD_BORDER = {},
   FIELD_UNOWNED = {}
 }
 MapOverlayGenerator.FRUIT_COLOR_DISABLED = {
-  1 = 0.200000
-  2 = 0.200000
-  3 = 0.200000
+  1 = 0.200000,
+  2 = 0.200000,
+  3 = 0.200000,
   4 = 1.000000
 }
 MapOverlayGenerator.SOIL_STATE_INDEX = {
-  NEEDS_LIME = 4.000000
-  WEEDS = 1.000000
-  NEEDS_PLOWING = 3.000000
+  NEEDS_LIME = 4.000000,
+  WEEDS = 1.000000,
+  NEEDS_PLOWING = 3.000000,
   FERTILIZED = 2.000000
 }
 MapOverlayGenerator.FRUIT_COLOR_CULTIVATED = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.FRUIT_COLORS_HARVEST = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.FRUIT_COLOR_REMOVE_TOPS = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.FRUIT_COLOR_WITHERED = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.OVERLAY_RESOLUTION = {
-  FOLIAGE_STATE = {}
+  FOLIAGE_STATE = {},
   FARMLANDS = {}
 }
 MapOverlayGenerator.FRUIT_COLOR_CUT = {
-  1 = 0.264700
-  2 = 0.103800
-  3 = 0.358000
+  1 = 0.264700,
+  2 = 0.103800,
+  3 = 0.358000,
   4 = 1.000000
 }
 MapOverlayGenerator.FRUIT_COLOR_SOWN = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.FRUIT_COLOR_PLOWED = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.L10N_SYMBOL = {
-  GROWTH_MAP_HARVEST = 'ui_growthMapReadyToHarvest'
-  SOIL_MAP_FERTILIZED = 'ui_growthMapFertilized'
-  GROWTH_MAP_CULTIVATED = 'ui_growthMapCultivated'
-  GROWTH_MAP_PLOWED = 'ui_growthMapPlowed'
-  GROWTH_MAP_GROWING = 'ui_growthMapGrowing'
-  SOIL_MAP_NEED_PLOWING = 'ui_growthMapNeedsPlowing'
-  GROWTH_MAP_TOPPING = 'ui_growthMapReadyToPrepareForHarvest'
-  SOIL_MAP_NEED_LIME = 'ui_growthMapNeedsLime'
-  GROWTH_MAP_WITHERED = 'ui_growthMapWithered'
+  GROWTH_MAP_HARVEST = 'ui_growthMapReadyToHarvest',
+  SOIL_MAP_FERTILIZED = 'ui_growthMapFertilized',
+  GROWTH_MAP_CULTIVATED = 'ui_growthMapCultivated',
+  GROWTH_MAP_PLOWED = 'ui_growthMapPlowed',
+  GROWTH_MAP_GROWING = 'ui_growthMapGrowing',
+  SOIL_MAP_NEED_PLOWING = 'ui_growthMapNeedsPlowing',
+  GROWTH_MAP_TOPPING = 'ui_growthMapReadyToPrepareForHarvest',
+  SOIL_MAP_NEED_LIME = 'ui_growthMapNeedsLime',
+  GROWTH_MAP_WITHERED = 'ui_growthMapWithered',
   GROWTH_MAP_HARVESTED = 'ui_growthMapCutted'
 }
 MapOverlayGenerator.FRUIT_COLOR_NEEDS_LIME = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.FRUIT_COLOR_NEEDS_PLOWING = {
-  false = {}
+  false = {},
   true = {}
 }
 MapOverlayGenerator.FARMLANDS_ALPHA = 0.500000
 MapOverlayGenerator.FRUIT_COLORS_DISABLED = {
-  1 = {}
-  2 = {}
-  3 = {}
+  1 = {},
+  2 = {},
+  3 = {},
   4 = {}
 }
 MapOverlayGenerator.FARMLANDS_BORDER_THICKNESS = 3.000000

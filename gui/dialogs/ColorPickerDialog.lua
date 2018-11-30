@@ -1,8 +1,8 @@
 ColorPickerDialog = {}
 
 ColorPickerDialog.CONTROLS = {
-  COLOR_NAME = 'colorName'
-  BUTTON_TEMPLATE = 'buttonTemplate'
+  COLOR_NAME = 'colorName',
+  BUTTON_TEMPLATE = 'buttonTemplate',
   BUTTON_LAYOUT = 'colorButtonLayout'
 }
 ColorPickerDialog.MAX_COLUMNS = 8.000000

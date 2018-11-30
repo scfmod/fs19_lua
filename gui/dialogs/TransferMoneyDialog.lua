@@ -1,7 +1,7 @@
 TransferMoneyDialog = {}
 
 TransferMoneyDialog.CONTROLS = {
-  CONSOLE_AMOUNT = 'consoleAmountText'
+  CONSOLE_AMOUNT = 'consoleAmountText',
   HEADER_TEXT = 'headerText'
 }
 

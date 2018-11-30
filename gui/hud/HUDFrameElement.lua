@@ -1,11 +1,11 @@
 HUDFrameElement = {}
 
 HUDFrameElement.THICKNESS = {
-  BAR = 4.000000
+  BAR = 4.000000,
   FRAME = 1.000000
 }
 HUDFrameElement.COLOR = {
-  BAR = {}
+  BAR = {},
   FRAME = {}
 }
 

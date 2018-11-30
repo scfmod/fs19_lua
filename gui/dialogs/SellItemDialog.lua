@@ -1,9 +1,9 @@
 SellItemDialog = {}
 
 SellItemDialog.CONTROLS = {
-  ITEM_PRICE = 'dialogItemPriceElement'
-  ITEM_NAME = 'dialogItemNameElement'
-  ITEM_IMAGE = 'dialogImageElement'
+  ITEM_PRICE = 'dialogItemPriceElement',
+  ITEM_NAME = 'dialogItemNameElement',
+  ITEM_IMAGE = 'dialogImageElement',
   HEADER_TEXT = 'headerText'
 }
 

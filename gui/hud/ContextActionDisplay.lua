@@ -1,43 +1,43 @@
 ContextActionDisplay = {}
 
 ContextActionDisplay.UV = {
-  tip = {}
-  fillBowl = {}
-  attach = {}
-  noDetach = {}
+  tip = {},
+  fillBowl = {},
+  attach = {},
+  noDetach = {},
   fuel = {}
 }
 ContextActionDisplay.CONTEXT_ICON = {
-  FILL_BOWL = 'fillBowl'
-  TIP = 'tip'
-  FUEL = 'fuel'
-  NO_DETACH = 'noDetach'
+  FILL_BOWL = 'fillBowl',
+  TIP = 'tip',
+  FUEL = 'fuel',
+  NO_DETACH = 'noDetach',
   ATTACH = 'attach'
 }
 ContextActionDisplay.MIN_DISPLAY_DURATION = 100.000000
 ContextActionDisplay.TEXT_SIZE = {
-  ACTION_TEXT = 21.000000
+  ACTION_TEXT = 21.000000,
   TARGET_TEXT = 30.000000
 }
 ContextActionDisplay.OFFSET = {
   X = 37.500000
 }
 ContextActionDisplay.SIZE = {
-  CONTEXT_ICON = {}
-  BACKGROUND = {}
+  CONTEXT_ICON = {},
+  BACKGROUND = {},
   INPUT_ICON = {}
 }
 ContextActionDisplay.COLOR = {
-  CONTEXT_ICON = {}
-  TARGET_TEXT = {}
-  INPUT_ICON = {}
+  CONTEXT_ICON = {},
+  TARGET_TEXT = {},
+  INPUT_ICON = {},
   ACTION_TEXT = {}
 }
 ContextActionDisplay.POSITION = {
-  ACTION_TEXT = {}
-  TARGET_TEXT = {}
-  INPUT_ICON = {}
-  CONTEXT_ICON = {}
+  ACTION_TEXT = {},
+  TARGET_TEXT = {},
+  INPUT_ICON = {},
+  CONTEXT_ICON = {},
   BACKGROUND = {}
 }
 

@@ -1,18 +1,18 @@
 SettingsDisplayFrame = {}
 
 SettingsDisplayFrame.CONTROLS = {
-  MAIN_CONTAINER = 'settingsContainer'
-  RESOLUTION_SCALE = 'resolutionScaleElement'
-  RESOLUTION = 'resolutionElement'
-  V_SYNC = 'vSyncElement'
-  BRIGHTNESS = 'brightnessElement'
-  ELEMENT_PERFORMANCE_CLASS = 'performanceClassElement'
-  WINDOW_MODE = 'windowModeElement'
-  UI_SCALE = 'uiScaleElement'
+  MAIN_CONTAINER = 'settingsContainer',
+  RESOLUTION_SCALE = 'resolutionScaleElement',
+  RESOLUTION = 'resolutionElement',
+  V_SYNC = 'vSyncElement',
+  BRIGHTNESS = 'brightnessElement',
+  ELEMENT_PERFORMANCE_CLASS = 'performanceClassElement',
+  WINDOW_MODE = 'windowModeElement',
+  UI_SCALE = 'uiScaleElement',
   FOV_Y = 'fovYElement'
 }
 SettingsDisplayFrame.L10N_SYMBOL = {
-  BUTTON_ADVANCED = 'setting_advanced'
+  BUTTON_ADVANCED = 'setting_advanced',
   BUTTON_APPLY = 'button_apply'
 }
 

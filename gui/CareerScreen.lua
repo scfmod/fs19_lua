@@ -1,25 +1,25 @@
 CareerScreen = {}
 
 CareerScreen.CONTROLS = {
-  BUTTON_START_PC = 'buttonStartPC'
-  BUTTON_DELETE_PC = 'buttonDeletePC'
-  LIST_ITEM_TEMPLATE = 'listItemTemplate'
-  LIST_SLIDER = 'listSlider'
+  BUTTON_START_PC = 'buttonStartPC',
+  BUTTON_DELETE_PC = 'buttonDeletePC',
+  LIST_ITEM_TEMPLATE = 'listItemTemplate',
+  LIST_SLIDER = 'listSlider',
   SAVEGAME_LIST = 'savegameList'
 }
 CareerScreen.LIST_TEMPLATE_ELEMENT_NAME = {
-  TEXT_BOX = 'textBox'
-  CREATE_DATE = 'createDate'
-  GAME_NAME = 'gameName'
-  GAME_ICON = 'gameIcon'
-  PLAYER_NAME = 'playerName'
-  TITLE = 'title'
-  DATA_BOX = 'dataBox'
-  DIFFICULTY = 'difficulty'
-  MAP_NAME = 'mapName'
-  INFO_TEXT = 'infoText'
-  MONEY = 'money'
-  TIME_PLAYED = 'timePlayed'
+  TEXT_BOX = 'textBox',
+  CREATE_DATE = 'createDate',
+  GAME_NAME = 'gameName',
+  GAME_ICON = 'gameIcon',
+  PLAYER_NAME = 'playerName',
+  TITLE = 'title',
+  DATA_BOX = 'dataBox',
+  DIFFICULTY = 'difficulty',
+  MAP_NAME = 'mapName',
+  INFO_TEXT = 'infoText',
+  MONEY = 'money',
+  TIME_PLAYED = 'timePlayed',
   CHARACTER = 'character'
 }
 CareerScreen.MISSING_MAP_ICON_PATH = 'dataS2/menu/hud/missingMap.png'

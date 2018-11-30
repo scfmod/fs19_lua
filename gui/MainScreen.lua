@@ -1,26 +1,26 @@
 MainScreen = {}
 
 MainScreen.CONTROLS = {
-  BUTTON_NOTIFICATION_RIGHT = 'notificationButtonRight'
-  NOTIFICATION_TITLE = 'notificationTitle'
-  NOTIFICATION_BOX = 'notificationElement'
-  GAMER_TAG_ELEMENT = 'gamerTagElement'
-  NOTIFICATION_MESSAGE = 'notificationMessage'
-  BACKGROUND_IMAGE = 'backgroundImage'
-  BACKGROUND_TRACTOR = 'backgroundTractor'
-  LOGO = 'logo'
-  BACKGROUND_GLASSEDGE = 'glassEdgeOverlay'
-  BACKGROUND_BLURRY = 'backgroundBlurImage'
-  BUTTON_NOTIFICATION_OPEN = 'notificationButtonOpen'
-  NOTIFICATION_DATE = 'notificationDate'
-  BUTTON_NOTIFICATION_LEFT = 'notificationButtonLeft'
-  NOTIFICATION_INDEX_STATE = 'indexState'
-  BUTTON_BOX = 'buttonBox'
+  BUTTON_NOTIFICATION_RIGHT = 'notificationButtonRight',
+  NOTIFICATION_TITLE = 'notificationTitle',
+  NOTIFICATION_BOX = 'notificationElement',
+  GAMER_TAG_ELEMENT = 'gamerTagElement',
+  NOTIFICATION_MESSAGE = 'notificationMessage',
+  BACKGROUND_IMAGE = 'backgroundImage',
+  BACKGROUND_TRACTOR = 'backgroundTractor',
+  LOGO = 'logo',
+  BACKGROUND_GLASSEDGE = 'glassEdgeOverlay',
+  BACKGROUND_BLURRY = 'backgroundBlurImage',
+  BUTTON_NOTIFICATION_OPEN = 'notificationButtonOpen',
+  NOTIFICATION_DATE = 'notificationDate',
+  BUTTON_NOTIFICATION_LEFT = 'notificationButtonLeft',
+  NOTIFICATION_INDEX_STATE = 'indexState',
+  BUTTON_BOX = 'buttonBox',
   NOTIFICATION_IMAGE = 'notificationImage'
 }
 MainScreen.IMAGES = {
   1 = {
-    filename = 'dataS2/menu/menuTractors/menuTractor_01.png'
+    filename = 'dataS2/menu/menuTractors/menuTractor_01.png',
     sizeFactor = 1.000000
   }
 }

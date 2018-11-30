@@ -1,42 +1,42 @@
 SettingsScreen = {}
 
 SettingsScreen.CONTROLS = {
-  PAGING_SETTINGS_CONSOLE = 'pageSettingsConsole'
-  PAGING_SETTINGS_GENERAL = 'pageSettingsGeneral'
-  PAGING_SETTINGS_DEVICE = 'pageSettingsDevice'
-  PAGING_SETTINGS_ADVANCED = 'pageSettingsAdvanced'
-  PAGING_SETTINGS_DISPLAY = 'pageSettingsDisplay'
+  PAGING_SETTINGS_CONSOLE = 'pageSettingsConsole',
+  PAGING_SETTINGS_GENERAL = 'pageSettingsGeneral',
+  PAGING_SETTINGS_DEVICE = 'pageSettingsDevice',
+  PAGING_SETTINGS_ADVANCED = 'pageSettingsAdvanced',
+  PAGING_SETTINGS_DISPLAY = 'pageSettingsDisplay',
   PAGING_SETTINGS_CONTROLS = 'pageSettingsControls'
 }
 SettingsScreen.TAB_UV = {
   GENERAL_SETTINGS = {
-    1 = 0.000000
-    2 = 209.000000
-    3 = 65.000000
+    1 = 0.000000,
+    2 = 209.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   CONSOLE_SETTINGS = {
-    1 = 0.000000
-    2 = 209.000000
-    3 = 65.000000
+    1 = 0.000000,
+    2 = 209.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   CONTROLS_SETTINGS = {
-    1 = 130.000000
-    2 = 209.000000
-    3 = 65.000000
+    1 = 130.000000,
+    2 = 209.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   DISPLAY_SETTINGS = {
-    1 = 65.000000
-    2 = 209.000000
-    3 = 65.000000
+    1 = 65.000000,
+    2 = 209.000000,
+    3 = 65.000000,
     4 = 65.000000
-  }
+  },
   DEVICE_SETTINGS = {
-    1 = 195.000000
-    2 = 209.000000
-    3 = 65.000000
+    1 = 195.000000,
+    2 = 209.000000,
+    3 = 65.000000,
     4 = 65.000000
   }
 }

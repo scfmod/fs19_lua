@@ -2,11 +2,11 @@ InputDisplayManager = {}
 
 InputDisplayManager.RESOLUTION_ATLAS_PATHS = {
     1 = {
-        PATH = 'dataS2/menu/controllerSymbols1024.png'
+        PATH = 'dataS2/menu/controllerSymbols1024.png',
         MIN_HEIGHT = 0.000000
-    }
+    },
     2 = {
-        PATH = 'dataS2/menu/controllerSymbols2048.png'
+        PATH = 'dataS2/menu/controllerSymbols2048.png',
         MIN_HEIGHT = 1080.000000
     }
 }
@@ -14,13 +14,13 @@ InputDisplayManager.SYMBOL_PREFIX_MOUSE = 'mouse_'
 InputDisplayManager.AXIS_ICON_DEFINITIONS_PATH = 'dataS/axisIcons.xml'
 InputDisplayManager.SYMBOL_PREFIX_XBOX = 'xbox_'
 InputDisplayManager.NO_HELP_ELEMENT = {
-    actionName = ''
-    separators = {}
-    actionName2 = ''
-    buttons = {}
-    textRight = ''
-    keys = {}
-    priority = 3.000000
+    actionName = '',
+    separators = {},
+    actionName2 = '',
+    buttons = {},
+    textRight = '',
+    keys = {},
+    priority = 3.000000,
     textLeft = ''
 }
 InputDisplayManager.AXIS_NAME_Y = 'Y'

@@ -1,15 +1,15 @@
 ShopCategoriesFrame = {}
 
 ShopCategoriesFrame.CONTROLS = {
-  CATEGORY_TEMPLATE = 'categoryTemplate'
-  CATEGORY_LIST = 'categoryList'
-  BUTTON_RIGHT = 'buttonRight'
-  BUTTON_LEFT = 'buttonLeft'
-  CATEGORY_HEADER_TEXT = 'categoryHeaderText'
+  CATEGORY_TEMPLATE = 'categoryTemplate',
+  CATEGORY_LIST = 'categoryList',
+  BUTTON_RIGHT = 'buttonRight',
+  BUTTON_LEFT = 'buttonLeft',
+  CATEGORY_HEADER_TEXT = 'categoryHeaderText',
   CATEGORY_HEADER_ICON = 'categoryHeaderIcon'
 }
 ShopCategoriesFrame.PROFILE = {
-  LIST_ITEM_NEUTRAL = 'shopCategoryItem'
+  LIST_ITEM_NEUTRAL = 'shopCategoryItem',
   LIST_ITEM_SELECTED = 'shopCategoryItemSelected'
 }
 ShopCategoriesFrame.ICON_ELEMENT_NAME = 'categoryImage'

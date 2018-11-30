@@ -1,7 +1,7 @@
 HelpLineManager = {}
 
 HelpLineManager.ITEM_TYPE = {
-    IMAGE = 'image'
+    IMAGE = 'image',
     TEXT = 'text'
 }
 

@@ -3,10 +3,10 @@ GuiTopDownCamera = {}
 GuiTopDownCamera.ROTATION_RANGE_X = 15.000000
 GuiTopDownCamera.ROTATION_SPEED = 0.000500
 GuiTopDownCamera.L10N_SYMBOL = {
-  ACTION_ROTATE_CAMERA = 'action_rotateCamera'
-  ACTION_MOVE = 'ui_movePlaceable'
-  ACTION_ZOOM = 'action_cameraZoom'
-  ACTION_RESET_CAMERA = 'setting_resetUICamera'
+  ACTION_ROTATE_CAMERA = 'action_rotateCamera',
+  ACTION_MOVE = 'ui_movePlaceable',
+  ACTION_ZOOM = 'action_cameraZoom',
+  ACTION_RESET_CAMERA = 'setting_resetUICamera',
   ACTION_ROTATE_OBJECT = 'action_rotate'
 }
 GuiTopDownCamera.TERRAIN_BORDER = 40.000000

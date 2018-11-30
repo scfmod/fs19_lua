@@ -1,11 +1,11 @@
 CreditsScreen = {}
 
 CreditsScreen.CONTROLS = {
-  CREDITS_BOX = 'creditsVisibilityBox'
-  CREDITS_PLACEHOLDER = 'creditsPlaceholder'
-  CREDITS_SEPARATOR_ELEMENT = 'creditsSeparatorElement'
-  LOGO = 'logo'
-  CREDITS_TEXT_ELEMENT = 'creditsTextElement'
+  CREDITS_BOX = 'creditsVisibilityBox',
+  CREDITS_PLACEHOLDER = 'creditsPlaceholder',
+  CREDITS_SEPARATOR_ELEMENT = 'creditsSeparatorElement',
+  LOGO = 'logo',
+  CREDITS_TEXT_ELEMENT = 'creditsTextElement',
   CREDITS_TITLE_ELEMENT = 'creditsTitleElement'
 }
 

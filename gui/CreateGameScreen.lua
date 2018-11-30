@@ -1,18 +1,18 @@
 CreateGameScreen = {}
 
 CreateGameScreen.CONTROLS = {
-  CAPACITY_ELEMENT = 'capacityElement'
-  MULTIPLAYER_ELEMENT = 'multiplayerLanguageElement'
-  SERVER_NAME_ELEMENT = 'serverNameElement'
-  PORT_ELEMENT = 'portElement'
-  USE_UPNP_ELEMENT = 'useUpnpElement'
-  CHANGE_BUTTON = 'changeButton'
-  BUTTON_BOX = 'buttonBox'
-  AUTO_ACCEPT_ELEMENT = 'autoAcceptElement'
-  ALLOW_ONLY_FRIENDS_ELEMENT = 'allowOnlyFriendsElement'
-  AUTO_SAVE_ELEMENT = 'autoSaveElement'
-  PASSWORD_ELEMENT = 'passwordElement'
-  BANDWIDTH_ELEMENT = 'bandwidthElement'
+  CAPACITY_ELEMENT = 'capacityElement',
+  MULTIPLAYER_ELEMENT = 'multiplayerLanguageElement',
+  SERVER_NAME_ELEMENT = 'serverNameElement',
+  PORT_ELEMENT = 'portElement',
+  USE_UPNP_ELEMENT = 'useUpnpElement',
+  CHANGE_BUTTON = 'changeButton',
+  BUTTON_BOX = 'buttonBox',
+  AUTO_ACCEPT_ELEMENT = 'autoAcceptElement',
+  ALLOW_ONLY_FRIENDS_ELEMENT = 'allowOnlyFriendsElement',
+  AUTO_SAVE_ELEMENT = 'autoSaveElement',
+  PASSWORD_ELEMENT = 'passwordElement',
+  BANDWIDTH_ELEMENT = 'bandwidthElement',
   SETTINGS_BOX = 'settingsBox'
 }
 

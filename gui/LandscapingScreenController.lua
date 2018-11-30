@@ -2,40 +2,40 @@ LandscapingScreenController = {}
 
 LandscapingScreenController.INDICATOR_COLOR = {
   VALID = {
-    1 = 0.000000
-    2 = 1.000000
-    3 = 0.000000
+    1 = 0.000000,
+    2 = 1.000000,
+    3 = 0.000000,
     4 = 1.000000
-  }
+  },
   INVALID = {
-    1 = 1.000000
-    2 = 0.000000
-    3 = 0.000000
+    1 = 1.000000,
+    2 = 0.000000,
+    3 = 0.000000,
     4 = 1.000000
   }
 }
 LandscapingScreenController.MODE = {
-  PAINTING = 'PAINTING'
+  PAINTING = 'PAINTING',
   SCULPTING = 'SCULPTING'
 }
 LandscapingScreenController.L10N_SYMBOL = {
-  BUTTON_BACK = 'button_back'
-  ACTION_PAINT = 'action_terrainPaint'
-  ACTION_CHANGE_RADIUS = 'action_terrainChangeRadius'
-  ACTION_SUBTRACT = 'action_terrainLower'
-  ACTION_ADD = 'action_terrainRaise'
-  ACTION_FLATTEN = 'action_terrainFlatten'
-  ACTION_CHANGE_SHAPE = 'action_terrainChangeShape'
-  ACTION_CHANGE_STRENGTH = 'action_terrainChangeStrength'
-  ACTION_CHANGE_MODE = 'action_terrainChangeMode'
-  ACTION_SMOOTH = 'action_terrainSmooth'
+  BUTTON_BACK = 'button_back',
+  ACTION_PAINT = 'action_terrainPaint',
+  ACTION_CHANGE_RADIUS = 'action_terrainChangeRadius',
+  ACTION_SUBTRACT = 'action_terrainLower',
+  ACTION_ADD = 'action_terrainRaise',
+  ACTION_FLATTEN = 'action_terrainFlatten',
+  ACTION_CHANGE_SHAPE = 'action_terrainChangeShape',
+  ACTION_CHANGE_STRENGTH = 'action_terrainChangeStrength',
+  ACTION_CHANGE_MODE = 'action_terrainChangeMode',
+  ACTION_SMOOTH = 'action_terrainSmooth',
   ACTION_CYCLE_TEXTURE = 'action_terrainCycleGroundType'
 }
 LandscapingScreenController.SETTINGS = {
-  BRUSH_SHAPE = 2.000000
-  BRUSH_SIZE = 3.000000
-  TERRAIN_MATERIAL = 5.000000
-  MODE = 1.000000
+  BRUSH_SHAPE = 2.000000,
+  BRUSH_SIZE = 3.000000,
+  TERRAIN_MATERIAL = 5.000000,
+  MODE = 1.000000,
   BRUSH_STRENGTH = 4.000000
 }
 LandscapingScreenController.SPHERE_INDICATOR_PATH = '$data/store/ui/sphere.i3d'

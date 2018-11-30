@@ -1,7 +1,7 @@
 MultiplayerScreen = {}
 
 MultiplayerScreen.CONTROLS = {
-  RENT_BUTTON = 'rentButton'
+  RENT_BUTTON = 'rentButton',
   NAT_WARNING = 'natWarning'
 }
 

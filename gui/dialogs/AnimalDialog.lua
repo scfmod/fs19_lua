@@ -1,7 +1,7 @@
 AnimalDialog = {}
 
 AnimalDialog.CONTROLS = {
-  HUSBANDRIES_ELEMENT = 'husbandriesElement'
+  HUSBANDRIES_ELEMENT = 'husbandriesElement',
   HUSBANDRY_TEXT = 'husbandryText'
 }
 

@@ -1,22 +1,22 @@
 FillLevelsDisplay = {}
 
 FillLevelsDisplay.POSITION = {
-  FILL_TYPE_ICON = {}
-  FILL_TYPE_FRAME = {}
-  BACKGROUND = {}
-  FILL_LEVEL_TEXT = {}
+  FILL_TYPE_ICON = {},
+  FILL_TYPE_FRAME = {},
+  BACKGROUND = {},
+  FILL_LEVEL_TEXT = {},
   BAR = {}
 }
 FillLevelsDisplay.SIZE = {
-  FILL_TYPE_ICON = {}
-  BACKGROUND = {}
-  BAR = {}
+  FILL_TYPE_ICON = {},
+  BACKGROUND = {},
+  BAR = {},
   FILL_TYPE_FRAME = {}
 }
 FillLevelsDisplay.COLOR = {
-  FILL_TYPE_ICON = {}
-  BAR_BACKGROUND = {}
-  FILL_LEVEL_TEXT = {}
+  FILL_TYPE_ICON = {},
+  BAR_BACKGROUND = {},
+  FILL_LEVEL_TEXT = {},
   BAR_FILLED = {}
 }
 

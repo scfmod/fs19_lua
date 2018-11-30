@@ -1,8 +1,8 @@
 YesNoDialog = {}
 
 YesNoDialog.CONTROLS = {
-  NO_BUTTON = 'noButton'
-  DIALOG_TITLE = 'dialogTitleElement'
+  NO_BUTTON = 'noButton',
+  DIALOG_TITLE = 'dialogTitleElement',
   YES_BUTTON = 'yesButton'
 }
 

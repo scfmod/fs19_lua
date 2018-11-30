@@ -1,26 +1,26 @@
 AchievementMessage = {}
 
 AchievementMessage.COLOR = {
-  ACHIEVEMENT_TEXT = {}
-  MESSAGE_TEXT = {}
-  ICON = {}
+  ACHIEVEMENT_TEXT = {},
+  MESSAGE_TEXT = {},
+  ICON = {},
   TITLE_TEXT = {}
 }
 AchievementMessage.POSITION = {
-  SELF = {}
-  ICON = {}
-  TITLE_TEXT = {}
-  ACHIEVEMENT_TEXT = {}
+  SELF = {},
+  ICON = {},
+  TITLE_TEXT = {},
+  ACHIEVEMENT_TEXT = {},
   MESSAGE_TEXT = {}
 }
 AchievementMessage.TEXT_SIZE = {
-  MESSAGE = 22.500000
-  TITLE = 30.000000
+  MESSAGE = 22.500000,
+  TITLE = 30.000000,
   ACHIEVEMENT = 22.500000
 }
 AchievementMessage.SIZE = {
-  SELF = {}
-  ICON = {}
+  SELF = {},
+  ICON = {},
   MESSAGE = {}
 }
 

@@ -1,23 +1,23 @@
 SettingsConsoleFrame = {}
 
 SettingsConsoleFrame.L10N_SYMBOL = {
-  SAVING_FINISHED = 'ui_savingFinished'
-  BUTTON_APPLY = 'button_apply'
+  SAVING_FINISHED = 'ui_savingFinished',
+  BUTTON_APPLY = 'button_apply',
   DOWNSAMPLED = 'setting_resolutionDownsampled'
 }
 SettingsConsoleFrame.CONTROLS = {
-  MAIN_CONTAINER = 'settingsContainer'
-  VOLUME_ENVIRONMENT = 'volumeEnvironmentElement'
-  VOLUME_GUI = 'volumeGUIElement'
-  ELEMENT_UI_SCALE = 'uiScaleElement'
-  ELEMENT_INVERT_Y = 'invertYLookElement'
-  ELEMENT_FOVY = 'fovyElement'
-  ELEMENT_RENDER_QUALITY = 'renderQualityElement'
-  VOLUME_RADIO = 'volumeRadioElement'
-  MAIN_BOX = 'boxLayout'
-  ELEMENT_DISPLAY_RESOLUTION = 'resolutionElement'
-  VOLUME_MASTER = 'masterVolumeElement'
-  VOLUME_MUSIC = 'musicVolumeElement'
+  MAIN_CONTAINER = 'settingsContainer',
+  VOLUME_ENVIRONMENT = 'volumeEnvironmentElement',
+  VOLUME_GUI = 'volumeGUIElement',
+  ELEMENT_UI_SCALE = 'uiScaleElement',
+  ELEMENT_INVERT_Y = 'invertYLookElement',
+  ELEMENT_FOVY = 'fovyElement',
+  ELEMENT_RENDER_QUALITY = 'renderQualityElement',
+  VOLUME_RADIO = 'volumeRadioElement',
+  MAIN_BOX = 'boxLayout',
+  ELEMENT_DISPLAY_RESOLUTION = 'resolutionElement',
+  VOLUME_MASTER = 'masterVolumeElement',
+  VOLUME_MUSIC = 'musicVolumeElement',
   VOLUME_VEHICLE = 'volumeVehicleElement'
 }
 

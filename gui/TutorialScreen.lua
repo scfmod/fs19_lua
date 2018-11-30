@@ -1,15 +1,15 @@
 TutorialScreen = {}
 
 TutorialScreen.CONTROLS = {
-  TUTORIAL_LIST = 'tutorialList'
-  LIST_TEMPLATE = 'listItemTemplate'
-  SELECTOR_RIGHT = 'selectorRight'
-  STATS_VALUE = 'statsValue'
+  TUTORIAL_LIST = 'tutorialList',
+  LIST_TEMPLATE = 'listItemTemplate',
+  SELECTOR_RIGHT = 'selectorRight',
+  STATS_VALUE = 'statsValue',
   SELECTOR_LEFT = 'selectorLeft'
 }
 TutorialScreen.LIST_TEMPLATE_ELEMENT_NAME = {
-  DESCRIPTION = 'description'
-  ICON = 'icon'
+  DESCRIPTION = 'description',
+  ICON = 'icon',
   TITLE = 'title'
 }
 

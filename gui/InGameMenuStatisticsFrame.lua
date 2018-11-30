@@ -1,14 +1,14 @@
 InGameMenuStatisticsFrame = {}
 
 InGameMenuStatisticsFrame.CONTROLS = {
-  TABLES = 'statisticsTable'
-  STATS_BOX_TEMPLATE = 'statisticBoxElement'
-  STATS_CONTAINER = 'statsContainer'
+  TABLES = 'statisticsTable',
+  STATS_BOX_TEMPLATE = 'statisticBoxElement',
+  STATS_CONTAINER = 'statsContainer',
   TABLE_HEADER_BOXES = 'tableHeaderBox'
 }
 InGameMenuStatisticsFrame.DATA_BINDING = {
-  TOTAL_VALUE = 'total'
-  STAT_TYPE = 'stat'
+  TOTAL_VALUE = 'total',
+  STAT_TYPE = 'stat',
   SESSION_VALUE = 'session'
 }
 InGameMenuStatisticsFrame.NUM_ROWS = 13.000000

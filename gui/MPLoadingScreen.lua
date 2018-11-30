@@ -1,13 +1,13 @@
 MPLoadingScreen = {}
 
 MPLoadingScreen.CONTROLS = {
-  GAMEPLAY_HINT_TEXT = 'gameplayHintText'
-  BUTTON_OK_PC = 'buttonOkPC'
-  TIP_STATE_BOX = 'tipStateBox'
-  MAP_SELECTION_PREVIEW = 'mapSelectionPreview'
-  LOADING_STATUS_TEXT = 'loadingStatusText'
-  MPLOADING_ANIMATION = 'mpLoadingAnimation'
-  MAP_NAME_TEXT = 'mapNameText'
+  GAMEPLAY_HINT_TEXT = 'gameplayHintText',
+  BUTTON_OK_PC = 'buttonOkPC',
+  TIP_STATE_BOX = 'tipStateBox',
+  MAP_SELECTION_PREVIEW = 'mapSelectionPreview',
+  LOADING_STATUS_TEXT = 'loadingStatusText',
+  MPLOADING_ANIMATION = 'mpLoadingAnimation',
+  MAP_NAME_TEXT = 'mapNameText',
   BUTTON_DELETE_PC = 'buttonDeletePC'
 }
 

@@ -1,12 +1,12 @@
 ServerSettingsDialog = {}
 
 ServerSettingsDialog.CONTROLS = {
-  SERVER_NAME = 'serverNameElement'
-  SAVE_BUTTON = 'saveButton'
-  AUTO_ACCEPT = 'autoAcceptElement'
-  LAYOUT = 'boxLayout'
-  ALLOW_ONLY_FRIENDS = 'allowOnlyFriendsElement'
-  CHANGE_BUTTON = 'changeButton'
+  SERVER_NAME = 'serverNameElement',
+  SAVE_BUTTON = 'saveButton',
+  AUTO_ACCEPT = 'autoAcceptElement',
+  LAYOUT = 'boxLayout',
+  ALLOW_ONLY_FRIENDS = 'allowOnlyFriendsElement',
+  CHANGE_BUTTON = 'changeButton',
   PASSWORD = 'passwordElement'
 }
 

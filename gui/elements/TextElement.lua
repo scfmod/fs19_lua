@@ -1,8 +1,8 @@
 TextElement = {}
 
 TextElement.VERTICAL_ALIGNMENT = {
-  MIDDLE = 'middle'
-  BOTTOM = 'bottom'
+  MIDDLE = 'middle',
+  BOTTOM = 'bottom',
   TOP = 'top'
 }
 

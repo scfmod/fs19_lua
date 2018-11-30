@@ -4,7 +4,7 @@ HUDElement.UV = {
   FILL = {}
 }
 HUDElement.TEXT_SIZE = {
-  DEFAULT_TEXT = '16'
+  DEFAULT_TEXT = '16',
   DEFAULT_TITLE = '20'
 }
 

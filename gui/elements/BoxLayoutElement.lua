@@ -5,7 +5,7 @@ BoxLayoutElement.ALIGN_LEFT = 0.000000
 BoxLayoutElement.ALIGN_RIGHT = 2.000000
 BoxLayoutElement.FLOW_NONE = 'none'
 BoxLayoutElement.FLOW_INDICES = {
-  vertical = {}
+  vertical = {},
   horizontal = {}
 }
 BoxLayoutElement.ALIGN_CENTER = 1.000000
@@ -13,7 +13,7 @@ BoxLayoutElement.FLOW_DIRECTION_NEGATIVE = -1.000000
 BoxLayoutElement.ALIGN_BOTTOM = 2.000000
 BoxLayoutElement.FLOW_DIRECTION_POSITIVE = 1.000000
 BoxLayoutElement.FLOW_LATERAL_TABLE = {
-  vertical = 'horizontal'
+  vertical = 'horizontal',
   horizontal = 'vertical'
 }
 BoxLayoutElement.LAYOUT_TOLERANCE = 0.100000

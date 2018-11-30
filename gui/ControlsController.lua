@@ -2,17 +2,17 @@ ControlsController = {}
 
 ControlsController.LOCKED_BINDINGS = {
   1 = {
-    MENU = true
-    MENU_CANCEL = true
-    MENU_ACCEPT = true
-    MENU_BACK = true
-    MENU_AXIS_LEFT_RIGHT = true
-    MENU_PAGE_NEXT = true
-    MENU_AXIS_UP_DOWN = true
-    MENU_PAGE_PREV = true
+    MENU = true,
+    MENU_CANCEL = true,
+    MENU_ACCEPT = true,
+    MENU_BACK = true,
+    MENU_AXIS_LEFT_RIGHT = true,
+    MENU_PAGE_NEXT = true,
+    MENU_AXIS_UP_DOWN = true,
+    MENU_PAGE_PREV = true,
     MENU_ACTIVATE = true
-  }
-  2 = {}
+  },
+  2 = {},
   3 = {}
 }
 

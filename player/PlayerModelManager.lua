@@ -1,8 +1,8 @@
 PlayerModelManager = {}
 
 PlayerModelManager.GENDERS = {
-    GENDER_MALE = 2.000000
-    GENDER_FEMALE = 1.000000
+    GENDER_MALE = 2.000000,
+    GENDER_FEMALE = 1.000000,
     GENDER_NONE = 0.000000
 }
 PlayerModelManager.SEND_NUM_BITS = 2.000000

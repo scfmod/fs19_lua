@@ -1,7 +1,7 @@
 PlacementScreen = {}
 
 PlacementScreen.CONTROLS = {
-  MESSAGE_TEXT = 'messageText'
+  MESSAGE_TEXT = 'messageText',
   CROSSHAIR_ELEMENT = 'crossHairElement'
 }
 

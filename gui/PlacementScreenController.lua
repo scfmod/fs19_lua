@@ -1,25 +1,25 @@
 PlacementScreenController = {}
 
 PlacementScreenController.MESSAGE = {
-  SELL_WARNING_INFO = 1.000000
-  SELL_ITEM = 2.000000
-  TOO_MANY_TREES = 5.000000
-  NOT_ENOUGH_MONEY = 3.000000
+  SELL_WARNING_INFO = 1.000000,
+  SELL_ITEM = 2.000000,
+  TOO_MANY_TREES = 5.000000,
+  NOT_ENOUGH_MONEY = 3.000000,
   NOT_ENOUGH_SLOTS = 4.000000
 }
 PlacementScreenController.L10N_SYMBOL = {
-  ACTION_ROTATE_CAMERA = 'action_rotateCamera'
-  ACTION_MOVE = 'ui_movePlaceable'
-  WARNING_NOT_OWNED = 'warning_youDontOwnThisItem'
-  WARNING_NOT_ENOUGH_SLOTS = 'shop_messageNotEnoughSlotsToBuy'
-  WARNING_TOO_MANY_TREES = 'warning_tooManyTrees'
-  BUTTON_BACK = 'button_back'
-  BUTTON_SELL = 'button_sell'
-  WARNING_NOT_ENOUGH_MONEY = 'shop_messageNotEnoughMoneyToBuy'
-  ACTION_PLACEMENT_HEIGHT = 'action_changePlacementHeight'
-  BUTTON_BUY = 'button_buy'
-  ACTION_RESET_CAMERA = 'setting_resetUICamera'
-  ACTION_ROTATE_OBJECT = 'action_rotate'
+  ACTION_ROTATE_CAMERA = 'action_rotateCamera',
+  ACTION_MOVE = 'ui_movePlaceable',
+  WARNING_NOT_OWNED = 'warning_youDontOwnThisItem',
+  WARNING_NOT_ENOUGH_SLOTS = 'shop_messageNotEnoughSlotsToBuy',
+  WARNING_TOO_MANY_TREES = 'warning_tooManyTrees',
+  BUTTON_BACK = 'button_back',
+  BUTTON_SELL = 'button_sell',
+  WARNING_NOT_ENOUGH_MONEY = 'shop_messageNotEnoughMoneyToBuy',
+  ACTION_PLACEMENT_HEIGHT = 'action_changePlacementHeight',
+  BUTTON_BUY = 'button_buy',
+  ACTION_RESET_CAMERA = 'setting_resetUICamera',
+  ACTION_ROTATE_OBJECT = 'action_rotate',
   ACTION_ZOOM = 'action_cameraZoom'
 }
 

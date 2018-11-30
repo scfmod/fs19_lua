@@ -4,26 +4,26 @@ SpeakerDisplay.TEXT_SIZE = {
   NAME = 13.000000
 }
 SpeakerDisplay.UV = {
-  LINE = {}
+  LINE = {},
   SPEAKER_ICON = {}
 }
 SpeakerDisplay.SHADOW_OFFSET_FACTOR = 0.050000
 SpeakerDisplay.POSITION = {
-  SPEAKER_ICON = {}
-  SELF_HORIZONTAL = {}
-  NAME = {}
+  SPEAKER_ICON = {},
+  SELF_HORIZONTAL = {},
+  NAME = {},
   SELF = {}
 }
 SpeakerDisplay.SIZE = {
-  LINE = {}
-  SELF = {}
+  LINE = {},
+  SELF = {},
   SPEAKER_ICON = {}
 }
 SpeakerDisplay.COLOR = {
-  SPEAKER_ICON = {}
-  BACKGROUND_HIGH_CONTRAST = {}
-  BACKGROUND = {}
-  NAME = {}
+  SPEAKER_ICON = {},
+  BACKGROUND_HIGH_CONTRAST = {},
+  BACKGROUND = {},
+  NAME = {},
   NAME_SHADOW = {}
 }
 

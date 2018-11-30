@@ -1,12 +1,12 @@
 DifficultyScreen = {}
 
 DifficultyScreen.CONTROLS = {
-  LIST_ITEM_TEMPLATE = 'listItemTemplate'
+  LIST_ITEM_TEMPLATE = 'listItemTemplate',
   DIFFICULTY_LIST = 'difficultyList'
 }
 DifficultyScreen.LIST_TEMPLATE_ELEMENT_NAME = {
-  DESCRIPTION = 'description'
-  ICON = 'icon'
+  DESCRIPTION = 'description',
+  ICON = 'icon',
   TITLE = 'title'
 }
 

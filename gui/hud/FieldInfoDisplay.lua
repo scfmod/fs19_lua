@@ -1,50 +1,50 @@
 FieldInfoDisplay = {}
 
 FieldInfoDisplay.L10N_SYMBOL = {
-  GROWTH_STATE_CUT = 'ui_growthMapCutted'
-  GROWTH_STATE_CAN_HARVEST = 'ui_growthMapReadyToHarvest'
-  GROWTH_STATE_NEED_PREP = 'ui_growthMapReadyToPrepareForHarvest'
-  DISPLAY_LABEL = 'ui_fieldInfo'
-  OWNER_NOBODY = 'fieldInfo_ownerNobody'
-  GROWTH_STATE_WITHERED = 'ui_growthMapWithered'
-  OWNER_YOU = 'fieldInfo_ownerYou'
-  FRUIT_TYPE = 'statistic_fillType'
-  NEED_LIME = 'ui_growthMapNeedsLime'
-  OWNED_BY = 'fieldInfo_ownedBy'
-  GROWTH_STATE_GROWING = 'ui_growthMapGrowing'
-  WEED = 'fillType_weed'
-  FIELD_STATE = 'ui_mapOverviewGrowth'
-  FERTILIZATION = 'ui_growthMapFertilized'
+  GROWTH_STATE_CUT = 'ui_growthMapCutted',
+  GROWTH_STATE_CAN_HARVEST = 'ui_growthMapReadyToHarvest',
+  GROWTH_STATE_NEED_PREP = 'ui_growthMapReadyToPrepareForHarvest',
+  DISPLAY_LABEL = 'ui_fieldInfo',
+  OWNER_NOBODY = 'fieldInfo_ownerNobody',
+  GROWTH_STATE_WITHERED = 'ui_growthMapWithered',
+  OWNER_YOU = 'fieldInfo_ownerYou',
+  FRUIT_TYPE = 'statistic_fillType',
+  NEED_LIME = 'ui_growthMapNeedsLime',
+  OWNED_BY = 'fieldInfo_ownedBy',
+  GROWTH_STATE_GROWING = 'ui_growthMapGrowing',
+  WEED = 'fillType_weed',
+  FIELD_STATE = 'ui_mapOverviewGrowth',
+  FERTILIZATION = 'ui_growthMapFertilized',
   NEED_PLOWING = 'ui_growthMapNeedsPlowing'
 }
 FieldInfoDisplay.LIME_REQUIRED_THRESHOLD = 0.250000
 FieldInfoDisplay.SIZE = {
-  SELF = {}
-  ROW_LIST = {}
-  SEPARATOR = {}
-  ROW_LIST_MARGIN = {}
+  SELF = {},
+  ROW_LIST = {},
+  SEPARATOR = {},
+  ROW_LIST_MARGIN = {},
   ROW = {}
 }
 FieldInfoDisplay.POSITION = {
-  DISPLAY_LABEL = {}
-  TEXT_LEFT = {}
+  DISPLAY_LABEL = {},
+  TEXT_LEFT = {},
   TEXT_RIGHT = {}
 }
 FieldInfoDisplay.MAX_ROW_COUNT = 12.000000
 FieldInfoDisplay.PLOWING_REQUIRED_THRESHOLD = 0.250000
 FieldInfoDisplay.INFO_TYPE = {
-  PLOWING_STATE = 6.000000
-  CUSTOM = 13.000000
-  LIME_STATE = 7.000000
-  WEED = 5.000000
-  FIELD_STATE = 3.000000
-  FRUIT_TYPE = 2.000000
-  FERTILIZATION = 4.000000
+  PLOWING_STATE = 6.000000,
+  CUSTOM = 13.000000,
+  LIME_STATE = 7.000000,
+  WEED = 5.000000,
+  FIELD_STATE = 3.000000,
+  FRUIT_TYPE = 2.000000,
+  FERTILIZATION = 4.000000,
   OWNER = 1.000000
 }
 FieldInfoDisplay.COLOR = {
-  SEPARATOR = {}
-  TEXT_HIGHLIGHT = {}
+  SEPARATOR = {},
+  TEXT_HIGHLIGHT = {},
   TEXT_DEFAULT = {}
 }
 

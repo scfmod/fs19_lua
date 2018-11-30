@@ -1,14 +1,14 @@
 AchievementsScreen = {}
 
 AchievementsScreen.L10N_SYMBOL = {
-  STATS_VALUE = 'ui_achievementStatsValue'
-  BUTTON_CANCEL = 'button_cancel'
+  STATS_VALUE = 'ui_achievementStatsValue',
+  BUTTON_CANCEL = 'button_cancel',
   MESSAGE_SYNC_ACHIEVEMENTS = 'ui_achievementsSynchronizing'
 }
 AchievementsScreen.CONTROLS = {
-  LIST_SLIDER = 'listSlider'
-  LIST_ITEM_TEMPLATE = 'listTemplate'
-  STATS_VALUE = 'statsValue'
+  LIST_SLIDER = 'listSlider',
+  LIST_ITEM_TEMPLATE = 'listTemplate',
+  STATS_VALUE = 'statsValue',
   ACHIEVEMENT_LIST = 'achievementList'
 }
 function AchievementsScreen:onCreateAchievementDesc() end

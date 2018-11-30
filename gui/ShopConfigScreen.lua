@@ -1,8 +1,8 @@
 ShopConfigScreen = {}
 
 ShopConfigScreen.INITIAL_CAMERA_ROTATION = {
-  1 = 0.000000
-  2 = -140.000000
+  1 = 0.000000,
+  2 = -140.000000,
   3 = 0.000000
 }
 ShopConfigScreen.CONTROLS = {

@@ -1,32 +1,32 @@
 IngameMap = {}
 
 IngameMap.POSITION = {
-  MAP = {}
-  INPUT_ICON = {}
-  INFO_TEXT = {}
-  PLAYER_NAME = {}
+  MAP = {},
+  INPUT_ICON = {},
+  INFO_TEXT = {},
+  PLAYER_NAME = {},
   MAP_LABEL = {}
 }
 IngameMap.COLOR = {
-  LATENCY_BAD = {}
-  PLAYER_ARROW = {}
-  INPUT_ICON = {}
-  OTHER_ARROW = {}
-  LATENCY_MEDIUM = {}
-  LATENCY_GOOD = {}
-  MAP_LABEL = {}
+  LATENCY_BAD = {},
+  PLAYER_ARROW = {},
+  INPUT_ICON = {},
+  OTHER_ARROW = {},
+  LATENCY_MEDIUM = {},
+  LATENCY_GOOD = {},
+  MAP_LABEL = {},
   COORDINATES_TEXT = {}
 }
 IngameMap.SIZE = {
-  MAP = {}
-  SELF = {}
-  INPUT_ICON = {}
-  OTHER_ARROW = {}
-  HOTSPOT = {}
+  MAP = {},
+  SELF = {},
+  INPUT_ICON = {},
+  OTHER_ARROW = {},
+  HOTSPOT = {},
   PLAYER_ARROW = {}
 }
 IngameMap.TEXT_SIZE = {
-  GLYPH_TEXT = 16.000000
+  GLYPH_TEXT = 16.000000,
   PLAYER_NAME = 12.000000
 }
 IngameMap.MIN_MAP_HEIGHT = 231.000000

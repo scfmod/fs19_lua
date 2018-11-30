@@ -10,12 +10,12 @@ ChatWindow.DISPLAY_DURATION = 10000.000000
 ChatWindow.MAX_NUM_MESSAGES = 10.000000
 ChatWindow.SHADOW_OFFSET_FACTOR = 0.050000
 ChatWindow.COLOR = {
-  BACKGROUND = {}
-  MESSAGE_SHADOW = {}
+  BACKGROUND = {},
+  MESSAGE_SHADOW = {},
   MESSAGE = {}
 }
 ChatWindow.POSITION = {
-  MESSAGE = {}
+  MESSAGE = {},
   SELF = {}
 }
 ChatWindow.SIZE = {

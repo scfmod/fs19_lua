@@ -1,9 +1,9 @@
 SiloDialog = {}
 
 SiloDialog.CONTROLS = {
-  MESSAGE_BACKGROUND = 'messageBackground'
-  FILL_TYPES_ELEMENT = 'fillTypesElement'
-  SILO_TEXT = 'siloText'
+  MESSAGE_BACKGROUND = 'messageBackground',
+  FILL_TYPES_ELEMENT = 'fillTypesElement',
+  SILO_TEXT = 'siloText',
   SILO_ICON = 'siloIcon'
 }
 

@@ -1,7 +1,7 @@
 MessageDialog = {}
 
 MessageDialog.CONTROLS = {
-  DIALOG_TEXT = 'dialogTextElement'
+  DIALOG_TEXT = 'dialogTextElement',
   DIALOG_FRAME = 'dialogElement'
 }
 
