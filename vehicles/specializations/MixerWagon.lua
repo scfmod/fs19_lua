@@ -1,0 +1,22 @@
+MixerWagon = {}
+
+function MixerWagon:mixerWagonBaleTriggerCallback() end
+function MixerWagon:registerFunctions() end
+function MixerWagon:onReadUpdateStream() end
+function MixerWagon:prerequisitesPresent() end
+function MixerWagon:getDischargeFillType() end
+function MixerWagon:onReadStream() end
+function MixerWagon:onWriteUpdateStream() end
+function MixerWagon:onWriteStream() end
+function MixerWagon:addFillUnitFillLevel() end
+function MixerWagon:registerOverwrittenFunctions() end
+function MixerWagon:getFillUnitAllowsFillType() end
+function MixerWagon:registerEventListeners() end
+function MixerWagon:onTurnedOn() end
+function MixerWagon:onFillUnitFillLevelChanged() end
+function MixerWagon:saveToXMLFile() end
+function MixerWagon:onTurnedOff() end
+function MixerWagon:updateDebugValues() end
+function MixerWagon:onUpdate() end
+function MixerWagon:onDelete() end
+function MixerWagon:onLoad() end

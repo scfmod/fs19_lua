@@ -1,0 +1,30 @@
+Cover = {}
+
+Cover.SEND_NUM_BITS = 4
+
+function Cover:loadPipeNodes() end
+function Cover:getCoverByFillUnitIndex() end
+function Cover:onRegisterActionEvents() end
+function Cover:registerFunctions() end
+function Cover:setCoverState() end
+function Cover:prerequisitesPresent() end
+function Cover:initSpecialization() end
+function Cover:onReadStream() end
+function Cover:registerEventListeners() end
+function Cover:getIsNextCoverStateAllowed() end
+function Cover:onWriteStream() end
+function Cover:getFillUnitSupportsToolType() end
+function Cover:onStartTipping() end
+function Cover:updateActionText() end
+function Cover:registerOverwrittenFunctions() end
+function Cover:onRemovedFillUnitTrigger() end
+function Cover:onAddedFillUnitTrigger() end
+function Cover:onPostLoad() end
+function Cover:getCanBeSelected() end
+function Cover:getIsPipeStateChangeAllowed() end
+function Cover:saveToXMLFile() end
+function Cover:loadCoverFromXML() end
+function Cover:actionEventToggleCover() end
+function Cover:playCoverAnimation() end
+function Cover:onUpdate() end
+function Cover:onLoad() end

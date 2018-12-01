@@ -1,0 +1,31 @@
+RidgeMarker = {}
+
+RidgeMarker.SEND_NUM_BITS = 3
+RidgeMarker.MAX_NUM_RIDGEMARKERS = 8
+
+function RidgeMarker:setRidgeMarkerState() end
+function RidgeMarker:onRegisterActionEvents() end
+function RidgeMarker:onFoldStateChanged() end
+function RidgeMarker:registerEventListeners() end
+function RidgeMarker:onAIImplementStart() end
+function RidgeMarker:prerequisitesPresent() end
+function RidgeMarker:initSpecialization() end
+function RidgeMarker:onReadStream() end
+function RidgeMarker:loadSpeedRotatingPartFromXML() end
+function RidgeMarker:loadWorkAreaFromXML() end
+function RidgeMarker:onWriteStream() end
+function RidgeMarker:loadRidgeMarker() end
+function RidgeMarker:updateActionEvents() end
+function RidgeMarker:onSetLowered() end
+function RidgeMarker:registerOverwrittenFunctions() end
+function RidgeMarker:actionEventToggleRidgeMarkers() end
+function RidgeMarker:canFoldRidgeMarker() end
+function RidgeMarker:onPostLoad() end
+function RidgeMarker:getCanBeSelected() end
+function RidgeMarker:getIsSpeedRotatingPartActive() end
+function RidgeMarker:saveToXMLFile() end
+function RidgeMarker:getIsWorkAreaActive() end
+function RidgeMarker:registerFunctions() end
+function RidgeMarker:onUpdate() end
+function RidgeMarker:processRidgeMarkerArea() end
+function RidgeMarker:onLoad() end

@@ -1,0 +1,25 @@
+ReverseDriving = {}
+
+function ReverseDriving:updateSteeringWheel() end
+function ReverseDriving:onRegisterActionEvents() end
+function ReverseDriving:getCanStartAIVehicle() end
+function ReverseDriving:getSteeringDirection() end
+function ReverseDriving:registerFunctions() end
+function ReverseDriving:onVehicleCharacterChanged() end
+function ReverseDriving:loadDashboardGroupFromXML() end
+function ReverseDriving:getAllowCharacterVisibilityUpdate() end
+function ReverseDriving:onReadStream() end
+function ReverseDriving:getCanBeSelected() end
+function ReverseDriving:onWriteStream() end
+function ReverseDriving:registerEvents() end
+function ReverseDriving:registerOverwrittenFunctions() end
+function ReverseDriving:setIsReverseDriving() end
+function ReverseDriving:onPostLoad() end
+function ReverseDriving:actionEventToggleReverseDriving() end
+function ReverseDriving:getIsDashboardGroupActive() end
+function ReverseDriving:saveToXMLFile() end
+function ReverseDriving:registerEventListeners() end
+function ReverseDriving:reverseDirectionChanged() end
+function ReverseDriving:onUpdate() end
+function ReverseDriving:prerequisitesPresent() end
+function ReverseDriving:onLoad() end

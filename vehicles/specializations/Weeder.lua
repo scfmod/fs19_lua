@@ -1,0 +1,22 @@
+Weeder = {}
+
+function Weeder:registerFunctions() end
+function Weeder:onEndWorkAreaProcessing() end
+function Weeder:loadGroundParticleMapping() end
+function Weeder:prerequisitesPresent() end
+function Weeder:onDelete() end
+function Weeder:processWeederArea() end
+function Weeder:loadWorkAreaFromXML() end
+function Weeder:getDirtMultiplier() end
+function Weeder:onStartWorkAreaProcessing() end
+function Weeder:registerOverwrittenFunctions() end
+function Weeder:getWearMultiplier() end
+function Weeder:getDefaultSpeedLimit() end
+function Weeder:onPostAttach() end
+function Weeder:onDeactivate() end
+function Weeder:doCheckSpeedLimit() end
+function Weeder:getIsWorkAreaActive() end
+function Weeder:initSpecialization() end
+function Weeder:onUpdateTick() end
+function Weeder:registerEventListeners() end
+function Weeder:onLoad() end

@@ -1,0 +1,20 @@
+Roller = {}
+
+function Roller:registerEventListeners() end
+function Roller:onEndWorkAreaProcessing() end
+function Roller:onDeactivate() end
+function Roller:prerequisitesPresent() end
+function Roller:onDelete() end
+function Roller:getDoGroundManipulation() end
+function Roller:getDefaultSpeedLimit() end
+function Roller:getDirtMultiplier() end
+function Roller:onStartWorkAreaProcessing() end
+function Roller:registerOverwrittenFunctions() end
+function Roller:getWearMultiplier() end
+function Roller:processRollerArea() end
+function Roller:onLoad() end
+function Roller:getIsWorkAreaActive() end
+function Roller:initSpecialization() end
+function Roller:registerFunctions() end
+function Roller:doCheckSpeedLimit() end
+function Roller:onPostAttach() end

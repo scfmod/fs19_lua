@@ -1,0 +1,83 @@
+AIVehicle = {}
+
+AIVehicle.REASON_TEXT_MAPPING = {
+  1 = 'ingameNotification_aiVehicleReasonUser',
+  2 = 'ingameNotification_aiVehicleReasonRegular',
+  3 = 'ingameNotification_aiVehicleReasonUnkown',
+  4 = 'ingameNotification_aiVehicleReasonOutOfFuel',
+  5 = 'ingameNotification_aiVehicleReasonOutOfFill',
+  6 = 'ingameNotification_aiVehicleReasonBlockedByObject',
+  7 = 'ingameNotification_aiVehicleReasonGrainTankIsFull',
+  8 = 'ingameNotification_aiVehicleReasonFieldNotOwned'
+}
+
+AIVehicle.STOP_REASON_REGULAR = 2
+AIVehicle.STOP_REASON_FIELD_NOT_OWNED = 8
+AIVehicle.STOP_REASON_OUT_OF_FUEL = 4
+AIVehicle.numHirablesHired = 0
+AIVehicle.STOP_REASON_OUT_OF_FILL = 5
+AIVehicle.STOP_REASON_USER = 1
+AIVehicle.STOP_REASON_UNKOWN = 3
+AIVehicle.STOP_REASON_BLOCKED_BY_OBJECT = 6
+AIVehicle.TRAFFIC_COLLISION_BOX_FILENAME = 'data/shared/ai/trafficCollision.i3d'
+AIVehicle.NUM_BITS_REASONS = 4
+AIVehicle.STOP_REASON_GRAINTANK_IS_FULL = 7
+
+function AIVehicle:clearAIDebugLines() end
+function AIVehicle:getCanStartAIVehicle() end
+function AIVehicle:updateAIDriveStrategies() end
+function AIVehicle:prerequisitesPresent() end
+function AIVehicle:onReadStream() end
+function AIVehicle:stopAIVehicle() end
+function AIVehicle:actionEventToggleAIState() end
+function AIVehicle:onLoad() end
+function AIVehicle:clearAIDebugTexts() end
+function AIVehicle:getAIVehicleReverserNode() end
+function AIVehicle:aiContinue() end
+function AIVehicle:addAIDebugLine() end
+function AIVehicle:initSpecialization() end
+function AIVehicle:onSetBroken() end
+function AIVehicle:getDisableVehicleCharacterOnLeave() end
+function AIVehicle:getCanAIVehicleContinueWork() end
+function AIVehicle:getDirectionSnapAngle() end
+function AIVehicle:onLeaveVehicle() end
+function AIVehicle:saveStatsToXMLFile() end
+function AIVehicle:getAISteeringSpeed() end
+function AIVehicle:registerFunctions() end
+function AIVehicle:onEnterVehicle() end
+function AIVehicle:onStateChange() end
+function AIVehicle:getAllowTireTracks() end
+function AIVehicle:registerEvents() end
+function AIVehicle:registerOverwrittenFunctions() end
+function AIVehicle:aiStartTurn() end
+function AIVehicle:getIsActive() end
+function AIVehicle:getAICollisionTriggers() end
+function AIVehicle:getCurrentHelper() end
+function AIVehicle:getIsInUse() end
+function AIVehicle:addAIDebugText() end
+function AIVehicle:getAttachedAIImplements() end
+function AIVehicle:onUpdate() end
+function AIVehicle:getActiveFarm() end
+function AIVehicle:getStopMotorOnLeave() end
+function AIVehicle:onRegisterActionEvents() end
+function AIVehicle:getAIVehicleDirectionNode() end
+function AIVehicle:registerEventListeners() end
+function AIVehicle:startAIVehicle() end
+function AIVehicle:getIsVehicleControlledByPlayer() end
+function AIVehicle:setAIMapHotspotBlinking() end
+function AIVehicle:raiseAIEvent() end
+function AIVehicle:registerSecureAITask() end
+function AIVehicle:onWriteStream() end
+function AIVehicle:getAIDidNotMoveTimeout() end
+function AIVehicle:setAIMapHotspotVisibility() end
+function AIVehicle:onUpdateTick() end
+function AIVehicle:getAIIsTurning() end
+function AIVehicle:getDeactivateOnLeave() end
+function AIVehicle:updateAIImplementData() end
+function AIVehicle:getAIVehicleSteeringNode() end
+function AIVehicle:getIsAIActive() end
+function AIVehicle:aiTurnProgress() end
+function AIVehicle:registerAITask() end
+function AIVehicle:aiEndTurn() end
+function AIVehicle:aiBlock() end
+function AIVehicle:getAINeedsTrafficCollisionBox() end

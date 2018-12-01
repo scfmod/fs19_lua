@@ -1,0 +1,81 @@
+Rideable = {}
+
+Rideable.HOOVES = {
+  FRONT_LEFT = 1,
+  BACK_LEFT = 3,
+  FRONT_RIGHT = 2,
+  BACK_RIGHT = 4
+}
+Rideable.GAITTYPES = {
+  MAX = 6,
+  CANTER = 5,
+  WALK = 3,
+  BACKWARDS = 1,
+  STILL = 2,
+  TROT = 4,
+  GALLOP = 6,
+  MIN = 1
+}
+Rideable.GROUND_RAYCAST_MAXDISTANCE = 5
+Rideable.GROUND_RAYCAST_OFFSET = 1.2
+Rideable.GROUND_RAYCAST_COLLISIONMASK = 59
+
+function Rideable:unlinkReins() end
+function Rideable:actionEventAccelerate() end
+function Rideable:updateDirt() end
+function Rideable:updateAnimation() end
+function Rideable:getShaderParameter() end
+function Rideable:onWriteStream() end
+function Rideable:getCanBeReset() end
+function Rideable:registerFunctions() end
+function Rideable:onReadPositionUpdateStream() end
+function Rideable:getFullName() end
+function Rideable:getName() end
+function Rideable:prerequisitesPresent() end
+function Rideable:onDelete() end
+function Rideable:onReadStream() end
+function Rideable:onWriteUpdateStream() end
+function Rideable:updateKinematic() end
+function Rideable:setWorldPosition() end
+function Rideable:registerOverwrittenFunctions() end
+function Rideable:setPlayerToEnter() end
+function Rideable:setAnimal() end
+function Rideable:resetInputs() end
+function Rideable:groundRaycastCallback() end
+function Rideable:abandonCheck() end
+function Rideable:isOnHusbandyGround() end
+function Rideable:setFitnessChangedCallback() end
+function Rideable:setDirtChangedCallback() end
+function Rideable:getDirtScale() end
+function Rideable:getRotation() end
+function Rideable:updateVehicleSpeed() end
+function Rideable:onUpdate() end
+function Rideable:setDirtScale() end
+function Rideable:jump() end
+function Rideable:setEquipmentVisibility() end
+function Rideable:setShaderParameter() end
+function Rideable:getHoofSurfaceSound() end
+function Rideable:onUpdateInterpolation() end
+function Rideable:calculateLegsDistance() end
+function Rideable:registerEventListeners() end
+function Rideable:updateFootsteps() end
+function Rideable:actionEventSteer() end
+function Rideable:onReadUpdateStream() end
+function Rideable:actionEventJump() end
+function Rideable:actionEventBrake() end
+function Rideable:onLeaveVehicle() end
+function Rideable:updateSound() end
+function Rideable:onSetBroken() end
+function Rideable:onEnterVehicle() end
+function Rideable:onWritePositionUpdateStream() end
+function Rideable:onRegisterActionEvents() end
+function Rideable:updateInputText() end
+function Rideable:setWorldPositionQuat() end
+function Rideable:onLoad() end
+function Rideable:getPosition() end
+function Rideable:removeRideable() end
+function Rideable:updateFitness() end
+function Rideable:endFade() end
+function Rideable:updateDebugValues() end
+function Rideable:setWorldPositionQuaternion() end
+function Rideable:testCCTMove() end

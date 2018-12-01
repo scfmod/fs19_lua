@@ -1,0 +1,21 @@
+AIConveyorBelt = {}
+
+function AIConveyorBelt:onRegisterActionEvents() end
+function AIConveyorBelt:getCanStartAIVehicle() end
+function AIConveyorBelt:registerFunctions() end
+function AIConveyorBelt:onUpdateTick() end
+function AIConveyorBelt:onReadStream() end
+function AIConveyorBelt:getCanBeSelected() end
+function AIConveyorBelt:onWriteStream() end
+function AIConveyorBelt:registerOverwrittenFunctions() end
+function AIConveyorBelt:actionEventChangeAngle() end
+function AIConveyorBelt:onAIStart() end
+function AIConveyorBelt:onPostLoad() end
+function AIConveyorBelt:setAIConveyorBeltAngle() end
+function AIConveyorBelt:saveToXMLFile() end
+function AIConveyorBelt:getDirectionAndSpeedToTargetAngle() end
+function AIConveyorBelt:registerEventListeners() end
+function AIConveyorBelt:prerequisitesPresent() end
+function AIConveyorBelt:onUpdate() end
+function AIConveyorBelt:getAINeedsTrafficCollisionBox() end
+function AIConveyorBelt:onLoad() end

@@ -1,0 +1,26 @@
+ForageWagon = {}
+
+function ForageWagon:getConsumingLoad() end
+function ForageWagon:registerEventListeners() end
+function ForageWagon:onEndWorkAreaProcessing() end
+function ForageWagon:onReadUpdateStream() end
+function ForageWagon:onUpdateTick() end
+function ForageWagon:initSpecialization() end
+function ForageWagon:onReadStream() end
+function ForageWagon:onWriteUpdateStream() end
+function ForageWagon:setFillEffectActive() end
+function ForageWagon:onWriteStream() end
+function ForageWagon:processForageWagonArea() end
+function ForageWagon:onStartWorkAreaProcessing() end
+function ForageWagon:registerOverwrittenFunctions() end
+function ForageWagon:getDefaultSpeedLimit() end
+function ForageWagon:onDeactivate() end
+function ForageWagon:onTurnedOff() end
+function ForageWagon:doCheckSpeedLimit() end
+function ForageWagon:onDelete() end
+function ForageWagon:loadSpeedRotatingPartFromXML() end
+function ForageWagon:getIsWorkAreaActive() end
+function ForageWagon:prerequisitesPresent() end
+function ForageWagon:registerFunctions() end
+function ForageWagon:getIsSpeedRotatingPartActive() end
+function ForageWagon:onLoad() end

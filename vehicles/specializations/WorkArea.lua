@@ -1,0 +1,24 @@
+WorkArea = {}
+
+function WorkArea:setWorkAreaProcessingTime() end
+function WorkArea:getIsWorkAreaProcessing() end
+function WorkArea:registerEventListeners() end
+function WorkArea:onUpdateTick() end
+function WorkArea:getIsAccessibleAtWorldPosition() end
+function WorkArea:loadWorkAreaFromXML() end
+function WorkArea:loadSpeedRotatingPartFromXML() end
+function WorkArea:prerequisitesPresent() end
+function WorkArea:getIsFarmlandNotOwnedWarningShown() end
+function WorkArea:registerEvents() end
+function WorkArea:registerOverwrittenFunctions() end
+function WorkArea:getTypedNetworkAreas() end
+function WorkArea:onDraw() end
+function WorkArea:getWorkAreaByIndex() end
+function WorkArea:getIsTypedWorkAreaActive() end
+function WorkArea:getTypedWorkAreas() end
+function WorkArea:getLastTouchedFarmlandFarmId() end
+function WorkArea:getIsWorkAreaActive() end
+function WorkArea:initSpecialization() end
+function WorkArea:registerFunctions() end
+function WorkArea:getIsSpeedRotatingPartActive() end
+function WorkArea:onLoad() end
