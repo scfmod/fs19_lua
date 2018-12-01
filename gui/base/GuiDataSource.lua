@@ -1,7 +1,7 @@
 GuiDataSource = {}
 
 GuiDataSource.EMPTY_SOURCE = {
-  data = {}
+  data = {},
   changeListeners = {}
 }
 
