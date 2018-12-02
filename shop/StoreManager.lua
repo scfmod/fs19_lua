@@ -17,6 +17,42 @@ StoreManager.CATEGORY_TYPE = {
     OBJECT = 'OBJECT'
 }
 
+-- item table property types
+-- g_storeManager.items
+item = {
+  lifetime = 0,
+  allowLeasing = false,
+  dailyUpkeep = 0,
+  id = 0,
+  isBundleItem = false,
+  sharedVramUsage = 0,
+  xmlFilenameLower = '',
+  price = 0,
+  isMod = false,
+  species = '',
+  dlcTitle = '',
+  shopFoldingState = 0,
+  shopRotationOffset = {},
+  functions = {},
+  showInStore = false,
+  subConfigurations = {},
+  brandIndex = 0,
+  xmlFileName = '',
+  runningLeasingFactor = 0.0,
+  categoryName = '',
+  canBeSold = false,
+  perInstanceVramUsage = 0,
+  configurations = {},
+  imageFilename = '',
+  ignoreVramUsage = false,
+  configurationSets = {},
+  shopHeight = 0,
+  name = '',
+  rotation = 0,
+  shopTranslationOffset = {},
+  specs = {}
+}
+
 function StoreManager:loadItemsFromXML() end
 function StoreManager:getItems() end
 function StoreManager:new() end

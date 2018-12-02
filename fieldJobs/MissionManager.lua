@@ -25,6 +25,52 @@ MissionManager = {
   transportMissionNextStartTime = 0
 }
 
+-- mission table property types
+-- g_missionManager.missions
+mission = {
+  vehiclesToLoad = {},
+  missionDirtyFlag = 0,
+  spawnedVehicles = false,
+  field = {},
+  lastSellChange = 0,
+  workAreaTypes = {},
+  ownerFarmId = 0,
+  isClient = false,
+  rewardPerHa = 0,
+  reward = 0,
+  sprayFactor = 0,
+  dirtyMask = 0,
+  nextDirtyFlag = 0,
+  limeFactor = 0,
+  reimbursementPerHa = 0,
+  deleteListeners = {},
+  sellPoint = {},
+  vehicles = {},
+  completionFilter = {}, -- userdata
+  id = 0,
+  isServer = false,
+  isRegistered = false,
+  completion = 0,
+  weedFactor = 0,
+  moneyMultiplier = 0,
+  isInMissionMap = false,
+  vehicleGroupIdentifier = 0,
+  growthState = 0,
+  expectedLiters = 0,
+  status = 0,
+  depositedLiters = 0,
+  fieldSpraySet = false,
+  fillType = 0,
+  generationTime = 0,
+  vehicleUseCost = 0,
+  completionModifier = {}, -- userdata
+  success = false,
+  type = {},
+  fieldState = 0,
+  fieldPercentageDone = 0,
+  fieldPlowFactor = 0
+}
+
 MissionManager.CATEGORY_FIELD = 1.000000
 MissionManager.AI_PRICE_MULTIPLIER = 1.000000
 MissionManager.MAX_MISSIONS_PER_GENERATION = 4.000000

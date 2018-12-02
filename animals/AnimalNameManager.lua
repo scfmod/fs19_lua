@@ -1,5 +1,5 @@
 AnimalNameManager = {
-  names = {},
+  names = {}, -- array of strings
   loadedMapData = false
 }
 

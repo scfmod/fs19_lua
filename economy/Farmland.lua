@@ -1,4 +1,15 @@
-Farmland = {}
+Farmland = {
+  isOwned = false,
+  npcIndex = 0,
+  id = 0,
+  defaultFarmProperty = false,
+  zWorldPos = 0.0,
+  xWorldPos = 0.0,
+  areaInHa = 0.0,
+  name = '',
+  priceFactor = 0,
+  price = 0
+}
 
 function Farmland:updatePrice() end
 function Farmland:new() end

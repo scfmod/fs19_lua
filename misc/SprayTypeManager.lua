@@ -8,6 +8,19 @@ SprayTypeManager = {
   indexToName = {}
 }
 
+-- sprayType table property types
+-- g_sprayTypeManager.sprayTypes
+sprayType = {
+  litersPerSecond = 0.0,
+  fillType = {},
+  groundType = 0,
+  index = 0,
+  isLime = false,
+  isFertilizer = false,
+  name = '',
+  isHerbicide = false
+}
+
 function SprayTypeManager:new() end
 function SprayTypeManager:initDataStructures() end
 function SprayTypeManager:loadMapData() end

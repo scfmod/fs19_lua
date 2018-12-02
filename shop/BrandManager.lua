@@ -6,6 +6,15 @@ BrandManager = {
   indexToBrand = {}
 }
 
+-- brand table property types
+brand = {
+  isMod = false,
+  title = '',
+  index = 0,
+  name = '',
+  image = '' -- image file path
+}
+
 function BrandManager:getBrandByName() end
 function BrandManager:new() end
 function BrandManager:class() end

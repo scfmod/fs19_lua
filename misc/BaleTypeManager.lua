@@ -9,6 +9,18 @@ BaleTypeManager = {
   baleTypes = {}
 }
 
+-- baleType table property types
+baleType = {
+  filename = '.i3d',
+  width = 0.0,
+  fillTypeName = '',
+  index = 0,
+  diameter = 0.0,
+  length = 0.0,
+  isRoundbale = false,
+  height = 0.0
+}
+
 function BaleTypeManager:new() end
 function BaleTypeManager:addBaleType() end
 function BaleTypeManager:class() end

@@ -8,6 +8,27 @@ ModManager = {
   hashToMod = {}
 }
 
+-- mod table property types
+-- g_modManager.mods
+mod = {
+  isPreorderBonus = false,
+  isMultiplayerSupported = false,
+  version = '',
+  id = 0,
+  isDirectory = false,
+  modDescVersion = 0,
+  absBaseFilename = '',
+  modName = '',
+  isDLC = false,
+  iconFilename = '',
+  title = '',
+  modDir = '',
+  modFile = '',
+  fileHash = '',
+  description = '',
+  author = ''
+}
+
 function ModManager:addMod() end
 function ModManager:getModByFileHash() end
 function ModManager:getModByIndex() end

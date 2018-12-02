@@ -18,6 +18,56 @@ FruitTypeManager = {
   nameToFruitType = {}
 }
 
+-- fruitType table property types
+-- g_fruitTypeManager.fruitTypes
+fruitType = {
+  groundTypeChangeGrowthState = 0,
+  destroyedByRoller = false,
+  useForFieldJob = false,
+  alignsToSun = false,
+  shownOnMap = false,
+  groundTypeChangeMask = 0,
+  needsSeeding = false,
+  directionSnapAngle = 0,
+  minHarvestingGrowthState = 0,
+  minForageGrowthState = 0,
+  witheringNumGrowthStates = 0,
+  literPerSqm = 0.0,
+  minPreparingGrowthState = 0,
+  startSprayState = 0,
+  allowsPartialGrowthState = false,
+  allowsSeeding = false,
+  numStateChannels = 0,
+  regrows = false,
+  numGrowthStates = 0,
+  windrowLiterPerSqm = 0,
+  destruction = {},
+  startStateChannel = 0,
+  fillType = {},
+  lowSoilDensityRequired = false,
+  plantsWeed = false,
+  increasesSoilDensity = false,
+  preparedGrowthState = 0,
+  missionMultiplier = 0,
+  maxPreparingGrowthState = 0,
+  consumesLime = false,
+  resetsSpray = false,
+  seedUsagePerSqm = 0.0,
+  name = '',
+  windrowName = '',
+  hasWindrow = false,
+  index = 0,
+  groundTypeChanged = 0,
+  useSeedingWidth = false,
+  growthRequiresLime = false,
+  maxHarvestingGrowthState = 6,
+  defaultMapColor = {},
+  growthStateTime = 0,
+  colorBlindMapColor = {},
+  layerName = '',
+  cutState = 8
+}
+
 FruitTypeManager.GROUND_TYPE_CULTIVATOR = 1.000000
 FruitTypeManager.GROUND_TYPE_NONE = 0.000000
 FruitTypeManager.SEND_NUM_BITS = 6.000000

@@ -1,4 +1,9 @@
-Animal = {}
+Animal = {
+  type = '',
+  class = '',
+  subTypes = {},
+  stats = {}
+}
 
 Animal.className = 'Animal'
 Animal.classId = 25.000000
