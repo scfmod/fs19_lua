@@ -1,6 +1,8 @@
 -- lookup: sounds/SoundManager.lua
 g_soundManager = {}
 
+
+-- data values from single player dump
 g_soundManager.oldRandomizationIndex = 1
 g_soundManager.indoorStateChangedListeners = {}
 g_soundManager.orderedSamples = {}

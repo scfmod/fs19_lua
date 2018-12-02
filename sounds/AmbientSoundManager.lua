@@ -1,0 +1,29 @@
+AmbientSoundManager = {}
+
+AmbientSoundManager.BITMASK_INDOOR = 1
+AmbientSoundManager.BITMASK_DAY = 2
+AmbientSoundManager.BITMASK_HAIL = 4
+AmbientSoundManager.BITMASK_RAIN = 8
+AmbientSoundManager.BITMASK_INSIDE_BUILDING = 16
+AmbientSoundManager.DEBUG = false
+
+function AmbientSoundManager:deleteAmbientSounds() end
+function AmbientSoundManager:initDataStructures() end
+function AmbientSoundManager:loadMapData() end
+function AmbientSoundManager:consoleCommandToggleAmbientSoundsDebug() end
+function AmbientSoundManager:superClass() end
+function AmbientSoundManager:consoleCommandReloadAmbientSound() end
+function AmbientSoundManager:update() end
+function AmbientSoundManager:intersectsWithGrid() end
+function AmbientSoundManager:addSoundToGrid() end
+function AmbientSoundManager:addSoundNodeToGrid() end
+function AmbientSoundManager:unloadMapData() end
+function AmbientSoundManager:addPolygonChain() end
+function AmbientSoundManager:class() end
+function AmbientSoundManager:updatePolyChainGrid() end
+function AmbientSoundManager:enableAmbientSound() end
+function AmbientSoundManager:loadAmbientSounds() end
+function AmbientSoundManager:isa() end
+function AmbientSoundManager:new() end
+function AmbientSoundManager:copy() end
+function AmbientSoundManager:addSound3d() end
