@@ -1,4 +1,11 @@
-HelperManager = {}
+HelperManager = {
+  helpers = {},
+  numHelpers = 0,
+  availableHelpers = {},
+  indexToHelper = {},
+  nameToIndex = {},
+  loadedMapData = false
+}
 
 HelperManager:new() end
 HelperManager:getRandomIndex() end

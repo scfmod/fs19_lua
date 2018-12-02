@@ -1,4 +1,10 @@
-NPCManager = {}
+NPCManager = {
+  indexToNpc = {},
+  numNpcs = 0,
+  loadedMapData = false,
+  nameToIndex = {},
+  npcs = {}
+}
 
 function NPCManager:getNPCByName() end
 function NPCManager:getNPCByIndex() end

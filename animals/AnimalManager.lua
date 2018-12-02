@@ -1,4 +1,11 @@
-AnimalManager = {}
+AnimalManager = {
+  indexToAnimal = {},
+  typeToAnimal = {},
+  animals = {},
+  loadedMapData = false,
+  numAnimals = 0,
+  fillTypeToAnimal = {}
+}
 
 AnimalManager.SEND_NUM_BITS = 4.000000
 

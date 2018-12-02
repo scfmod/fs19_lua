@@ -1,4 +1,6 @@
-LogManager = {}
+LogManager = {
+  loadedMapData = false
+}
 
 function LogManager:new() end
 function LogManager:isa() end

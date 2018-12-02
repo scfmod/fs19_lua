@@ -1,4 +1,30 @@
-Farm = {}
+Farm = {
+  id = 0,
+  name = '',
+  farmId = 0,
+  contractingFor = {},
+  isServer = false,
+  isRegistered = false,
+  players = {},
+  ownerFarmId = 0,
+  farmMoneyDirtyFlag = 0,
+  isClient = false,
+  color = 0,
+  lastMoneySent = 0,
+  stats = {},
+  activeUsers = {},
+  isSpectator = false,
+  loanAnnualInterestRate = 0,
+  money = 0,
+  loan = 0,
+  dirtyMask = 0,
+  userIdToPlayer = {},
+  nextDirtyFlag = 0,
+  uniqueUserIdToPlayer = 0,
+  handTools = {},
+  loanMax = 0,
+  deleteListeners = {}
+}
 
 Farm.EQUITY_LOAN_RATIO = 0.800000
 Farm.COLOR_SPECTATOR = {

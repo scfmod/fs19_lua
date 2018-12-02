@@ -1,4 +1,13 @@
-StoreManager = {}
+StoreManager = {
+  modStoreItems = {},
+  items = {},
+  specTypes = {},
+  categories = {},
+  nameToSpecType = {},
+  loadedMapData = false,
+  xmlFilenameToItem = {},
+  numOfCategories = 0
+}
 
 StoreManager.CATEGORY_TYPE = {
     VEHICLE = 'VEHICLE',

@@ -1,4 +1,8 @@
-AnimationManager = {}
+AnimationManager = {
+  runningAnimations = {},
+  registeredAnimationClasses = {},
+  loadedMapData = false
+}
 
 function AnimationManager:stopAnimations() end
 function AnimationManager:getAnimationClass() end

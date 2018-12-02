@@ -1,4 +1,22 @@
-FruitTypeManager = {}
+FruitTypeManager = {
+  fillTypeIndexToFruitTypeIndex = {},
+  fruitTypeIndexToWindrowFillTypeIndex = {},
+  numCategories = 0,
+  indexToFruitType = {},
+  fruitTypes = {},
+  nameToIndex = {},
+  categoryToFruitTypes = {},
+  weedFruitType = {},
+  fruitTypeIndexToFillType = {},
+  converterNameToIndex = {},
+  indexToCategory = {},
+  categories = {},
+  windrowFillTypes = {},
+  nameToConverter = {},
+  loadedMapData = false,
+  fruitTypeConverters = {},
+  nameToFruitType = {}
+}
 
 FruitTypeManager.GROUND_TYPE_CULTIVATOR = 1.000000
 FruitTypeManager.GROUND_TYPE_NONE = 0.000000

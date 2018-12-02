@@ -1,4 +1,29 @@
-MissionManager = {}
+MissionManager = {
+  missionTypes = {},
+  nextGeneratedMissionId = 0,
+  numTransportMissions = 0,
+  transportTriggers = {},
+  missionMapNumChannels = 0,
+  possibleTransportMissionsWeighted = {},
+  generationTimer = 0.000000,
+  fieldToMission = {},
+  defaultMissionMapWidth = 0,
+  missions = {},
+  nextMissionTypeId = 0,
+  missionMapHeight = 0,
+  fieldDataFilter = {}, -- userdata
+  fieldDataDmod = {}, -- userdata
+  missionNextGenerationTime = 0,
+  missionMapWith = 0,
+  transportMissions = {},
+  missionMap = 0,
+  missionTypeIdToType = {},
+  numTransportTriggers = 0,
+  missionVehicles = {},
+  loadedMapData = false,
+  defaultMissionMapHeight = 0,
+  transportMissionNextStartTime = 0
+}
 
 MissionManager.CATEGORY_FIELD = 1.000000
 MissionManager.AI_PRICE_MULTIPLIER = 1.000000

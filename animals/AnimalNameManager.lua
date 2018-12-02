@@ -1,4 +1,7 @@
-AnimalNameManager = {}
+AnimalNameManager = {
+  names = {},
+  loadedMapData = false
+}
 
 function AnimalNameManager:copy() end
 function AnimalNameManager:class() end

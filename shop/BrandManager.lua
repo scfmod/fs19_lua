@@ -1,4 +1,10 @@
-BrandManager = {}
+BrandManager = {
+  loadedMapData = false,
+  nameToBrand = {},
+  numOfBrands = 0
+  nameToIndex = {},
+  indexToBrand = {}
+}
 
 function BrandManager:getBrandByName() end
 function BrandManager:new() end

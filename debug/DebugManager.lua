@@ -1,4 +1,8 @@
-DebugManager = {}
+DebugManager = {
+  permanentElements = {},
+  loadedMapData = false,
+  frameElements = {}
+}
 
 function DebugManager:addPermanentElement() end
 function DebugManager:copy() end

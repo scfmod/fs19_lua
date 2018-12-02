@@ -1,4 +1,23 @@
-Field = {}
+Field = {
+  fieldId = 0,
+  posZ = 0.000000,
+  fruitType = 0,
+  setFieldStatusPartitions = {},
+  mapHotspot = {},
+  fieldGrassMission = false,
+  rootNode = 0,
+  fieldDimensions = 0,
+  getFieldStatusPartitions = {},
+  nameIndicator = 0,
+  fieldMissionAllowed = false,
+  fieldArea = 0.000000,
+  farmland = {},
+  posX = 0.000000,
+  maxFieldStatusPartitions = {},
+  fieldAngle = 0,
+  name = '',
+  isAIActive = false
+}
 
 function Field:setFieldOwned() end
 function Field:getIsAIActive() end

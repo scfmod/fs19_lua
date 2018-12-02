@@ -1,4 +1,12 @@
-ModManager = {}
+ModManager = {
+  mods = {},
+  validMods = {},
+  nameToMod = {},
+  numModes = 0,
+  loadedMapData = false,
+  multiplayerMods = {},
+  hashToMod = {}
+}
 
 function ModManager:addMod() end
 function ModManager:getModByFileHash() end

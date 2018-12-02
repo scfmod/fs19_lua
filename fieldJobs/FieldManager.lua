@@ -1,4 +1,15 @@
-FieldManager = {}
+FieldManager = {
+  minFieldGrowthStateTime = 0,
+  detailModifier = {}, -- userdata
+  setFieldPartitionModifier = {}, -- userdata
+  fieldIndexToCheck = 0,
+  fields = {},
+  fruitTypesCount = 0,
+  availableFruitTypeIndices = 0,
+  loadedMapData = false,
+  farmlandIdFieldMapping = {},
+  weedModifier = {} -- userdata
+}
 
 FieldManager.FIELDEVENT_CULTIVATED = 2.000000
 FieldManager.FIELDEVENT_HARVESTED = 3.000000

@@ -1,4 +1,9 @@
-GroundTypeManager = {}
+GroundTypeManager = {
+  loadedMapData = false,
+  groundTypeMappings = {},
+  grounTypes = {},
+  terrainLayerMapping = {}
+}
 
 function GroundTypeManager:new() end
 function GroundTypeManager:loadGroundTypeMappings() end

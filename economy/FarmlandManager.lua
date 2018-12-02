@@ -1,4 +1,15 @@
-FarmlandManager = {}
+FarmlandManager = {
+  farmlandMapping = {},
+  pricePerHa = 0,
+  stateChangeListener = {},
+  farmlands = {},
+  localMapWidth = 0,
+  localMap = 0,
+  sortedFarmlandIds = {},
+  loadedMapData = false,
+  numberOfBits = 6,
+  localMapHeight = 0
+  }
 
 FarmlandManager.NO_OWNER_FARM_ID = 0.000000
 FarmlandManager.NOT_BUYABLE_FARM_ID = 255.000000

@@ -1,4 +1,8 @@
-ToolTypeManager = {}
+ToolTypeManager = {
+  indexToName = {},
+  nameToInt = {},
+  loadedMapData = false
+}
 
 function ToolTypeManager:addToolType() end
 function ToolTypeManager:new() end

@@ -1,4 +1,19 @@
-InputDisplayManager = {}
+InputDisplayManager = {
+  orOverlay = {},
+  actionList = {},
+  axisIconOverlays = {},
+  controllerSymbols = {},
+  eventHelpElements = {},
+  plusOverlay = {},
+  inputManager = {},
+  keyboardKeyOverlay = {},
+  eventComboButtons = {},
+  isConsoleVersion = false,
+  buttonIconSize = 0,
+  uiScale = 0,
+  modManager = {},
+  actionBindings = {}
+}
 
 InputDisplayManager.RESOLUTION_ATLAS_PATHS = {
     1 = {

@@ -1,4 +1,9 @@
-FarmManager = {}
+FarmManager = {
+  farms = {},
+  debug_hasAskedCreate = false,
+  loadedMapData = false,
+  farmIdToFarm = false
+}
 
 FarmManager.SPECTATOR_FARM_ID = 0.000000
 FarmManager:SINGLEPLAYER_FARM_ID = 1.000000

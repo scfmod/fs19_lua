@@ -1,4 +1,9 @@
-MaterialManager = {}
+MaterialManager = {
+  loadedMapData = false,
+  materials = {},
+  nameToIndex = {},
+  materialTypes = {}
+}
 
 function MaterialManager:addMaterialType() end
 function MaterialManager:new() end

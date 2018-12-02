@@ -1,4 +1,13 @@
-BaleTypeManager = {}
+BaleTypeManager = {
+  defaultSquareBale = {},
+  defaultRoundBale = {},
+  nameToBaleType = {},
+  squareBales = {},
+  roundBales = {},
+  loadedMapData = false,
+  nameToIndex = {},
+  baleTypes = {}
+}
 
 function BaleTypeManager:new() end
 function BaleTypeManager:addBaleType() end

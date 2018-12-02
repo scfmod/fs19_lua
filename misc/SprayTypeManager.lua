@@ -1,4 +1,12 @@
-SprayTypeManager = {}
+SprayTypeManager = {
+  sprayTypes = {},
+  nameToSprayType = {},
+  loadedMapData = false,
+  fillTypeIndexToSprayType = {},
+  numSprayTypes = 0,
+  nameToIndex = {},
+  indexToName = {}
+}
 
 function SprayTypeManager:new() end
 function SprayTypeManager:initDataStructures() end
