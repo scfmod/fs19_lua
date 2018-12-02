@@ -1,4 +1,27 @@
-Server = {}
+Server = {
+  graphColors = {},
+  tickDuration = 0.0,
+  tickRate = 0,
+  activeObjects = {},
+  tickSum = 0.0,
+  showActiveObjects = false,
+  lastUploadedKBs = 0,
+  netIsRunning = false,
+  clients = {},
+  packetGraphs = {},
+  networkListener = {},
+  showNetworkTraffic = false,
+  maxUploadedKBs = 0,
+  clientClipDistCoeffs = {},
+  lastUploadedKBsSmooth = 0,
+  objectIds = {},
+  removedObjects = {},
+  activeObjectsNextFrame = {},
+  clientConnections = {},
+  clientPositions = {},
+  packetBytes = {},
+  objects = {}
+}
 
 function Server:stop() end
 function Server:setClientPosition() end

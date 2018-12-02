@@ -1,4 +1,11 @@
-g_currentMission.landscapingController = {}
+g_currentMission.landscapingController = {
+  farmlandManager = {}, -- economy/FarmlandManager.lua
+  i3dManager = {},
+  ingameMap = {},
+  isPaused = false,
+  lastMouseY = 0,
+  sculptingOperation = 1
+}
 
 g_currentMission.landscapingController.farmlandManager = {
   farmlandMapping = {},

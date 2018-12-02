@@ -1,4 +1,31 @@
-Client = {}
+Client = {
+  graphColors = {},
+  tickDuration = 0.0,
+  tickRate = 0,
+  activeObjects = {},
+  tickSum = 0,
+  showActiveObjects = false,
+  serverStreamId = 0,
+  lastUploadedKBs = 0,
+  netIsRunning = false,
+  tempClientManurallyRegisteringObjects = {},
+  packetGraphs = {},
+  packetBytes = {},
+  lastNumUpdatesSent = 0,
+  networkListener = {},
+  currentLatency = 0,
+  objects = {},
+  clientPort = 0,
+  serverConnection = {},
+  tempClientCreatingObjects = {},
+  objectIds = {},
+  removedObjects = {},
+  activeObjectsNextFrame = {},
+  lastUploadedKBsSmooth = 0,
+  showNetworkTraffic = false,
+  clientNetworkCardAddress = '',
+  maxUploadedKBs = 0
+}
 
 function Client:stop() end
 function Client:packetReceived() end
